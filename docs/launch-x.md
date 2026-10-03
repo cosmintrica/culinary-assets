@@ -1,16 +1,21 @@
 # X Announcement Drafts
 
-Do not post until the public repository and v0.1.0 tag are accessible. Attach a
-collection preview, not the Scrappy Chef logo. No post has been sent by these files.
+The public repository, catalog and v0.1.0 tag are available. The owner will
+publish the announcement manually; do not post automatically. Attach a collection
+preview, not the Scrappy Chef logo. No announcement has been posted by Codex.
 
 ## English
 
-We made Culinary Assets: 54 AI-generated kitchen & ingredient illustrations, free to reuse. Transparent PNG + WebP, CC0 artwork, MIT code. Works with web & Expo; install from GitHub with npm/pnpm.
+I made Culinary Assets: 54 AI-generated kitchen & ingredient illustrations, free to use commercially.
 
-https://github.com/cosmintrica/culinary-assets
+Individual transparent PNG + WebP. CC0 art, MIT code. Download what you need for your app, website or prototype.
+
+https://cosmintrica.github.io/culinary-assets/
 
 ## Romanian
 
-Am creat Culinary Assets: 54 de ilustrații AI pentru ingrediente și bucătărie, gratuite pentru reutilizare. PNG + WebP transparente, imagini CC0, cod MIT. Pentru web și Expo, instalabile cu npm/pnpm din GitHub.
+Am creat Culinary Assets: 54 de ilustrații AI pentru ingrediente și bucătărie, gratuite inclusiv pentru uz comercial.
 
-https://github.com/cosmintrica/culinary-assets
+PNG + WebP individuale, transparente. Imagini CC0, cod MIT. Descarcă ce îți trebuie pentru aplicația sau site-ul tău.
+
+https://cosmintrica.github.io/culinary-assets/

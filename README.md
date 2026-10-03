@@ -3,11 +3,11 @@
 **[Live Catalog: cosmintrica.github.io/culinary-assets](https://cosmintrica.github.io/culinary-assets/)**
 | **[Install & License](https://cosmintrica.github.io/culinary-assets/guide.html)**
 | **[npm Package](https://www.npmjs.com/package/@cosmintrica/culinary-assets)**
-| **[Download v0.1.0](https://github.com/cosmintrica/culinary-assets/archive/refs/tags/v0.1.0.zip)**
+| **[Download v0.2.0](https://github.com/cosmintrica/culinary-assets/archive/refs/tags/v0.2.0.zip)**
 
-**54 transparent culinary illustrations. PNG + WebP. CC0 artwork.**
+**100 transparent culinary illustrations. PNG + WebP. CC0 artwork.**
 
-Ingredients, vegetables, pantry staples, cookware, utensils and appliances in a
+Ingredients, vegetables, fruit, pantry staples, cookware, utensils and appliances in a
 consistent coral-and-mint visual direction. Designed for recipe apps, kitchen
 inventories, onboarding, educational projects and prototypes.
 
@@ -15,11 +15,15 @@ AI-generated artwork, visually reviewed and exported with transparent background
 No runtime dependencies, no install scripts, no required attribution for artwork.
 See [provenance and limitations](NOTICE.md).
 
-| Ingredients | Produce | Pantry staples |
-| --- | --- | --- |
-| ![Ingredient collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/ingredients.webp) | ![Vegetable collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/produce.webp) | ![Pantry collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/staples.webp) |
-| Cookware | Utensils | Appliances |
-| ![Cookware collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/cookware.webp) | ![Utensil collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/utensils.webp) | ![Appliance collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/appliances.webp) |
+![All 100 Culinary Assets: ingredients, produce, pantry staples, cookware, utensils and appliances](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/collection.webp)
+
+| Ingredients | Produce & fruit | Pantry staples | Cookware | Utensils | Appliances |
+| --- | --- | --- | --- | --- | --- |
+| 18 | 26 | 19 | 7 | 18 | 12 |
+
+**New in 0.2.0:** 46 individual illustrations, including salmon, tofu, yogurt,
+zucchini, mango, lentils, chickpeas, honey, tongs and a baking tray. Existing
+asset IDs, file paths and exports remain compatible with 0.1.0.
 
 Use the [live catalog](https://cosmintrica.github.io/culinary-assets/) to search,
 preview against light/dark backgrounds and download individual assets. For
@@ -37,14 +41,14 @@ npm install @cosmintrica/culinary-assets
 pnpm add @cosmintrica/culinary-assets
 ```
 
-For an exact version, add `@0.1.0` to the package name. Commit your lockfile for
+For an exact version, add `@0.2.0` to the package name. Commit your lockfile for
 reproducible builds. The package ships ready-to-use exports; users do not need
 Sharp or a build step.
 
 The tagged GitHub source remains an alternative (requires Git):
 
 ```sh
-npm install github:cosmintrica/culinary-assets#v0.1.0
+npm install github:cosmintrica/culinary-assets#v0.2.0
 ```
 
 To use a local checkout:
@@ -74,7 +78,7 @@ import { assets, catalog, getAsset } from '@cosmintrica/culinary-assets';
 const tomato = getAsset('tomato');
 // tomato.src: WebP URL; tomato.pngSrc: PNG URL
 // tomato.alt.en / tomato.alt.ro: accessible labels
-// catalog: 54 metadata entries; assets: lookup by stable ID
+// catalog: 100 metadata entries; assets: lookup by stable ID
 ```
 
 The web entry uses `new URL(..., import.meta.url)`, supported by modern client
@@ -106,7 +110,7 @@ import { nativeAssets } from '@cosmintrica/culinary-assets/native';
 <Image source={nativeAssets.air_fryer} style={{ width: 96, height: 96 }} />
 ```
 
-The native collection includes all 54 PNGs in the bundle. Prefer individual
+The native collection includes all 100 PNGs in the bundle. Prefer individual
 imports for a smaller app. Native rendering still needs verification in your
 own development build; an asset package does not guarantee every device's
 layout or image decoder behavior.
@@ -116,13 +120,15 @@ layout or image decoder behavior.
 - `assets/png/` and `assets/webp/`: individual transparent 512 x 512 canvases.
 - `catalog.json`: stable IDs, EN/RO labels, category, dimensions and asset paths.
 - `dist/`: committed web/native exports and TypeScript declarations.
-- `sources/`: source atlases, crop regions and generation briefs.
+- `sources/`: original atlases, 46 individual source images, crop regions and generation briefs.
 - `docs/previews/`: contact sheets for the six categories.
 - `index.html`: searchable, offline-capable visual catalog.
 
 Categories: `ingredients`, `produce`, `staples`, `cookware`, `utensils`,
-`appliances`. The 512px exports include padding and may be upscaled from smaller
-atlas cells. These are raster illustrations, not infinitely scalable SVG icons.
+`appliances`. Every subject has separate PNG and WebP files: 200 images total.
+The 512px exports include padding. The original 54 subjects may be upscaled from
+smaller atlas cells; the 46 additions use individual 1254px sources. These are
+raster illustrations, not infinitely scalable SVG icons.
 
 ## License
 

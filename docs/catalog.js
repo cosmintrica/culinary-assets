@@ -700,5 +700,603 @@ window.CulinaryCatalog = [
     "png": "assets/png/electric_kettle.png",
     "webp": "assets/webp/electric_kettle.webp",
     "license": "CC0-1.0"
+  },
+  {
+    "id": "salmon",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw salmon fillet",
+      "ro": "File de somon crud"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/salmon.png",
+    "webp": "assets/webp/salmon.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "beef_steak",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw beef ribeye steak",
+      "ro": "Antricot de vită crud"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/beef_steak.png",
+    "webp": "assets/webp/beef_steak.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pork_tenderloin",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw pork tenderloin",
+      "ro": "Mușchiuleț de porc crud"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pork_tenderloin.png",
+    "webp": "assets/webp/pork_tenderloin.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "ground_beef",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw ground beef",
+      "ro": "Carne de vită tocată crudă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/ground_beef.png",
+    "webp": "assets/webp/ground_beef.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "shrimp",
+    "category": "ingredients",
+    "alt": {
+      "en": "Peeled raw shrimp",
+      "ro": "Creveți cruzi decorticați"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/shrimp.png",
+    "webp": "assets/webp/shrimp.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "tofu",
+    "category": "ingredients",
+    "alt": {
+      "en": "Firm tofu",
+      "ro": "Tofu ferm"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/tofu.png",
+    "webp": "assets/webp/tofu.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "yogurt",
+    "category": "ingredients",
+    "alt": {
+      "en": "Plain yogurt",
+      "ro": "Iaurt simplu"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/yogurt.png",
+    "webp": "assets/webp/yogurt.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cream",
+    "category": "ingredients",
+    "alt": {
+      "en": "Cooking cream",
+      "ro": "Smântână pentru gătit"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cream.png",
+    "webp": "assets/webp/cream.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cottage_cheese",
+    "category": "ingredients",
+    "alt": {
+      "en": "Cottage cheese",
+      "ro": "Brânză cottage"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cottage_cheese.png",
+    "webp": "assets/webp/cottage_cheese.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "zucchini",
+    "category": "produce",
+    "alt": {
+      "en": "Zucchini",
+      "ro": "Dovlecel"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/zucchini.png",
+    "webp": "assets/webp/zucchini.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "eggplant",
+    "category": "produce",
+    "alt": {
+      "en": "Eggplant",
+      "ro": "Vânătă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/eggplant.png",
+    "webp": "assets/webp/eggplant.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lettuce",
+    "category": "produce",
+    "alt": {
+      "en": "Green leaf lettuce",
+      "ro": "Salată verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lettuce.png",
+    "webp": "assets/webp/lettuce.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cabbage",
+    "category": "produce",
+    "alt": {
+      "en": "Green cabbage",
+      "ro": "Varză verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cabbage.png",
+    "webp": "assets/webp/cabbage.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cauliflower",
+    "category": "produce",
+    "alt": {
+      "en": "Cauliflower",
+      "ro": "Conopidă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cauliflower.png",
+    "webp": "assets/webp/cauliflower.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "peas",
+    "category": "produce",
+    "alt": {
+      "en": "Green peas",
+      "ro": "Mazăre verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/peas.png",
+    "webp": "assets/webp/peas.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "green_beans",
+    "category": "produce",
+    "alt": {
+      "en": "Green beans",
+      "ro": "Fasole verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/green_beans.png",
+    "webp": "assets/webp/green_beans.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sweet_potato",
+    "category": "produce",
+    "alt": {
+      "en": "Sweet potato",
+      "ro": "Cartof dulce"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sweet_potato.png",
+    "webp": "assets/webp/sweet_potato.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pumpkin",
+    "category": "produce",
+    "alt": {
+      "en": "Pumpkin",
+      "ro": "Dovleac"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pumpkin.png",
+    "webp": "assets/webp/pumpkin.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "apple",
+    "category": "produce",
+    "alt": {
+      "en": "Red apple",
+      "ro": "Măr roșu"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/apple.png",
+    "webp": "assets/webp/apple.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "banana",
+    "category": "produce",
+    "alt": {
+      "en": "Bananas",
+      "ro": "Banane"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/banana.png",
+    "webp": "assets/webp/banana.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "orange",
+    "category": "produce",
+    "alt": {
+      "en": "Orange",
+      "ro": "Portocală"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/orange.png",
+    "webp": "assets/webp/orange.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "strawberry",
+    "category": "produce",
+    "alt": {
+      "en": "Strawberries",
+      "ro": "Căpșuni"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/strawberry.png",
+    "webp": "assets/webp/strawberry.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "blueberry",
+    "category": "produce",
+    "alt": {
+      "en": "Blueberries",
+      "ro": "Afine"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/blueberry.png",
+    "webp": "assets/webp/blueberry.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pear",
+    "category": "produce",
+    "alt": {
+      "en": "Pear",
+      "ro": "Pară"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pear.png",
+    "webp": "assets/webp/pear.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "grapes",
+    "category": "produce",
+    "alt": {
+      "en": "Red grapes",
+      "ro": "Struguri roșii"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/grapes.png",
+    "webp": "assets/webp/grapes.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "mango",
+    "category": "produce",
+    "alt": {
+      "en": "Mango",
+      "ro": "Mango"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/mango.png",
+    "webp": "assets/webp/mango.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "peach",
+    "category": "produce",
+    "alt": {
+      "en": "Peach",
+      "ro": "Piersică"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/peach.png",
+    "webp": "assets/webp/peach.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oats",
+    "category": "staples",
+    "alt": {
+      "en": "Rolled oats",
+      "ro": "Fulgi de ovăz"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/oats.png",
+    "webp": "assets/webp/oats.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lentils",
+    "category": "staples",
+    "alt": {
+      "en": "Red lentils",
+      "ro": "Linte roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lentils.png",
+    "webp": "assets/webp/lentils.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chickpeas",
+    "category": "staples",
+    "alt": {
+      "en": "Chickpeas",
+      "ro": "Năut"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chickpeas.png",
+    "webp": "assets/webp/chickpeas.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kidney_beans",
+    "category": "staples",
+    "alt": {
+      "en": "Red kidney beans",
+      "ro": "Fasole roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kidney_beans.png",
+    "webp": "assets/webp/kidney_beans.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "canned_tomatoes",
+    "category": "staples",
+    "alt": {
+      "en": "Canned chopped tomatoes",
+      "ro": "Roșii tocate la conservă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/canned_tomatoes.png",
+    "webp": "assets/webp/canned_tomatoes.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "honey",
+    "category": "staples",
+    "alt": {
+      "en": "Honey",
+      "ro": "Miere"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/honey.png",
+    "webp": "assets/webp/honey.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cocoa",
+    "category": "staples",
+    "alt": {
+      "en": "Cocoa powder",
+      "ro": "Cacao pudră"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cocoa.png",
+    "webp": "assets/webp/cocoa.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "walnuts",
+    "category": "staples",
+    "alt": {
+      "en": "Walnuts",
+      "ro": "Nuci"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/walnuts.png",
+    "webp": "assets/webp/walnuts.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "paprika",
+    "category": "staples",
+    "alt": {
+      "en": "Sweet paprika powder",
+      "ro": "Boia dulce"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/paprika.png",
+    "webp": "assets/webp/paprika.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "tongs",
+    "category": "utensils",
+    "alt": {
+      "en": "Kitchen tongs",
+      "ro": "Clește de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/tongs.png",
+    "webp": "assets/webp/tongs.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "rolling_pin",
+    "category": "utensils",
+    "alt": {
+      "en": "Wooden rolling pin",
+      "ro": "Sucitor din lemn"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/rolling_pin.png",
+    "webp": "assets/webp/rolling_pin.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "peeler",
+    "category": "utensils",
+    "alt": {
+      "en": "Y-shaped vegetable peeler",
+      "ro": "Curățător de legume"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/peeler.png",
+    "webp": "assets/webp/peeler.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kitchen_scissors",
+    "category": "utensils",
+    "alt": {
+      "en": "Kitchen scissors",
+      "ro": "Foarfecă de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kitchen_scissors.png",
+    "webp": "assets/webp/kitchen_scissors.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "measuring_cup",
+    "category": "utensils",
+    "alt": {
+      "en": "Glass measuring cup",
+      "ro": "Cană gradată"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/measuring_cup.png",
+    "webp": "assets/webp/measuring_cup.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "measuring_spoons",
+    "category": "utensils",
+    "alt": {
+      "en": "Measuring spoons",
+      "ro": "Linguri de măsurare"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/measuring_spoons.png",
+    "webp": "assets/webp/measuring_spoons.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "mortar_pestle",
+    "category": "utensils",
+    "alt": {
+      "en": "Mortar and pestle",
+      "ro": "Mojar cu pistil"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/mortar_pestle.png",
+    "webp": "assets/webp/mortar_pestle.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "corkscrew",
+    "category": "utensils",
+    "alt": {
+      "en": "Waiter's corkscrew",
+      "ro": "Tirbușon de ospătar"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/corkscrew.png",
+    "webp": "assets/webp/corkscrew.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "potato_masher",
+    "category": "utensils",
+    "alt": {
+      "en": "Potato masher",
+      "ro": "Zdrobitor pentru cartofi"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/potato_masher.png",
+    "webp": "assets/webp/potato_masher.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "baking_tray",
+    "category": "cookware",
+    "alt": {
+      "en": "Rimmed baking tray",
+      "ro": "Tavă pentru cuptor"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/baking_tray.png",
+    "webp": "assets/webp/baking_tray.webp",
+    "license": "CC0-1.0"
   }
 ];

@@ -45,3 +45,77 @@ Review subjects and labels, alpha, missing/cut handles, cell contamination,
 and legibility on white, graphite and checkerboard backgrounds. Do not use
 these images as evidence of an ingredient's preparation state or as product
 specifications.
+
+## Version 0.2.0: Individual Sources
+
+The 46 additions use one built-in image-generation call per subject, with
+`transparent_background: true`. Originals are retained as 1254 x 1254 PNGs in
+`sources/individual/`; exports are resized down to padded 512px canvases.
+No source atlas cropping is used for this extension. The original 54 subjects
+and their source atlas crop regions remain unchanged.
+
+### Exact Shared Prompt
+
+For every addition except `salmon`, replace `{subject}` with the exact `subject`
+field for that ID in `sources/sprites.json`. No other prompt text is changed.
+
+```text
+Use case: product-mockup. Asset type: ONE individual transparent culinary icon for the Culinary Assets library. Subject: {subject} Tactile realistic studio product illustration, not cartoon or flat vector; subtle polished realism suitable for a recipe app. Gentle three-quarter front view, soft upper-left studio lighting, restrained contact shadow. Natural food colors; kitchen accessories use mint #68A987, coral #D64B32, graphite, brushed stainless steel and light beech wood only where specified. Center the complete subject inside the central 70 percent of a square canvas, with generous empty space on all sides. Background must be genuinely transparent alpha, not white, not black, not a checkerboard drawing. No text, labels, logos, watermark, border, floor or scene. Full object visible, crisp silhouette, plausible real anatomy or construction, no cut edges. Only the subject described; no unrelated objects.
+```
+
+### Exact Salmon Prompt
+
+```text
+Use case: product-mockup. Asset type: ONE individual transparent culinary icon for the Culinary Assets library. Subject: one fresh raw salmon fillet, skin visible along the lower edge, delicate natural orange-pink flesh and pale fat lines. Tactile realistic studio product illustration, not cartoon or flat vector; subtle polished realism suitable for a recipe app. Gentle three-quarter front view, soft upper-left studio lighting, restrained contact shadow. Natural food colors; no plate, garnish or extra ingredients. Center the complete fillet inside the central 70 percent of a square canvas, with generous empty space on all sides. Background must be genuinely transparent alpha, not white, not black, not a checkerboard drawing. No text, labels, logo, watermark, border, floor or scene. Full object visible, crisp silhouette, no cut edges.
+```
+
+### Added Subjects
+
+| ID | English | Romanian |
+| --- | --- | --- |
+| `salmon` | Raw salmon fillet | File de somon crud |
+| `beef_steak` | Raw beef ribeye steak | Antricot de vită crud |
+| `pork_tenderloin` | Raw pork tenderloin | Mușchiuleț de porc crud |
+| `ground_beef` | Raw ground beef | Carne de vită tocată crudă |
+| `shrimp` | Peeled raw shrimp | Creveți cruzi decorticați |
+| `tofu` | Firm tofu | Tofu ferm |
+| `yogurt` | Plain yogurt | Iaurt simplu |
+| `cream` | Cooking cream | Smântână pentru gătit |
+| `cottage_cheese` | Cottage cheese | Brânză cottage |
+| `zucchini` | Zucchini | Dovlecel |
+| `eggplant` | Eggplant | Vânătă |
+| `lettuce` | Green leaf lettuce | Salată verde |
+| `cabbage` | Green cabbage | Varză verde |
+| `cauliflower` | Cauliflower | Conopidă |
+| `peas` | Green peas | Mazăre verde |
+| `green_beans` | Green beans | Fasole verde |
+| `sweet_potato` | Sweet potato | Cartof dulce |
+| `pumpkin` | Pumpkin | Dovleac |
+| `apple` | Red apple | Măr roșu |
+| `banana` | Bananas | Banane |
+| `orange` | Orange | Portocală |
+| `strawberry` | Strawberries | Căpșuni |
+| `blueberry` | Blueberries | Afine |
+| `pear` | Pear | Pară |
+| `grapes` | Red grapes | Struguri roșii |
+| `mango` | Mango | Mango |
+| `peach` | Peach | Piersică |
+| `oats` | Rolled oats | Fulgi de ovăz |
+| `lentils` | Red lentils | Linte roșie |
+| `chickpeas` | Chickpeas | Năut |
+| `kidney_beans` | Red kidney beans | Fasole roșie |
+| `canned_tomatoes` | Canned chopped tomatoes | Roșii tocate la conservă |
+| `honey` | Honey | Miere |
+| `cocoa` | Cocoa powder | Cacao pudră |
+| `walnuts` | Walnuts | Nuci |
+| `paprika` | Sweet paprika powder | Boia dulce |
+| `tongs` | Kitchen tongs | Clește de bucătărie |
+| `rolling_pin` | Wooden rolling pin | Sucitor din lemn |
+| `peeler` | Y-shaped vegetable peeler | Curățător de legume |
+| `kitchen_scissors` | Kitchen scissors | Foarfecă de bucătărie |
+| `measuring_cup` | Glass measuring cup | Cană gradată |
+| `measuring_spoons` | Measuring spoons | Linguri de măsurare |
+| `mortar_pestle` | Mortar and pestle | Mojar cu pistil |
+| `corkscrew` | Waiter's corkscrew | Tirbușon de ospătar |
+| `potato_masher` | Potato masher | Zdrobitor pentru cartofi |
+| `baking_tray` | Rimmed baking tray | Tavă pentru cuptor |

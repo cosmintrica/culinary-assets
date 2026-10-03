@@ -1,0 +1,6 @@
+export type AssetId = "tomato" | "onion" | "garlic" | "eggs" | "chicken" | "cheese" | "rice" | "pasta" | "avocado" | "carrot" | "broccoli" | "potato" | "bell_pepper" | "mushrooms" | "spinach" | "lemon" | "cucumber" | "olive_oil" | "salt" | "black_pepper" | "flour" | "butter" | "sugar" | "milk" | "soy_sauce" | "cinnamon" | "basil" | "stockpot" | "nonstick_pan" | "saucepan" | "cast_iron" | "wok" | "dutch_oven" | "air_fryer" | "blender" | "microwave" | "whisk" | "grater" | "mixing_bowl" | "cutting_board" | "chef_knife" | "spatula" | "ladle" | "colander" | "kitchen_scale" | "gas_range" | "induction_cooktop" | "countertop_oven" | "slow_cooker" | "pressure_cooker" | "contact_grill" | "immersion_blender" | "stand_mixer" | "electric_kettle";
+export type Category = "ingredients" | "produce" | "staples" | "cookware" | "utensils" | "appliances";
+export interface AssetMetadata { readonly id: AssetId; readonly category: Category; readonly alt: Readonly<{ en: string; ro: string }>; readonly width: 512; readonly height: 512; readonly png: string; readonly webp: string; readonly license: 'CC0-1.0' }
+export declare const catalog: readonly AssetMetadata[];
+export declare const assets: Readonly<Record<AssetId, AssetMetadata & { readonly src: string; readonly pngSrc: string }>>;
+export declare function getAsset(id: AssetId): (typeof assets)[AssetId];

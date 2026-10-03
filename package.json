@@ -1,0 +1,26 @@
+{
+  "name": "@cosmintrica/culinary-assets",
+  "version": "0.1.0",
+  "description": "54 transparent culinary illustrations: ingredients, cookware, utensils and appliances. CC0 artwork, MIT code.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
+    "./native": { "types": "./dist/native.d.ts", "default": "./dist/native.cjs" },
+    "./catalog.json": "./catalog.json",
+    "./png/*.png": "./assets/png/*.png",
+    "./webp/*.webp": "./assets/webp/*.webp",
+    "./package.json": "./package.json"
+  },
+  "files": ["assets", "dist", "catalog.json", "LICENSE", "LICENSE-ASSETS", "LICENSE-CODE", "LICENSES", "NOTICE.md"],
+  "sideEffects": false,
+  "license": "(CC0-1.0 AND MIT)",
+  "repository": { "type": "git", "url": "https://github.com/cosmintrica/culinary-assets.git" },
+  "bugs": { "url": "https://github.com/cosmintrica/culinary-assets/issues" },
+  "homepage": "https://github.com/cosmintrica/culinary-assets#readme",
+  "author": "cosmintrica",
+  "keywords": ["culinary", "food", "ingredients", "kitchen", "png", "webp", "cc0", "expo", "react-native"],
+  "scripts": { "build": "node scripts/build.mjs", "test": "node --test tests/*.test.mjs", "verify:package": "node scripts/verify-package.mjs" },
+  "devDependencies": { "sharp": "0.35.4" }
+}

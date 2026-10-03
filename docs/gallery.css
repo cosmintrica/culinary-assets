@@ -1,0 +1,46 @@
+:root { color-scheme: light; --ink: #24272b; --muted: #646a72; --line: #dde0e4; --accent: #c43e2c; }
+* { box-sizing: border-box; letter-spacing: 0; }
+body { margin: 0; background: #fafbfc; color: var(--ink); font: 15px/1.5 system-ui, sans-serif; }
+header, main, footer { max-width: 1200px; margin: auto; padding: 24px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand img { flex: none; object-fit: contain; }
+h1 { font: 700 28px/1.2 Georgia, serif; margin: 0 0 5px; }
+p { margin: 0; }
+.brand p, footer, .status { color: var(--muted); font-size: 13px; }
+a { color: var(--accent); text-underline-offset: 3px; }
+.toolbar { display: flex; gap: 16px; align-items: end; flex-wrap: wrap; }
+label { display: grid; gap: 6px; min-width: 0; font-size: 13px; font-weight: 600; }
+.search { flex: 1; min-width: 180px; }
+input, select { min-height: 44px; border: 1px solid #bfc4cc; background: white; border-radius: 6px; padding: 9px 12px; font: inherit; color: inherit; max-width: 100%; }
+.status { display: flex; justify-content: space-between; gap: 12px; margin: 22px 0 14px; }
+.grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
+.asset { display: flex; flex-direction: column; padding: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; cursor: pointer; text-align: left; font: inherit; color: inherit; background: white; }
+.asset:hover { border-color: var(--accent); }
+.art { width: 100%; aspect-ratio: 1; display: grid; place-items: center; }
+.art img { width: 90%; height: 90%; object-fit: contain; }
+[data-background="checker"] .art, .preview-art[data-background="checker"] { background-color: #fff; background-image: conic-gradient(#edf0f3 25%, transparent 0 50%, #edf0f3 0 75%, transparent 0); background-size: 16px 16px; }
+[data-background="light"] .art, .preview-art[data-background="light"] { background: #fff; }
+[data-background="dark"] .art, .preview-art[data-background="dark"] { background: #18191d; }
+.label { padding: 10px; min-height: 65px; display: grid; align-content: start; gap: 3px; }
+.name { font-size: 13px; font-weight: 650; overflow-wrap: anywhere; }
+.id { font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
+footer { border-top: 1px solid var(--line); margin-top: 24px; }
+dialog { width: min(560px, calc(100% - 24px)); max-height: calc(100dvh - 24px); overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; padding: 20px; }
+dialog::backdrop { background: #101114aa; }
+.dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+h2 { margin: 0; font-size: 20px; }
+#close { width: 44px; height: 44px; flex: none; border: 0; background: transparent; font-size: 28px; cursor: pointer; }
+.preview-art { aspect-ratio: 1; margin: 12px 0; display: grid; place-items: center; border-radius: 6px; overflow: hidden; }
+.preview-art img { width: 90%; height: 90%; object-fit: contain; }
+#preview-meta { font-size: 13px; color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+.download, .copy { min-height: 44px; border-radius: 6px; padding: 11px 16px; font: 600 14px/1.4 system-ui, sans-serif; cursor: pointer; }
+.download { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; background: var(--accent); color: white; }
+.secondary { background: #e2efea; color: #264e3b; }
+.import-label input { font: 12px/1.5 monospace; width: 100%; }
+.copy { border: 1px solid #bfc4cc; background: white; margin-top: 10px; }
+#copy-status { min-height: 22px; margin-top: 6px; color: #276746; font-size: 13px; }
+:focus-visible { outline: 3px solid #276746; outline-offset: 3px; }
+@media (max-width: 900px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 560px) { header, main, footer { padding: 16px; } h1 { font-size: 23px; } .brand img { width: 42px; height: 42px; } .brand p { font-size: 11px; } .toolbar { gap: 12px; } .search { flex-basis: 100%; } .toolbar > label:not(.search) { flex: 1; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

@@ -5,8 +5,10 @@ Prepared on 2026-10-04. No post has been published by Codex.
 ## Release Gate
 
 Use the 100-asset announcement only after version 0.2.0 is published to npm and
-the public catalog shows 100 subjects. The local release is prepared; do not
-claim the expanded collection is available remotely before verifying it.
+the public catalog shows 100 subjects. Both conditions were verified on
+2026-10-04: npm lists 0.2.0 as latest, and the public gallery contains 100 subjects.
+Fresh npm and pnpm installations each passed all 200 image SHA-256 comparisons
+against the release files, and web/native package exports resolved successfully.
 The earlier 0.1.0 release contains 54 subjects.
 
 ## Image

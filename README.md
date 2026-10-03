@@ -1,13 +1,14 @@
 # Culinary Assets
 
+**[Live Catalog: cosmintrica.github.io/culinary-assets](https://cosmintrica.github.io/culinary-assets/)**
+| **[Install & License](https://cosmintrica.github.io/culinary-assets/guide.html)**
+| **[Download v0.1.0](https://github.com/cosmintrica/culinary-assets/archive/refs/tags/v0.1.0.zip)**
+
 **54 transparent culinary illustrations. PNG + WebP. CC0 artwork.**
 
 Ingredients, vegetables, pantry staples, cookware, utensils and appliances in a
 consistent coral-and-mint visual direction. Designed for recipe apps, kitchen
 inventories, onboarding, educational projects and prototypes.
-
-**[Browse the interactive catalog](https://cosmintrica.github.io/culinary-assets/)**
-| **[Download v0.1.0](https://github.com/cosmintrica/culinary-assets/archive/refs/tags/v0.1.0.zip)**
 
 AI-generated artwork, visually reviewed and exported with transparent backgrounds.
 No runtime dependencies, no install scripts, no required attribution for artwork.
@@ -15,9 +16,9 @@ See [provenance and limitations](NOTICE.md).
 
 | Ingredients | Produce | Pantry staples |
 | --- | --- | --- |
-| ![Ingredient collection](docs/previews/ingredients.webp) | ![Vegetable collection](docs/previews/produce.webp) | ![Pantry collection](docs/previews/staples.webp) |
+| ![Ingredient collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/ingredients.webp) | ![Vegetable collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/produce.webp) | ![Pantry collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/staples.webp) |
 | Cookware | Utensils | Appliances |
-| ![Cookware collection](docs/previews/cookware.webp) | ![Utensil collection](docs/previews/utensils.webp) | ![Appliance collection](docs/previews/appliances.webp) |
+| ![Cookware collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/cookware.webp) | ![Utensil collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/utensils.webp) | ![Appliance collection](https://raw.githubusercontent.com/cosmintrica/culinary-assets/main/docs/previews/appliances.webp) |
 
 Use the [live catalog](https://cosmintrica.github.io/culinary-assets/) to search,
 preview against light/dark backgrounds and download individual assets. For
@@ -140,3 +141,9 @@ Building uses Sharp only as a development dependency. Source changes must be
 accompanied by rebuilt files, visual review on light/dark backgrounds and passing
 tests. See [contribution guidelines](CONTRIBUTING.md). Installation from GitHub
 does not run the build automatically.
+
+## Creator
+
+Created by [Cosmin Trică](https://cosmintrica.ro/).
+[Website](https://cosmintrica.ro/) · [GitHub](https://github.com/cosmintrica) ·
+[LinkedIn](https://www.linkedin.com/in/cosmintrica/).

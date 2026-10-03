@@ -26,6 +26,19 @@ input, select { min-height: 44px; border: 1px solid #bfc4cc; background: white; 
 .name { font-size: 13px; font-weight: 650; overflow-wrap: anywhere; }
 .id { font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
 footer { border-top: 1px solid var(--line); margin-top: 24px; }
+.creator, .guide-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 18px; margin-top: 12px; }
+.brand-link { color: var(--ink); text-decoration: none; }
+.guide { max-width: 800px; }
+.guide-nav { margin: 16px 0 24px; }
+.guide section { border-top: 1px solid var(--line); padding-top: 22px; margin-top: 26px; scroll-margin-top: 20px; }
+.guide h3 { font-size: 19px; margin: 0 0 12px; }
+.guide h4 { font-size: 14px; margin: 18px 0 6px; }
+.guide p + p { margin-top: 12px; }
+.guide pre { margin: 0; padding: 16px; background: #edf0f3; overflow-wrap: anywhere; white-space: pre-wrap; font: 13px/1.6 monospace; }
+.guide code { overflow-wrap: anywhere; }
+.registry-note { margin-top: 18px; color: var(--muted); font-size: 13px; }
+#guide-copy-status { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); max-width: calc(100% - 32px); background: #264e3b; color: white; padding: 12px 18px; border-radius: 6px; box-shadow: 0 3px 16px #0002; }
+#guide-copy-status:empty { display: none; }
 dialog { width: min(560px, calc(100% - 24px)); max-height: calc(100dvh - 24px); overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; padding: 20px; }
 dialog::backdrop { background: #101114aa; }
 .dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }

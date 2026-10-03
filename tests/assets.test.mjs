@@ -80,3 +80,29 @@ test('license split is explicit; no runtime deps or installation scripts', async
     assert.ok(files.every(name => !/logo|wordmark|symbol|scrappy|fridgechef|key|secret/i.test(name)));
   }
 });
+
+test('Install & license opens an HTML guide, not a Markdown download', async () => {
+  const html = await readFile(path.join(root, 'index.html'), 'utf8');
+  assert.match(html, /href="guide\.html">Install &amp;? license<|href="guide\.html">Install & license</);
+  assert.doesNotMatch(html, /href="README\.md"/);
+  const guide = await readFile(path.join(root, 'guide.html'), 'utf8');
+  for (const id of ['install', 'web', 'native', 'art-license', 'code-license', 'provenance']) {
+    assert.ok(guide.includes(`id="${id}"`), `Missing guide section: ${id}`);
+  }
+  for (const id of ['npm-command', 'pnpm-command', 'web-example', 'native-example']) {
+    assert.ok(guide.includes(`id="${id}"`) && guide.includes(`data-copy="${id}"`));
+  }
+  assert.match(guide, /npm registry release is pending/);
+});
+
+test('both public pages include the verified creator links', async () => {
+  for (const file of ['index.html', 'guide.html']) {
+    const html = await readFile(path.join(root, file), 'utf8');
+    for (const href of ['https://cosmintrica.ro/', 'https://github.com/cosmintrica', 'https://www.linkedin.com/in/cosmintrica/']) {
+      assert.ok(html.includes(`href="${href}"`), `${file} missing ${href}`);
+      assert.equal(new URL(href).protocol, 'https:');
+    }
+  }
+  const readme = await readFile(path.join(root, 'README.md'), 'utf8');
+  assert.ok(readme.indexOf('https://cosmintrica.github.io/culinary-assets/') < readme.indexOf('54 transparent culinary'));
+});

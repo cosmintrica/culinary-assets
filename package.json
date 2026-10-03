@@ -16,7 +16,7 @@
   "files": ["assets", "dist", "catalog.json", "LICENSE", "LICENSE-ASSETS", "LICENSE-CODE", "LICENSES", "NOTICE.md"],
   "sideEffects": false,
   "license": "(CC0-1.0 AND MIT)",
-  "repository": { "type": "git", "url": "https://github.com/cosmintrica/culinary-assets.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/cosmintrica/culinary-assets.git" },
   "bugs": { "url": "https://github.com/cosmintrica/culinary-assets/issues" },
   "homepage": "https://cosmintrica.github.io/culinary-assets/",
   "author": "cosmintrica",

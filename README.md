@@ -6,6 +6,9 @@ Ingredients, vegetables, pantry staples, cookware, utensils and appliances in a
 consistent coral-and-mint visual direction. Designed for recipe apps, kitchen
 inventories, onboarding, educational projects and prototypes.
 
+**[Browse the interactive catalog](https://cosmintrica.github.io/culinary-assets/)**
+| **[Download v0.1.0](https://github.com/cosmintrica/culinary-assets/archive/refs/tags/v0.1.0.zip)**
+
 AI-generated artwork, visually reviewed and exported with transparent backgrounds.
 No runtime dependencies, no install scripts, no required attribution for artwork.
 See [provenance and limitations](NOTICE.md).
@@ -16,11 +19,10 @@ See [provenance and limitations](NOTICE.md).
 | Cookware | Utensils | Appliances |
 | ![Cookware collection](docs/previews/cookware.webp) | ![Utensil collection](docs/previews/utensils.webp) | ![Appliance collection](docs/previews/appliances.webp) |
 
-Open [the interactive catalog](index.html) locally to search, preview against
-light/dark backgrounds and download individual assets. GitHub shows the HTML
-source; download/clone the repository and open `index.html` in a browser. No
-server is needed. The catalog is also ready for GitHub Pages, if enabled by the
-repository owner; this repository does not enable Pages automatically.
+Use the [live catalog](https://cosmintrica.github.io/culinary-assets/) to search,
+preview against light/dark backgrounds and download individual assets. For
+offline use, download/clone the repository and open `index.html` in a browser.
+No local server is needed. The public catalog is hosted on GitHub Pages.
 
 ## Install From GitHub
 

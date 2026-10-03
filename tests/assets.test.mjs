@@ -92,7 +92,13 @@ test('Install & license opens an HTML guide, not a Markdown download', async () 
   for (const id of ['npm-command', 'pnpm-command', 'web-example', 'native-example']) {
     assert.ok(guide.includes(`id="${id}"`) && guide.includes(`data-copy="${id}"`));
   }
-  assert.match(guide, /npm registry release is pending/);
+  assert.match(guide, /id="npm-command">npm install @cosmintrica\/culinary-assets</);
+  assert.match(guide, /id="pnpm-command">pnpm add @cosmintrica\/culinary-assets</);
+  assert.match(guide, /href="https:\/\/www\.npmjs\.com\/package\/@cosmintrica\/culinary-assets"/);
+  assert.doesNotMatch(guide, /npm registry release is pending/);
+  const readme = await readFile(path.join(root, 'README.md'), 'utf8');
+  assert.match(readme, /npm install @cosmintrica\/culinary-assets/);
+  assert.match(readme, /pnpm add @cosmintrica\/culinary-assets/);
 });
 
 test('both public pages include the verified creator links', async () => {

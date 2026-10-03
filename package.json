@@ -18,7 +18,7 @@
   "license": "(CC0-1.0 AND MIT)",
   "repository": { "type": "git", "url": "https://github.com/cosmintrica/culinary-assets.git" },
   "bugs": { "url": "https://github.com/cosmintrica/culinary-assets/issues" },
-  "homepage": "https://github.com/cosmintrica/culinary-assets#readme",
+  "homepage": "https://cosmintrica.github.io/culinary-assets/",
   "author": "cosmintrica",
   "keywords": ["culinary", "food", "ingredients", "kitchen", "png", "webp", "cc0", "expo", "react-native"],
   "scripts": { "build": "node scripts/build.mjs", "test": "node --test tests/*.test.mjs", "verify:package": "node scripts/verify-package.mjs" },

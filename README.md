@@ -2,6 +2,7 @@
 
 **[Live Catalog: cosmintrica.github.io/culinary-assets](https://cosmintrica.github.io/culinary-assets/)**
 | **[Install & License](https://cosmintrica.github.io/culinary-assets/guide.html)**
+| **[npm Package](https://www.npmjs.com/package/@cosmintrica/culinary-assets)**
 | **[Download v0.1.0](https://github.com/cosmintrica/culinary-assets/archive/refs/tags/v0.1.0.zip)**
 
 **54 transparent culinary illustrations. PNG + WebP. CC0 artwork.**
@@ -25,19 +26,28 @@ preview against light/dark backgrounds and download individual assets. For
 offline use, download/clone the repository and open `index.html` in a browser.
 No local server is needed. The public catalog is hosted on GitHub Pages.
 
-## Install From GitHub
+## Install
 
-No npm registry account or registry publication is needed. Git must be available.
+Install from the public npm registry. No npm account, token or Git installation
+is needed to use the package.
+
+```sh
+npm install @cosmintrica/culinary-assets
+# or
+pnpm add @cosmintrica/culinary-assets
+```
+
+For an exact version, add `@0.1.0` to the package name. Commit your lockfile for
+reproducible builds. The package ships ready-to-use exports; users do not need
+Sharp or a build step.
+
+The tagged GitHub source remains an alternative (requires Git):
 
 ```sh
 npm install github:cosmintrica/culinary-assets#v0.1.0
-# or
-pnpm add github:cosmintrica/culinary-assets#v0.1.0
 ```
 
-The package name after installation is `@cosmintrica/culinary-assets`. Pin a tag
-or commit for reproducible builds. The package ships ready-to-use exports; users
-do not need Sharp or a build step. To use a local checkout before publication:
+To use a local checkout:
 
 ```sh
 npm install /absolute/path/to/culinary-assets

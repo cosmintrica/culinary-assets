@@ -4,8 +4,9 @@ Use these drafts only after version 0.3.0 is published and the public catalog
 contains all 110 subjects. The owner will publish manually; do not post automatically. Attach a collection
 preview, not the Scrappy Chef logo. No announcement has been posted by Codex.
 
-Release gate pending: verify npm latest, fresh npm/pnpm installs and the public
-gallery before announcing 0.3.0.
+Release gate verified on 2026-10-04: npm latest is 0.3.0, the public gallery
+contains 110 subjects, and fresh npm/pnpm installations each passed all 220
+image hash comparisons and resolved web/native exports.
 
 ## English
 

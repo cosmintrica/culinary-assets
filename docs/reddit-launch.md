@@ -5,8 +5,9 @@ Prepared on 2026-10-04. No post has been published by Codex.
 ## Release Gate
 
 Use the 110-asset announcement only after version 0.3.0 is published to npm and
-the public catalog shows 110 subjects. This release is being prepared; do not
-announce it as available until fresh registry installations are verified.
+the public catalog shows 110 subjects. Both conditions were verified on
+2026-10-04. Fresh npm and pnpm installations from the public registry each
+passed SHA-256 comparisons for all 220 PNG/WebP files and resolved web/native exports.
 The earlier 0.1.0 release contains 54 subjects; 0.2.0 contains 100.
 
 ## Image

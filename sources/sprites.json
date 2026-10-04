@@ -1,132 +1,1632 @@
 [
-  {"id":"tomato","atlas":"ingredients","cell":0,"category":"ingredients","en":"Tomato","ro":"Roșie"},
-  {"id":"onion","atlas":"ingredients","cell":1,"category":"ingredients","en":"Onion","ro":"Ceapă"},
-  {"id":"garlic","atlas":"ingredients","cell":2,"category":"ingredients","en":"Garlic","ro":"Usturoi"},
-  {"id":"eggs","atlas":"ingredients","cell":3,"category":"ingredients","en":"Eggs","ro":"Ouă"},
-  {"id":"chicken","atlas":"ingredients","cell":4,"category":"ingredients","en":"Raw chicken breast","ro":"Piept de pui crud"},
-  {"id":"cheese","atlas":"ingredients","cell":5,"category":"ingredients","en":"Cheese","ro":"Brânză"},
-  {"id":"rice","atlas":"ingredients","cell":6,"category":"ingredients","en":"Rice","ro":"Orez"},
-  {"id":"pasta","atlas":"ingredients","cell":7,"category":"ingredients","en":"Penne pasta","ro":"Paste penne"},
-  {"id":"avocado","atlas":"ingredients","cell":8,"category":"ingredients","en":"Avocado","ro":"Avocado"},
-  {"id":"carrot","atlas":"produce","cell":0,"category":"produce","en":"Carrots","ro":"Morcovi","crop":{"x":0.015,"y":0.015,"width":0.325,"height":0.337}},
-  {"id":"broccoli","atlas":"produce","cell":1,"category":"produce","en":"Broccoli","ro":"Broccoli"},
-  {"id":"potato","atlas":"produce","cell":2,"category":"produce","en":"Potatoes","ro":"Cartofi"},
-  {"id":"bell_pepper","atlas":"produce","cell":3,"category":"produce","en":"Red bell pepper","ro":"Ardei gras roșu","crop":{"x":0.05,"y":0.38,"width":0.26,"height":0.27}},
-  {"id":"mushrooms","atlas":"produce","cell":4,"category":"produce","en":"Mushrooms","ro":"Ciuperci"},
-  {"id":"spinach","atlas":"produce","cell":5,"category":"produce","en":"Spinach","ro":"Spanac","crop":{"height":0.30}},
-  {"id":"lemon","atlas":"produce","cell":6,"category":"produce","en":"Lemon","ro":"Lămâie"},
-  {"id":"cucumber","atlas":"produce","cell":7,"category":"produce","en":"Cucumber","ro":"Castravete"},
-  {"id":"olive_oil","atlas":"produce","cell":8,"category":"staples","en":"Olive oil bottle","ro":"Sticlă de ulei de măsline","crop":{"y":0.64,"height":0.36}},
-  {"id":"salt","atlas":"staples","cell":0,"category":"staples","en":"Salt","ro":"Sare"},
-  {"id":"black_pepper","atlas":"staples","cell":1,"category":"staples","en":"Black peppercorns","ro":"Boabe de piper negru"},
-  {"id":"flour","atlas":"staples","cell":2,"category":"staples","en":"Flour","ro":"Făină"},
-  {"id":"butter","atlas":"staples","cell":3,"category":"staples","en":"Butter","ro":"Unt","crop":{"height":0.28}},
-  {"id":"sugar","atlas":"staples","cell":4,"category":"staples","en":"Sugar cubes","ro":"Cuburi de zahăr"},
-  {"id":"milk","atlas":"staples","cell":5,"category":"staples","en":"Glass of milk","ro":"Pahar cu lapte"},
-  {"id":"soy_sauce","atlas":"staples","cell":6,"category":"staples","en":"Soy sauce bottle","ro":"Sticlă de sos de soia","crop":{"y":0.62,"height":0.38}},
-  {"id":"cinnamon","atlas":"staples","cell":7,"category":"staples","en":"Cinnamon sticks","ro":"Batoane de scorțișoară"},
-  {"id":"basil","atlas":"staples","cell":8,"category":"staples","en":"Basil leaves","ro":"Frunze de busuioc"},
-  {"id":"stockpot","atlas":"cookware","cell":0,"category":"cookware","en":"Stockpot with lid","ro":"Oală înaltă cu capac"},
-  {"id":"nonstick_pan","atlas":"cookware","cell":1,"category":"cookware","en":"Nonstick frying pan","ro":"Tigaie antiaderentă"},
-  {"id":"saucepan","atlas":"cookware","cell":2,"category":"cookware","en":"Stainless steel saucepan","ro":"Cratiță din inox"},
-  {"id":"cast_iron","atlas":"cookware","cell":3,"category":"cookware","en":"Cast iron skillet","ro":"Tigaie de fontă"},
-  {"id":"wok","atlas":"cookware","cell":4,"category":"cookware","en":"Deep wok with lid","ro":"Tigaie wok adâncă, cu capac"},
-  {"id":"dutch_oven","atlas":"cookware","cell":5,"category":"cookware","en":"Dutch oven","ro":"Oală de fontă emailată"},
-  {"id":"air_fryer","atlas":"cookware","cell":6,"category":"appliances","en":"Air fryer","ro":"Friteuză cu aer cald"},
-  {"id":"blender","atlas":"cookware","cell":7,"category":"appliances","en":"Blender","ro":"Blender"},
-  {"id":"microwave","atlas":"cookware","cell":8,"category":"appliances","en":"Microwave","ro":"Cuptor cu microunde"},
-  {"id":"whisk","atlas":"utensils","cell":0,"category":"utensils","en":"Whisk","ro":"Tel"},
-  {"id":"grater","atlas":"utensils","cell":1,"category":"utensils","en":"Box grater","ro":"Răzătoare"},
-  {"id":"mixing_bowl","atlas":"utensils","cell":2,"category":"utensils","en":"Mixing bowl","ro":"Bol pentru amestecare"},
-  {"id":"cutting_board","atlas":"utensils","cell":3,"category":"utensils","en":"Wooden cutting board","ro":"Tocător din lemn"},
-  {"id":"chef_knife","atlas":"utensils","cell":4,"category":"utensils","en":"Chef's knife","ro":"Cuțit de bucătar"},
-  {"id":"spatula","atlas":"utensils","cell":5,"category":"utensils","en":"Spatula","ro":"Spatulă"},
-  {"id":"ladle","atlas":"utensils","cell":6,"category":"utensils","en":"Ladle","ro":"Polonic"},
-  {"id":"colander","atlas":"utensils","cell":7,"category":"utensils","en":"Colander","ro":"Strecurătoare"},
-  {"id":"kitchen_scale","atlas":"utensils","cell":8,"category":"utensils","en":"Digital kitchen scale","ro":"Cântar digital de bucătărie"},
-  {"id":"gas_range","atlas":"appliances","cell":0,"category":"appliances","en":"Gas range with oven","ro":"Aragaz cu cuptor"},
-  {"id":"induction_cooktop","atlas":"appliances","cell":1,"category":"appliances","en":"Portable induction cooktop","ro":"Plită portabilă cu inducție"},
-  {"id":"countertop_oven","atlas":"appliances","cell":2,"category":"appliances","en":"Electric countertop oven","ro":"Cuptor electric de blat"},
-  {"id":"slow_cooker","atlas":"appliances","cell":3,"category":"appliances","en":"Slow cooker","ro":"Aparat de gătit lent","crop":{"y":0.405,"height":0.205}},
-  {"id":"pressure_cooker","atlas":"appliances","cell":4,"category":"appliances","en":"Stovetop pressure cooker","ro":"Oală sub presiune pentru aragaz"},
-  {"id":"contact_grill","atlas":"appliances","cell":5,"category":"appliances","en":"Electric contact grill","ro":"Grătar electric de contact"},
-  {"id":"immersion_blender","atlas":"appliances","cell":6,"category":"appliances","en":"Immersion blender","ro":"Blender vertical"},
-  {"id":"stand_mixer","atlas":"appliances","cell":7,"category":"appliances","en":"Stand mixer","ro":"Mixer cu bol"},
-  {"id":"electric_kettle","atlas":"appliances","cell":8,"category":"appliances","en":"Electric kettle","ro":"Fierbător electric"},
-  {"id":"salmon","source":"sources/individual/salmon.png","category":"ingredients","en":"Raw salmon fillet","ro":"File de somon crud","subject":"One fresh raw salmon fillet, skin visible along the lower edge, delicate natural orange-pink flesh and pale fat lines. No plate or garnish."},
-  {"id":"beef_steak","source":"sources/individual/beef_steak.png","category":"ingredients","en":"Raw beef ribeye steak","ro":"Antricot de vită crud","subject":"One raw boneless beef ribeye steak with realistic deep-red flesh, delicate white marbling and a small pale fat rim. No board, plate, garnish or cooked grill marks."},
-  {"id":"pork_tenderloin","source":"sources/individual/pork_tenderloin.png","category":"ingredients","en":"Raw pork tenderloin","ro":"Mușchiuleț de porc crud","subject":"One small complete raw pork tenderloin, elongated tapered shape, pale pink lean meat, neatly trimmed. No plate, board, garnish or cooked surface."},
-  {"id":"ground_beef","source":"sources/individual/ground_beef.png","category":"ingredients","en":"Raw ground beef","ro":"Carne de vită tocată crudă","subject":"A single compact mound of fresh raw ground beef, distinct natural red minced strands with pale fat flecks. Not a burger patty, no bowl, plate or wrapper."},
-  {"id":"shrimp","source":"sources/individual/shrimp.png","category":"ingredients","en":"Peeled raw shrimp","ro":"Creveți cruzi decorticați","subject":"A compact group of four peeled raw shrimp with tails intact, natural translucent gray-pink flesh and plausible curled anatomy. No cooked orange coloring, plate, bowl or garnish."},
-  {"id":"tofu","source":"sources/individual/tofu.png","category":"ingredients","en":"Firm tofu","ro":"Tofu ferm","subject":"One ivory firm tofu block with three neat tofu cubes beside it, delicate porous texture and clean cut faces. No plate, board or garnish."},
-  {"id":"yogurt","source":"sources/individual/yogurt.png","category":"ingredients","en":"Plain yogurt","ro":"Iaurt simplu","subject":"An unbranded small mint ceramic cup of smooth plain white yogurt, visible softly swirled surface, no fruit, foil, writing, spoon or packaging."},
-  {"id":"cream","source":"sources/individual/cream.png","category":"ingredients","en":"Cooking cream","ro":"Smântână pentru gătit","subject":"A small clear glass pouring jug of thick ivory cooking cream, one transparent handle and a short spout, visible glossy cream surface. No text, markings, carton or extra utensils."},
-  {"id":"cottage_cheese","source":"sources/individual/cottage_cheese.png","category":"ingredients","en":"Cottage cheese","ro":"Brânză cottage","subject":"A small coral ceramic bowl filled with fresh white cottage cheese, clearly visible moist soft curds. No spoon, herbs, fruit or garnish."},
-  {"id":"zucchini","source":"sources/individual/zucchini.png","category":"produce","en":"Zucchini","ro":"Dovlecel","subject":"One fresh dark-green zucchini with two thick round slices beside its cut end, natural pale interior, subtle glossy skin. No plate or other vegetables."},
-  {"id":"eggplant","source":"sources/individual/eggplant.png","category":"produce","en":"Eggplant","ro":"Vânătă","subject":"One complete glossy deep-purple eggplant with a natural green calyx and stem, plump elongated silhouette. No plate or extra produce."},
-  {"id":"lettuce","source":"sources/individual/lettuce.png","category":"produce","en":"Green leaf lettuce","ro":"Salată verde","subject":"One small complete head of green leaf lettuce, vivid fresh layered ruffled leaves and a compact base, no roots, soil, bowl or extra vegetables."},
-  {"id":"cabbage","source":"sources/individual/cabbage.png","category":"produce","en":"Green cabbage","ro":"Varză verde","subject":"One round green cabbage and a compact cut wedge beside it showing tightly layered pale leaves, believable leaf veins. No plate or extra vegetables."},
-  {"id":"cauliflower","source":"sources/individual/cauliflower.png","category":"produce","en":"Cauliflower","ro":"Conopidă","subject":"One fresh ivory cauliflower head with a few natural pale green leaves around its base, finely textured tightly clustered florets. No bowl or other produce."},
-  {"id":"peas","source":"sources/individual/peas.png","category":"produce","en":"Green peas","ro":"Mazăre verde","subject":"A small mint ceramic bowl filled with fresh round green peas, one open pea pod resting directly across the rim. No spoon or unrelated ingredients."},
-  {"id":"green_beans","source":"sources/individual/green_beans.png","category":"produce","en":"Green beans","ro":"Fasole verde","subject":"A compact neat bundle of fresh slender green bean pods, intact ends, natural subtle curvature and visible seams. No bowl, string tie or other vegetables."},
-  {"id":"sweet_potato","source":"sources/individual/sweet_potato.png","category":"produce","en":"Sweet potato","ro":"Cartof dulce","subject":"One reddish-skinned sweet potato with one cut half showing rich orange flesh, natural irregular root shape and subtle skin texture. No plate or other produce."},
-  {"id":"pumpkin","source":"sources/individual/pumpkin.png","category":"produce","en":"Pumpkin","ro":"Dovleac","subject":"One small ripe orange cooking pumpkin with a short natural woody stem and one cut wedge beside it showing orange flesh and a few pale seeds. No leaves, plate or scene."},
-  {"id":"apple","source":"sources/individual/apple.png","category":"produce","en":"Red apple","ro":"Măr roșu","subject":"One fresh red apple with a short brown stem and one cut half beside it, creamy pale flesh, a natural seed core. No leaves, plate or extra fruit."},
-  {"id":"banana","source":"sources/individual/banana.png","category":"produce","en":"Bananas","ro":"Banane","subject":"A compact pair of ripe yellow bananas, one whole and one partially peeled with three believable peel strips revealing pale banana flesh. No plate or other fruit."},
-  {"id":"orange","source":"sources/individual/orange.png","category":"produce","en":"Orange","ro":"Portocală","subject":"One ripe orange and one cut half beside it showing clear juicy radial segments, textured orange peel. No leaves, plate, lemon or extra fruit."},
-  {"id":"strawberry","source":"sources/individual/strawberry.png","category":"produce","en":"Strawberries","ro":"Căpșuni","subject":"A compact group of three ripe red strawberries with natural green leafy tops, visible tiny seeds and one cut half. No bowl, cream or other fruit."},
-  {"id":"blueberry","source":"sources/individual/blueberry.png","category":"produce","en":"Blueberries","ro":"Afine","subject":"A compact natural pile of dark-blue blueberries with delicate dusty bloom and visible star-shaped crowns, no bowl, foliage or other fruit."},
-  {"id":"pear","source":"sources/individual/pear.png","category":"produce","en":"Pear","ro":"Pară","subject":"One green-yellow pear with a brown stem and one cut half beside it showing pale flesh and a small seed core, subtle natural speckles. No leaves or plate."},
-  {"id":"grapes","source":"sources/individual/grapes.png","category":"produce","en":"Red grapes","ro":"Struguri roșii","subject":"One small compact bunch of ripe red-purple grapes on a natural thin brown-green stem, individual translucent glossy grape skins. No leaves, bowl or other fruit."},
-  {"id":"mango","source":"sources/individual/mango.png","category":"produce","en":"Mango","ro":"Mango","subject":"One ripe red-yellow mango and one golden cut cheek beside it, cheek neatly scored into visible small cubes still attached to the peel. No knife, bowl or other fruit."},
-  {"id":"peach","source":"sources/individual/peach.png","category":"produce","en":"Peach","ro":"Piersică","subject":"One ripe peach with delicate fuzzy red-yellow skin and one cut half beside it showing golden flesh and a single natural brown stone. No leaves, plate or other fruit."},
-  {"id":"oats","source":"sources/individual/oats.png","category":"staples","en":"Rolled oats","ro":"Fulgi de ovăz","subject":"A small mint ceramic bowl filled with dry rolled oats, clearly visible flat pale oat flakes. No milk, fruit, spoon, wheat stalks or labels."},
-  {"id":"lentils","source":"sources/individual/lentils.png","category":"staples","en":"Red lentils","ro":"Linte roșie","subject":"A small mint ceramic bowl filled with dry split red lentils, tiny flat orange-red discs with realistic texture. No spoon, herbs or other legumes."},
-  {"id":"chickpeas","source":"sources/individual/chickpeas.png","category":"staples","en":"Chickpeas","ro":"Năut","subject":"A small coral ceramic bowl filled with plain chickpeas, pale golden beige round legumes with characteristic little beaks and wrinkles. No sauce, herbs or spoon."},
-  {"id":"kidney_beans","source":"sources/individual/kidney_beans.png","category":"staples","en":"Red kidney beans","ro":"Fasole roșie","subject":"A small mint ceramic bowl filled with glossy dark-red kidney beans, recognizable curved kidney shape and pale hilum marks. No sauce, herbs or spoon."},
-  {"id":"canned_tomatoes","source":"sources/individual/canned_tomatoes.png","category":"staples","en":"Canned chopped tomatoes","ro":"Roșii tocate la conservă","subject":"One open unbranded brushed-steel food can filled with chopped red tomatoes in tomato juice, clean visible rolled rim. No printed label, text, can opener, detached lid or other food."},
-  {"id":"honey","source":"sources/individual/honey.png","category":"staples","en":"Honey","ro":"Miere","subject":"One small clear cylindrical glass jar of golden amber honey with an unbranded mint screw lid beside it and a simple light-wood honey dipper resting across its rim. No label, text, bees, flowers or scene."},
-  {"id":"cocoa","source":"sources/individual/cocoa.png","category":"staples","en":"Cocoa powder","ro":"Cacao pudră","subject":"A small mint ceramic bowl of dark brown cocoa powder with a softly mounded finely powdered surface. No chocolate bar, spoon, cup, milk or labels."},
-  {"id":"walnuts","source":"sources/individual/walnuts.png","category":"staples","en":"Walnuts","ro":"Nuci","subject":"A compact group of two whole walnuts in natural textured shells and three clearly recognizable walnut kernel halves beside them. No bowl, leaves or other nuts."},
-  {"id":"paprika","source":"sources/individual/paprika.png","category":"staples","en":"Sweet paprika powder","ro":"Boia dulce","subject":"A small mint ceramic bowl of finely ground rich red-orange sweet paprika powder, softly mounded surface and believable spice texture. No pepper pods, spoon, label or garnish."},
-  {"id":"tongs","source":"sources/individual/tongs.png","category":"utensils","en":"Kitchen tongs","ro":"Clește de bucătărie","subject":"One complete pair of stainless-steel kitchen tongs with mint silicone gripping tips and a small mint locking loop, slightly open, plausible spring hinge, both arms intact. No food or extra tools."},
-  {"id":"rolling_pin","source":"sources/individual/rolling_pin.png","category":"utensils","en":"Wooden rolling pin","ro":"Sucitor din lemn","subject":"One complete light-beech wooden rolling pin with a cylindrical barrel and two smooth short turned wooden handles, gentle diagonal orientation, realistic wood grain. No dough, flour or extra tools."},
-  {"id":"peeler","source":"sources/individual/peeler.png","category":"utensils","en":"Y-shaped vegetable peeler","ro":"Curățător de legume","subject":"One complete Y-shaped vegetable peeler with a mint handle, brushed-steel fork and horizontal swiveling steel blade, clear plausible peeler construction. No vegetables or other utensils."},
-  {"id":"kitchen_scissors","source":"sources/individual/kitchen_scissors.png","category":"utensils","en":"Kitchen scissors","ro":"Foarfecă de bucătărie","subject":"One complete pair of kitchen scissors with two brushed-steel blades and graphite handles with coral soft-grip inserts, slightly open, visible center pivot. No packaging, text or other objects."},
-  {"id":"measuring_cup","source":"sources/individual/measuring_cup.png","category":"utensils","en":"Glass measuring cup","ro":"Cană gradată","subject":"One empty transparent glass measuring cup with a handle and short pouring spout, a few subtle unlabeled graduation tick marks only, no numbers or words, no liquid or other tools."},
-  {"id":"measuring_spoons","source":"sources/individual/measuring_spoons.png","category":"utensils","en":"Measuring spoons","ro":"Linguri de măsurare","subject":"One nested set of four stainless-steel measuring spoons of clearly different sizes held together by one small metal ring, mint handle inserts, bowls fanned out so all four are readable. No engraved numbers, words or extra utensils."},
-  {"id":"mortar_pestle","source":"sources/individual/mortar_pestle.png","category":"utensils","en":"Mortar and pestle","ro":"Mojar cu pistil","subject":"One compact graphite stone mortar with its matching stone pestle resting inside at a gentle diagonal, thick rounded rim and tactile fine stone texture. Empty, no spices, herbs or text."},
-  {"id":"corkscrew","source":"sources/individual/corkscrew.png","category":"utensils","en":"Waiter's corkscrew","ro":"Tirbușon de ospătar","subject":"One unbranded waiter's corkscrew with a light-wood handle, open stainless-steel double-hinged lever and a clearly visible helical screw; foil knife safely folded. Plausible complete mechanism, no cork, bottle or extra tools."},
-  {"id":"potato_masher","source":"sources/individual/potato_masher.png","category":"utensils","en":"Potato masher","ro":"Zdrobitor pentru cartofi","subject":"One complete potato masher with a light-wood handle and stainless-steel shaft ending in a sturdy round perforated mashing plate, gentle diagonal three-quarter view. No potatoes, bowl or other utensils."},
-  {"id":"baking_tray","source":"sources/individual/baking_tray.png","category":"cookware","en":"Rimmed baking tray","ro":"Tavă pentru cuptor","subject":"One empty rectangular graphite nonstick baking tray with shallow raised rims, gently rounded corners and discreet coral silicone grips on the two short ends. Full tray visible in three-quarter front view, no food, paper, logo or lettering."},
-  {"id":"ginger","source":"sources/individual/ginger.png","category":"produce","en":"Fresh ginger","ro":"Ghimbir proaspăt","subject":"One complete fresh knobbly ginger root with a small sliced piece beside it showing pale yellow flesh."},
-  {"id":"leek","source":"sources/individual/leek.png","category":"produce","en":"Leek","ro":"Praz","subject":"One complete fresh leek with a white base, pale green stem and natural dark green flat leaves."},
-  {"id":"celery","source":"sources/individual/celery.png","category":"produce","en":"Celery stalks","ro":"Țelină apio","subject":"A compact bunch of three fresh celery stalks with ribbed pale green stems, leafy tops and cleanly trimmed ends."},
-  {"id":"pineapple","source":"sources/individual/pineapple.png","category":"produce","en":"Pineapple","ro":"Ananas","subject":"One ripe golden pineapple with its complete green crown and one cut wedge showing yellow flesh."},
-  {"id":"quinoa","source":"sources/individual/quinoa.png","category":"staples","en":"White quinoa","ro":"Quinoa albă","subject":"A mint ceramic bowl filled with dry uncooked white quinoa grains."},
-  {"id":"couscous","source":"sources/individual/couscous.png","category":"staples","en":"Fine couscous","ro":"Cușcuș fin","subject":"A coral ceramic bowl filled with dry fine couscous, tiny golden semolina granules."},
-  {"id":"bread","source":"sources/individual/bread.png","category":"ingredients","en":"Rustic bread","ro":"Pâine rustică","subject":"One golden rustic bread loaf with two cut slices showing airy ivory crumb."},
-  {"id":"baking_dish","source":"sources/individual/baking_dish.png","category":"cookware","en":"Ceramic baking dish","ro":"Vas ceramic pentru cuptor","subject":"One empty deep rectangular mint ceramic oven dish with a cream interior and two integral loop handles."},
-  {"id":"fine_sieve","source":"sources/individual/fine_sieve.png","category":"utensils","en":"Fine-mesh sieve","ro":"Sită fină","subject":"One complete stainless steel fine-mesh kitchen sieve with a support hook and a graphite handle with coral grip."},
-  {"id":"rice_cooker","source":"sources/individual/rice_cooker.png","category":"appliances","en":"Electric rice cooker","ro":"Aparat de gătit orez","subject":"One unbranded electric rice cooker with a steel body, graphite base, closed mint lid and coral cook switch."},
-  {"id":"vegetable_oil","source":"sources/individual/vegetable_oil.png","category":"staples","en":"Vegetable oil","ro":"Ulei vegetal","subject":"a round clear glass bottle of pale golden sunflower cooking oil, green cap, two sunflower seeds at its base"},
-  {"id":"sesame_oil","source":"sources/individual/sesame_oil.png","category":"staples","en":"Sesame oil","ro":"Ulei de susan","subject":"a slim clear glass cruet of amber sesame oil, dark brown cap, a tiny spoonful of sesame seeds beside it"},
-  {"id":"palm_oil","source":"sources/individual/palm_oil.png","category":"staples","en":"Palm oil","ro":"Ulei de palmier","subject":"a short clear glass jar of rich orange-red palm cooking oil, simple green lid"},
-  {"id":"coconut_oil","source":"sources/individual/coconut_oil.png","category":"staples","en":"Coconut oil","ro":"Ulei de cocos","subject":"an open short clear glass jar of white solid coconut oil with a coconut half beside it"},
-  {"id":"vinegar","source":"sources/individual/vinegar.png","category":"staples","en":"Vinegar","ro":"Oțet","subject":"a clear glass vinegar bottle of pale amber vinegar, simple red cap"},
-  {"id":"oregano","source":"sources/individual/oregano.png","category":"staples","en":"Dried oregano","ro":"Oregano uscat","subject":"a small terracotta pinch bowl filled with dried oregano leaves with one oregano sprig beside it"},
-  {"id":"curry","source":"sources/individual/curry.png","category":"staples","en":"Curry powder","ro":"Curry pudră","subject":"a small terracotta pinch bowl of golden yellow curry powder with a tiny wooden scoop"},
-  {"id":"cumin","source":"sources/individual/cumin.png","category":"staples","en":"Ground cumin","ro":"Chimion măcinat","subject":"a small terracotta pinch bowl filled with brown cumin seeds, a few seeds beside it"},
-  {"id":"garlic_powder","source":"sources/individual/garlic_powder.png","category":"staples","en":"Garlic powder","ro":"Usturoi pudră","subject":"a small clear glass spice jar of ivory garlic powder with a simple wooden lid, one garlic clove beside it"},
-  {"id":"chili_flakes","source":"sources/individual/chili_flakes.png","category":"staples","en":"Chili flakes","ro":"Fulgi de chili","subject":"a small terracotta pinch bowl of red chili flakes, one dried chili beside it"},
-  {"id":"bay_leaf","source":"sources/individual/bay_leaf.png","category":"staples","en":"Bay leaves","ro":"Foi de dafin","subject":"three olive-green dried bay leaves naturally arranged together"},
-  {"id":"deep_fryer","source":"sources/individual/deep_fryer.png","category":"appliances","en":"Deep fryer","ro":"Friteuză","subject":"a compact charcoal countertop electric deep fryer with a stainless steel basket and black basket handle"},
-  {"id":"can_opener","source":"sources/individual/can_opener.png","category":"utensils","en":"Can opener","ro":"Deschizător de conserve","subject":"a manual stainless steel can opener with charcoal handles and a clearly visible cutting wheel"},
-  {"id":"food_processor","source":"sources/individual/food_processor.png","category":"appliances","en":"Food processor","ro":"Robot de bucătărie","subject":"a compact charcoal food processor with a transparent bowl, chopping blade and clear feed tube"},
-  {"id":"toaster","source":"sources/individual/toaster.png","category":"appliances","en":"Toaster","ro":"Prăjitor de pâine","subject":"a compact two-slot charcoal toaster, empty slots, chrome lever"},
-  {"id":"sandwich_maker","source":"sources/individual/sandwich_maker.png","category":"appliances","en":"Sandwich maker","ro":"Sandwich maker","subject":"an open compact charcoal electric sandwich toaster with triangular nonstick cooking plates"},
-  {"id":"cake_tin","source":"sources/individual/cake_tin.png","category":"cookware","en":"Cake tin","ro":"Formă de tort","subject":"a round charcoal nonstick springform cake tin with a small silver latch"},
-  {"id":"muffin_tin","source":"sources/individual/muffin_tin.png","category":"cookware","en":"Muffin tin","ro":"Formă de brioșe","subject":"a charcoal nonstick six-well muffin baking tin, empty wells"},
-  {"id":"parsley","source":"sources/individual/parsley.png","category":"produce","en":"Fresh parsley","ro":"Pătrunjel proaspăt","subject":"a compact bunch of fresh flat-leaf parsley, realistic deeply divided vivid green leaves and complete slender stems"},
-  {"id":"dill","source":"sources/individual/dill.png","category":"produce","en":"Fresh dill","ro":"Mărar proaspăt","subject":"a compact bunch of fresh dill, fine feathery green fronds and complete slender stems"}
+  {
+    "id": "tomato",
+    "atlas": "ingredients",
+    "cell": 0,
+    "category": "ingredients",
+    "en": "Tomato",
+    "ro": "Roșie"
+  },
+  {
+    "id": "onion",
+    "atlas": "ingredients",
+    "cell": 1,
+    "category": "ingredients",
+    "en": "Onion",
+    "ro": "Ceapă"
+  },
+  {
+    "id": "garlic",
+    "atlas": "ingredients",
+    "cell": 2,
+    "category": "ingredients",
+    "en": "Garlic",
+    "ro": "Usturoi"
+  },
+  {
+    "id": "eggs",
+    "atlas": "ingredients",
+    "cell": 3,
+    "category": "ingredients",
+    "en": "Eggs",
+    "ro": "Ouă"
+  },
+  {
+    "id": "chicken",
+    "atlas": "ingredients",
+    "cell": 4,
+    "category": "ingredients",
+    "en": "Raw chicken breast",
+    "ro": "Piept de pui crud"
+  },
+  {
+    "id": "cheese",
+    "atlas": "ingredients",
+    "cell": 5,
+    "category": "ingredients",
+    "en": "Cheese",
+    "ro": "Brânză"
+  },
+  {
+    "id": "rice",
+    "atlas": "ingredients",
+    "cell": 6,
+    "category": "ingredients",
+    "en": "Rice",
+    "ro": "Orez"
+  },
+  {
+    "id": "pasta",
+    "atlas": "ingredients",
+    "cell": 7,
+    "category": "ingredients",
+    "en": "Penne pasta",
+    "ro": "Paste penne"
+  },
+  {
+    "id": "avocado",
+    "atlas": "ingredients",
+    "cell": 8,
+    "category": "ingredients",
+    "en": "Avocado",
+    "ro": "Avocado"
+  },
+  {
+    "id": "carrot",
+    "atlas": "produce",
+    "cell": 0,
+    "category": "produce",
+    "en": "Carrots",
+    "ro": "Morcovi",
+    "crop": {
+      "x": 0.015,
+      "y": 0.015,
+      "width": 0.325,
+      "height": 0.337
+    }
+  },
+  {
+    "id": "broccoli",
+    "atlas": "produce",
+    "cell": 1,
+    "category": "produce",
+    "en": "Broccoli",
+    "ro": "Broccoli"
+  },
+  {
+    "id": "potato",
+    "atlas": "produce",
+    "cell": 2,
+    "category": "produce",
+    "en": "Potatoes",
+    "ro": "Cartofi"
+  },
+  {
+    "id": "bell_pepper",
+    "atlas": "produce",
+    "cell": 3,
+    "category": "produce",
+    "en": "Red bell pepper",
+    "ro": "Ardei gras roșu",
+    "crop": {
+      "x": 0.05,
+      "y": 0.38,
+      "width": 0.26,
+      "height": 0.27
+    }
+  },
+  {
+    "id": "mushrooms",
+    "atlas": "produce",
+    "cell": 4,
+    "category": "produce",
+    "en": "Mushrooms",
+    "ro": "Ciuperci"
+  },
+  {
+    "id": "spinach",
+    "atlas": "produce",
+    "cell": 5,
+    "category": "produce",
+    "en": "Spinach",
+    "ro": "Spanac",
+    "crop": {
+      "height": 0.3
+    }
+  },
+  {
+    "id": "lemon",
+    "atlas": "produce",
+    "cell": 6,
+    "category": "produce",
+    "en": "Lemon",
+    "ro": "Lămâie"
+  },
+  {
+    "id": "cucumber",
+    "atlas": "produce",
+    "cell": 7,
+    "category": "produce",
+    "en": "Cucumber",
+    "ro": "Castravete"
+  },
+  {
+    "id": "olive_oil",
+    "atlas": "produce",
+    "cell": 8,
+    "category": "staples",
+    "en": "Olive oil bottle",
+    "ro": "Sticlă de ulei de măsline",
+    "crop": {
+      "y": 0.64,
+      "height": 0.36
+    }
+  },
+  {
+    "id": "salt",
+    "atlas": "staples",
+    "cell": 0,
+    "category": "staples",
+    "en": "Salt",
+    "ro": "Sare"
+  },
+  {
+    "id": "black_pepper",
+    "atlas": "staples",
+    "cell": 1,
+    "category": "staples",
+    "en": "Black peppercorns",
+    "ro": "Boabe de piper negru"
+  },
+  {
+    "id": "flour",
+    "atlas": "staples",
+    "cell": 2,
+    "category": "staples",
+    "en": "Flour",
+    "ro": "Făină"
+  },
+  {
+    "id": "butter",
+    "atlas": "staples",
+    "cell": 3,
+    "category": "staples",
+    "en": "Butter",
+    "ro": "Unt",
+    "crop": {
+      "height": 0.28
+    }
+  },
+  {
+    "id": "sugar",
+    "atlas": "staples",
+    "cell": 4,
+    "category": "staples",
+    "en": "Sugar cubes",
+    "ro": "Cuburi de zahăr"
+  },
+  {
+    "id": "milk",
+    "atlas": "staples",
+    "cell": 5,
+    "category": "staples",
+    "en": "Glass of milk",
+    "ro": "Pahar cu lapte"
+  },
+  {
+    "id": "soy_sauce",
+    "atlas": "staples",
+    "cell": 6,
+    "category": "staples",
+    "en": "Soy sauce bottle",
+    "ro": "Sticlă de sos de soia",
+    "crop": {
+      "y": 0.62,
+      "height": 0.38
+    }
+  },
+  {
+    "id": "cinnamon",
+    "atlas": "staples",
+    "cell": 7,
+    "category": "staples",
+    "en": "Cinnamon sticks",
+    "ro": "Batoane de scorțișoară"
+  },
+  {
+    "id": "basil",
+    "atlas": "staples",
+    "cell": 8,
+    "category": "staples",
+    "en": "Basil leaves",
+    "ro": "Frunze de busuioc"
+  },
+  {
+    "id": "stockpot",
+    "atlas": "cookware",
+    "cell": 0,
+    "category": "cookware",
+    "en": "Stockpot with lid",
+    "ro": "Oală înaltă cu capac"
+  },
+  {
+    "id": "nonstick_pan",
+    "atlas": "cookware",
+    "cell": 1,
+    "category": "cookware",
+    "en": "Nonstick frying pan",
+    "ro": "Tigaie antiaderentă"
+  },
+  {
+    "id": "saucepan",
+    "atlas": "cookware",
+    "cell": 2,
+    "category": "cookware",
+    "en": "Stainless steel saucepan",
+    "ro": "Cratiță din inox"
+  },
+  {
+    "id": "cast_iron",
+    "atlas": "cookware",
+    "cell": 3,
+    "category": "cookware",
+    "en": "Cast iron skillet",
+    "ro": "Tigaie de fontă"
+  },
+  {
+    "id": "wok",
+    "atlas": "cookware",
+    "cell": 4,
+    "category": "cookware",
+    "en": "Deep wok with lid",
+    "ro": "Tigaie wok adâncă, cu capac"
+  },
+  {
+    "id": "dutch_oven",
+    "atlas": "cookware",
+    "cell": 5,
+    "category": "cookware",
+    "en": "Dutch oven",
+    "ro": "Oală de fontă emailată"
+  },
+  {
+    "id": "air_fryer",
+    "atlas": "cookware",
+    "cell": 6,
+    "category": "appliances",
+    "en": "Air fryer",
+    "ro": "Friteuză cu aer cald"
+  },
+  {
+    "id": "blender",
+    "atlas": "cookware",
+    "cell": 7,
+    "category": "appliances",
+    "en": "Blender",
+    "ro": "Blender"
+  },
+  {
+    "id": "microwave",
+    "atlas": "cookware",
+    "cell": 8,
+    "category": "appliances",
+    "en": "Microwave",
+    "ro": "Cuptor cu microunde"
+  },
+  {
+    "id": "whisk",
+    "atlas": "utensils",
+    "cell": 0,
+    "category": "utensils",
+    "en": "Whisk",
+    "ro": "Tel"
+  },
+  {
+    "id": "grater",
+    "atlas": "utensils",
+    "cell": 1,
+    "category": "utensils",
+    "en": "Box grater",
+    "ro": "Răzătoare"
+  },
+  {
+    "id": "mixing_bowl",
+    "atlas": "utensils",
+    "cell": 2,
+    "category": "utensils",
+    "en": "Mixing bowl",
+    "ro": "Bol pentru amestecare"
+  },
+  {
+    "id": "cutting_board",
+    "atlas": "utensils",
+    "cell": 3,
+    "category": "utensils",
+    "en": "Wooden cutting board",
+    "ro": "Tocător din lemn"
+  },
+  {
+    "id": "chef_knife",
+    "atlas": "utensils",
+    "cell": 4,
+    "category": "utensils",
+    "en": "Chef's knife",
+    "ro": "Cuțit de bucătar"
+  },
+  {
+    "id": "spatula",
+    "atlas": "utensils",
+    "cell": 5,
+    "category": "utensils",
+    "en": "Spatula",
+    "ro": "Spatulă"
+  },
+  {
+    "id": "ladle",
+    "atlas": "utensils",
+    "cell": 6,
+    "category": "utensils",
+    "en": "Ladle",
+    "ro": "Polonic"
+  },
+  {
+    "id": "colander",
+    "atlas": "utensils",
+    "cell": 7,
+    "category": "utensils",
+    "en": "Colander",
+    "ro": "Strecurătoare"
+  },
+  {
+    "id": "kitchen_scale",
+    "atlas": "utensils",
+    "cell": 8,
+    "category": "utensils",
+    "en": "Digital kitchen scale",
+    "ro": "Cântar digital de bucătărie"
+  },
+  {
+    "id": "gas_range",
+    "atlas": "appliances",
+    "cell": 0,
+    "category": "appliances",
+    "en": "Gas range with oven",
+    "ro": "Aragaz cu cuptor"
+  },
+  {
+    "id": "induction_cooktop",
+    "atlas": "appliances",
+    "cell": 1,
+    "category": "appliances",
+    "en": "Portable induction cooktop",
+    "ro": "Plită portabilă cu inducție"
+  },
+  {
+    "id": "countertop_oven",
+    "atlas": "appliances",
+    "cell": 2,
+    "category": "appliances",
+    "en": "Electric countertop oven",
+    "ro": "Cuptor electric de blat"
+  },
+  {
+    "id": "slow_cooker",
+    "atlas": "appliances",
+    "cell": 3,
+    "category": "appliances",
+    "en": "Slow cooker",
+    "ro": "Aparat de gătit lent",
+    "crop": {
+      "y": 0.405,
+      "height": 0.205
+    }
+  },
+  {
+    "id": "pressure_cooker",
+    "atlas": "appliances",
+    "cell": 4,
+    "category": "appliances",
+    "en": "Stovetop pressure cooker",
+    "ro": "Oală sub presiune pentru aragaz"
+  },
+  {
+    "id": "contact_grill",
+    "atlas": "appliances",
+    "cell": 5,
+    "category": "appliances",
+    "en": "Electric contact grill",
+    "ro": "Grătar electric de contact"
+  },
+  {
+    "id": "immersion_blender",
+    "atlas": "appliances",
+    "cell": 6,
+    "category": "appliances",
+    "en": "Immersion blender",
+    "ro": "Blender vertical"
+  },
+  {
+    "id": "stand_mixer",
+    "atlas": "appliances",
+    "cell": 7,
+    "category": "appliances",
+    "en": "Stand mixer",
+    "ro": "Mixer cu bol"
+  },
+  {
+    "id": "electric_kettle",
+    "atlas": "appliances",
+    "cell": 8,
+    "category": "appliances",
+    "en": "Electric kettle",
+    "ro": "Fierbător electric"
+  },
+  {
+    "id": "salmon",
+    "source": "sources/individual/salmon.png",
+    "category": "ingredients",
+    "en": "Raw salmon fillet",
+    "ro": "File de somon crud",
+    "subject": "One fresh raw salmon fillet, skin visible along the lower edge, delicate natural orange-pink flesh and pale fat lines. No plate or garnish."
+  },
+  {
+    "id": "beef_steak",
+    "source": "sources/individual/beef_steak.png",
+    "category": "ingredients",
+    "en": "Raw beef ribeye steak",
+    "ro": "Antricot de vită crud",
+    "subject": "One raw boneless beef ribeye steak with realistic deep-red flesh, delicate white marbling and a small pale fat rim. No board, plate, garnish or cooked grill marks."
+  },
+  {
+    "id": "pork_tenderloin",
+    "source": "sources/individual/pork_tenderloin.png",
+    "category": "ingredients",
+    "en": "Raw pork tenderloin",
+    "ro": "Mușchiuleț de porc crud",
+    "subject": "One small complete raw pork tenderloin, elongated tapered shape, pale pink lean meat, neatly trimmed. No plate, board, garnish or cooked surface."
+  },
+  {
+    "id": "ground_beef",
+    "source": "sources/individual/ground_beef.png",
+    "category": "ingredients",
+    "en": "Raw ground beef",
+    "ro": "Carne de vită tocată crudă",
+    "subject": "A single compact mound of fresh raw ground beef, distinct natural red minced strands with pale fat flecks. Not a burger patty, no bowl, plate or wrapper."
+  },
+  {
+    "id": "shrimp",
+    "source": "sources/individual/shrimp.png",
+    "category": "ingredients",
+    "en": "Peeled raw shrimp",
+    "ro": "Creveți cruzi decorticați",
+    "subject": "A compact group of four peeled raw shrimp with tails intact, natural translucent gray-pink flesh and plausible curled anatomy. No cooked orange coloring, plate, bowl or garnish."
+  },
+  {
+    "id": "tofu",
+    "source": "sources/individual/tofu.png",
+    "category": "ingredients",
+    "en": "Firm tofu",
+    "ro": "Tofu ferm",
+    "subject": "One ivory firm tofu block with three neat tofu cubes beside it, delicate porous texture and clean cut faces. No plate, board or garnish."
+  },
+  {
+    "id": "yogurt",
+    "source": "sources/individual/yogurt.png",
+    "category": "ingredients",
+    "en": "Plain yogurt",
+    "ro": "Iaurt simplu",
+    "subject": "An unbranded small mint ceramic cup of smooth plain white yogurt, visible softly swirled surface, no fruit, foil, writing, spoon or packaging."
+  },
+  {
+    "id": "cream",
+    "source": "sources/individual/cream.png",
+    "category": "ingredients",
+    "en": "Cooking cream",
+    "ro": "Smântână pentru gătit",
+    "subject": "A small clear glass pouring jug of thick ivory cooking cream, one transparent handle and a short spout, visible glossy cream surface. No text, markings, carton or extra utensils."
+  },
+  {
+    "id": "cottage_cheese",
+    "source": "sources/individual/cottage_cheese.png",
+    "category": "ingredients",
+    "en": "Cottage cheese",
+    "ro": "Brânză cottage",
+    "subject": "A small coral ceramic bowl filled with fresh white cottage cheese, clearly visible moist soft curds. No spoon, herbs, fruit or garnish."
+  },
+  {
+    "id": "zucchini",
+    "source": "sources/individual/zucchini.png",
+    "category": "produce",
+    "en": "Zucchini",
+    "ro": "Dovlecel",
+    "subject": "One fresh dark-green zucchini with two thick round slices beside its cut end, natural pale interior, subtle glossy skin. No plate or other vegetables."
+  },
+  {
+    "id": "eggplant",
+    "source": "sources/individual/eggplant.png",
+    "category": "produce",
+    "en": "Eggplant",
+    "ro": "Vânătă",
+    "subject": "One complete glossy deep-purple eggplant with a natural green calyx and stem, plump elongated silhouette. No plate or extra produce."
+  },
+  {
+    "id": "lettuce",
+    "source": "sources/individual/lettuce.png",
+    "category": "produce",
+    "en": "Green leaf lettuce",
+    "ro": "Salată verde",
+    "subject": "One small complete head of green leaf lettuce, vivid fresh layered ruffled leaves and a compact base, no roots, soil, bowl or extra vegetables."
+  },
+  {
+    "id": "cabbage",
+    "source": "sources/individual/cabbage.png",
+    "category": "produce",
+    "en": "Green cabbage",
+    "ro": "Varză verde",
+    "subject": "One round green cabbage and a compact cut wedge beside it showing tightly layered pale leaves, believable leaf veins. No plate or extra vegetables."
+  },
+  {
+    "id": "cauliflower",
+    "source": "sources/individual/cauliflower.png",
+    "category": "produce",
+    "en": "Cauliflower",
+    "ro": "Conopidă",
+    "subject": "One fresh ivory cauliflower head with a few natural pale green leaves around its base, finely textured tightly clustered florets. No bowl or other produce."
+  },
+  {
+    "id": "peas",
+    "source": "sources/individual/peas.png",
+    "category": "produce",
+    "en": "Green peas",
+    "ro": "Mazăre verde",
+    "subject": "A small mint ceramic bowl filled with fresh round green peas, one open pea pod resting directly across the rim. No spoon or unrelated ingredients."
+  },
+  {
+    "id": "green_beans",
+    "source": "sources/individual/green_beans.png",
+    "category": "produce",
+    "en": "Green beans",
+    "ro": "Fasole verde",
+    "subject": "A compact neat bundle of fresh slender green bean pods, intact ends, natural subtle curvature and visible seams. No bowl, string tie or other vegetables."
+  },
+  {
+    "id": "sweet_potato",
+    "source": "sources/individual/sweet_potato.png",
+    "category": "produce",
+    "en": "Sweet potato",
+    "ro": "Cartof dulce",
+    "subject": "One reddish-skinned sweet potato with one cut half showing rich orange flesh, natural irregular root shape and subtle skin texture. No plate or other produce."
+  },
+  {
+    "id": "pumpkin",
+    "source": "sources/individual/pumpkin.png",
+    "category": "produce",
+    "en": "Pumpkin",
+    "ro": "Dovleac",
+    "subject": "One small ripe orange cooking pumpkin with a short natural woody stem and one cut wedge beside it showing orange flesh and a few pale seeds. No leaves, plate or scene."
+  },
+  {
+    "id": "apple",
+    "source": "sources/individual/apple.png",
+    "category": "produce",
+    "en": "Red apple",
+    "ro": "Măr roșu",
+    "subject": "One fresh red apple with a short brown stem and one cut half beside it, creamy pale flesh, a natural seed core. No leaves, plate or extra fruit."
+  },
+  {
+    "id": "banana",
+    "source": "sources/individual/banana.png",
+    "category": "produce",
+    "en": "Bananas",
+    "ro": "Banane",
+    "subject": "A compact pair of ripe yellow bananas, one whole and one partially peeled with three believable peel strips revealing pale banana flesh. No plate or other fruit."
+  },
+  {
+    "id": "orange",
+    "source": "sources/individual/orange.png",
+    "category": "produce",
+    "en": "Orange",
+    "ro": "Portocală",
+    "subject": "One ripe orange and one cut half beside it showing clear juicy radial segments, textured orange peel. No leaves, plate, lemon or extra fruit."
+  },
+  {
+    "id": "strawberry",
+    "source": "sources/individual/strawberry.png",
+    "category": "produce",
+    "en": "Strawberries",
+    "ro": "Căpșuni",
+    "subject": "A compact group of three ripe red strawberries with natural green leafy tops, visible tiny seeds and one cut half. No bowl, cream or other fruit."
+  },
+  {
+    "id": "blueberry",
+    "source": "sources/individual/blueberry.png",
+    "category": "produce",
+    "en": "Blueberries",
+    "ro": "Afine",
+    "subject": "A compact natural pile of dark-blue blueberries with delicate dusty bloom and visible star-shaped crowns, no bowl, foliage or other fruit."
+  },
+  {
+    "id": "pear",
+    "source": "sources/individual/pear.png",
+    "category": "produce",
+    "en": "Pear",
+    "ro": "Pară",
+    "subject": "One green-yellow pear with a brown stem and one cut half beside it showing pale flesh and a small seed core, subtle natural speckles. No leaves or plate."
+  },
+  {
+    "id": "grapes",
+    "source": "sources/individual/grapes.png",
+    "category": "produce",
+    "en": "Red grapes",
+    "ro": "Struguri roșii",
+    "subject": "One small compact bunch of ripe red-purple grapes on a natural thin brown-green stem, individual translucent glossy grape skins. No leaves, bowl or other fruit."
+  },
+  {
+    "id": "mango",
+    "source": "sources/individual/mango.png",
+    "category": "produce",
+    "en": "Mango",
+    "ro": "Mango",
+    "subject": "One ripe red-yellow mango and one golden cut cheek beside it, cheek neatly scored into visible small cubes still attached to the peel. No knife, bowl or other fruit."
+  },
+  {
+    "id": "peach",
+    "source": "sources/individual/peach.png",
+    "category": "produce",
+    "en": "Peach",
+    "ro": "Piersică",
+    "subject": "One ripe peach with delicate fuzzy red-yellow skin and one cut half beside it showing golden flesh and a single natural brown stone. No leaves, plate or other fruit."
+  },
+  {
+    "id": "oats",
+    "source": "sources/individual/oats.png",
+    "category": "staples",
+    "en": "Rolled oats",
+    "ro": "Fulgi de ovăz",
+    "subject": "A small mint ceramic bowl filled with dry rolled oats, clearly visible flat pale oat flakes. No milk, fruit, spoon, wheat stalks or labels."
+  },
+  {
+    "id": "lentils",
+    "source": "sources/individual/lentils.png",
+    "category": "staples",
+    "en": "Red lentils",
+    "ro": "Linte roșie",
+    "subject": "A small mint ceramic bowl filled with dry split red lentils, tiny flat orange-red discs with realistic texture. No spoon, herbs or other legumes."
+  },
+  {
+    "id": "chickpeas",
+    "source": "sources/individual/chickpeas.png",
+    "category": "staples",
+    "en": "Chickpeas",
+    "ro": "Năut",
+    "subject": "A small coral ceramic bowl filled with plain chickpeas, pale golden beige round legumes with characteristic little beaks and wrinkles. No sauce, herbs or spoon."
+  },
+  {
+    "id": "kidney_beans",
+    "source": "sources/individual/kidney_beans.png",
+    "category": "staples",
+    "en": "Red kidney beans",
+    "ro": "Fasole roșie",
+    "subject": "A small mint ceramic bowl filled with glossy dark-red kidney beans, recognizable curved kidney shape and pale hilum marks. No sauce, herbs or spoon."
+  },
+  {
+    "id": "canned_tomatoes",
+    "source": "sources/individual/canned_tomatoes.png",
+    "category": "staples",
+    "en": "Canned chopped tomatoes",
+    "ro": "Roșii tocate la conservă",
+    "subject": "One open unbranded brushed-steel food can filled with chopped red tomatoes in tomato juice, clean visible rolled rim. No printed label, text, can opener, detached lid or other food."
+  },
+  {
+    "id": "honey",
+    "source": "sources/individual/honey.png",
+    "category": "staples",
+    "en": "Honey",
+    "ro": "Miere",
+    "subject": "One small clear cylindrical glass jar of golden amber honey with an unbranded mint screw lid beside it and a simple light-wood honey dipper resting across its rim. No label, text, bees, flowers or scene."
+  },
+  {
+    "id": "cocoa",
+    "source": "sources/individual/cocoa.png",
+    "category": "staples",
+    "en": "Cocoa powder",
+    "ro": "Cacao pudră",
+    "subject": "A small mint ceramic bowl of dark brown cocoa powder with a softly mounded finely powdered surface. No chocolate bar, spoon, cup, milk or labels."
+  },
+  {
+    "id": "walnuts",
+    "source": "sources/individual/walnuts.png",
+    "category": "staples",
+    "en": "Walnuts",
+    "ro": "Nuci",
+    "subject": "A compact group of two whole walnuts in natural textured shells and three clearly recognizable walnut kernel halves beside them. No bowl, leaves or other nuts."
+  },
+  {
+    "id": "paprika",
+    "source": "sources/individual/paprika.png",
+    "category": "staples",
+    "en": "Sweet paprika powder",
+    "ro": "Boia dulce",
+    "subject": "A small mint ceramic bowl of finely ground rich red-orange sweet paprika powder, softly mounded surface and believable spice texture. No pepper pods, spoon, label or garnish."
+  },
+  {
+    "id": "tongs",
+    "source": "sources/individual/tongs.png",
+    "category": "utensils",
+    "en": "Kitchen tongs",
+    "ro": "Clește de bucătărie",
+    "subject": "One complete pair of stainless-steel kitchen tongs with mint silicone gripping tips and a small mint locking loop, slightly open, plausible spring hinge, both arms intact. No food or extra tools."
+  },
+  {
+    "id": "rolling_pin",
+    "source": "sources/individual/rolling_pin.png",
+    "category": "utensils",
+    "en": "Wooden rolling pin",
+    "ro": "Sucitor din lemn",
+    "subject": "One complete light-beech wooden rolling pin with a cylindrical barrel and two smooth short turned wooden handles, gentle diagonal orientation, realistic wood grain. No dough, flour or extra tools."
+  },
+  {
+    "id": "peeler",
+    "source": "sources/individual/peeler.png",
+    "category": "utensils",
+    "en": "Y-shaped vegetable peeler",
+    "ro": "Curățător de legume",
+    "subject": "One complete Y-shaped vegetable peeler with a mint handle, brushed-steel fork and horizontal swiveling steel blade, clear plausible peeler construction. No vegetables or other utensils."
+  },
+  {
+    "id": "kitchen_scissors",
+    "source": "sources/individual/kitchen_scissors.png",
+    "category": "utensils",
+    "en": "Kitchen scissors",
+    "ro": "Foarfecă de bucătărie",
+    "subject": "One complete pair of kitchen scissors with two brushed-steel blades and graphite handles with coral soft-grip inserts, slightly open, visible center pivot. No packaging, text or other objects."
+  },
+  {
+    "id": "measuring_cup",
+    "source": "sources/individual/measuring_cup.png",
+    "category": "utensils",
+    "en": "Glass measuring cup",
+    "ro": "Cană gradată",
+    "subject": "One empty transparent glass measuring cup with a handle and short pouring spout, a few subtle unlabeled graduation tick marks only, no numbers or words, no liquid or other tools."
+  },
+  {
+    "id": "measuring_spoons",
+    "source": "sources/individual/measuring_spoons.png",
+    "category": "utensils",
+    "en": "Measuring spoons",
+    "ro": "Linguri de măsurare",
+    "subject": "One nested set of four stainless-steel measuring spoons of clearly different sizes held together by one small metal ring, mint handle inserts, bowls fanned out so all four are readable. No engraved numbers, words or extra utensils."
+  },
+  {
+    "id": "mortar_pestle",
+    "source": "sources/individual/mortar_pestle.png",
+    "category": "utensils",
+    "en": "Mortar and pestle",
+    "ro": "Mojar cu pistil",
+    "subject": "One compact graphite stone mortar with its matching stone pestle resting inside at a gentle diagonal, thick rounded rim and tactile fine stone texture. Empty, no spices, herbs or text."
+  },
+  {
+    "id": "corkscrew",
+    "source": "sources/individual/corkscrew.png",
+    "category": "utensils",
+    "en": "Waiter's corkscrew",
+    "ro": "Tirbușon de ospătar",
+    "subject": "One unbranded waiter's corkscrew with a light-wood handle, open stainless-steel double-hinged lever and a clearly visible helical screw; foil knife safely folded. Plausible complete mechanism, no cork, bottle or extra tools."
+  },
+  {
+    "id": "potato_masher",
+    "source": "sources/individual/potato_masher.png",
+    "category": "utensils",
+    "en": "Potato masher",
+    "ro": "Zdrobitor pentru cartofi",
+    "subject": "One complete potato masher with a light-wood handle and stainless-steel shaft ending in a sturdy round perforated mashing plate, gentle diagonal three-quarter view. No potatoes, bowl or other utensils."
+  },
+  {
+    "id": "baking_tray",
+    "source": "sources/individual/baking_tray.png",
+    "category": "cookware",
+    "en": "Rimmed baking tray",
+    "ro": "Tavă pentru cuptor",
+    "subject": "One empty rectangular graphite nonstick baking tray with shallow raised rims, gently rounded corners and discreet coral silicone grips on the two short ends. Full tray visible in three-quarter front view, no food, paper, logo or lettering."
+  },
+  {
+    "id": "ginger",
+    "source": "sources/individual/ginger.png",
+    "category": "produce",
+    "en": "Fresh ginger",
+    "ro": "Ghimbir proaspăt",
+    "subject": "One complete fresh knobbly ginger root with a small sliced piece beside it showing pale yellow flesh."
+  },
+  {
+    "id": "leek",
+    "source": "sources/individual/leek.png",
+    "category": "produce",
+    "en": "Leek",
+    "ro": "Praz",
+    "subject": "One complete fresh leek with a white base, pale green stem and natural dark green flat leaves."
+  },
+  {
+    "id": "celery",
+    "source": "sources/individual/celery.png",
+    "category": "produce",
+    "en": "Celery stalks",
+    "ro": "Țelină apio",
+    "subject": "A compact bunch of three fresh celery stalks with ribbed pale green stems, leafy tops and cleanly trimmed ends."
+  },
+  {
+    "id": "pineapple",
+    "source": "sources/individual/pineapple.png",
+    "category": "produce",
+    "en": "Pineapple",
+    "ro": "Ananas",
+    "subject": "One ripe golden pineapple with its complete green crown and one cut wedge showing yellow flesh."
+  },
+  {
+    "id": "quinoa",
+    "source": "sources/individual/quinoa.png",
+    "category": "staples",
+    "en": "White quinoa",
+    "ro": "Quinoa albă",
+    "subject": "A mint ceramic bowl filled with dry uncooked white quinoa grains."
+  },
+  {
+    "id": "couscous",
+    "source": "sources/individual/couscous.png",
+    "category": "staples",
+    "en": "Fine couscous",
+    "ro": "Cușcuș fin",
+    "subject": "A coral ceramic bowl filled with dry fine couscous, tiny golden semolina granules."
+  },
+  {
+    "id": "bread",
+    "source": "sources/individual/bread.png",
+    "category": "ingredients",
+    "en": "Rustic bread",
+    "ro": "Pâine rustică",
+    "subject": "One golden rustic bread loaf with two cut slices showing airy ivory crumb."
+  },
+  {
+    "id": "baking_dish",
+    "source": "sources/individual/baking_dish.png",
+    "category": "cookware",
+    "en": "Ceramic baking dish",
+    "ro": "Vas ceramic pentru cuptor",
+    "subject": "One empty deep rectangular mint ceramic oven dish with a cream interior and two integral loop handles."
+  },
+  {
+    "id": "fine_sieve",
+    "source": "sources/individual/fine_sieve.png",
+    "category": "utensils",
+    "en": "Fine-mesh sieve",
+    "ro": "Sită fină",
+    "subject": "One complete stainless steel fine-mesh kitchen sieve with a support hook and a graphite handle with coral grip."
+  },
+  {
+    "id": "rice_cooker",
+    "source": "sources/individual/rice_cooker.png",
+    "category": "appliances",
+    "en": "Electric rice cooker",
+    "ro": "Aparat de gătit orez",
+    "subject": "One unbranded electric rice cooker with a steel body, graphite base, closed mint lid and coral cook switch."
+  },
+  {
+    "id": "vegetable_oil",
+    "source": "sources/individual/vegetable_oil.png",
+    "category": "staples",
+    "en": "Vegetable oil",
+    "ro": "Ulei vegetal",
+    "subject": "a round clear glass bottle of pale golden sunflower cooking oil, green cap, two sunflower seeds at its base"
+  },
+  {
+    "id": "sesame_oil",
+    "source": "sources/individual/sesame_oil.png",
+    "category": "staples",
+    "en": "Sesame oil",
+    "ro": "Ulei de susan",
+    "subject": "a slim clear glass cruet of amber sesame oil, dark brown cap, a tiny spoonful of sesame seeds beside it"
+  },
+  {
+    "id": "palm_oil",
+    "source": "sources/individual/palm_oil.png",
+    "category": "staples",
+    "en": "Palm oil",
+    "ro": "Ulei de palmier",
+    "subject": "a short clear glass jar of rich orange-red palm cooking oil, simple green lid"
+  },
+  {
+    "id": "coconut_oil",
+    "source": "sources/individual/coconut_oil.png",
+    "category": "staples",
+    "en": "Coconut oil",
+    "ro": "Ulei de cocos",
+    "subject": "an open short clear glass jar of white solid coconut oil with a coconut half beside it"
+  },
+  {
+    "id": "vinegar",
+    "source": "sources/individual/vinegar.png",
+    "category": "staples",
+    "en": "Vinegar",
+    "ro": "Oțet",
+    "subject": "a clear glass vinegar bottle of pale amber vinegar, simple red cap"
+  },
+  {
+    "id": "oregano",
+    "source": "sources/individual/oregano.png",
+    "category": "staples",
+    "en": "Dried oregano",
+    "ro": "Oregano uscat",
+    "subject": "a small terracotta pinch bowl filled with dried oregano leaves with one oregano sprig beside it"
+  },
+  {
+    "id": "curry",
+    "source": "sources/individual/curry.png",
+    "category": "staples",
+    "en": "Curry powder",
+    "ro": "Curry pudră",
+    "subject": "a small terracotta pinch bowl of golden yellow curry powder with a tiny wooden scoop"
+  },
+  {
+    "id": "cumin",
+    "source": "sources/individual/cumin.png",
+    "category": "staples",
+    "en": "Ground cumin",
+    "ro": "Chimion măcinat",
+    "subject": "a small terracotta pinch bowl filled with brown cumin seeds, a few seeds beside it"
+  },
+  {
+    "id": "garlic_powder",
+    "source": "sources/individual/garlic_powder.png",
+    "category": "staples",
+    "en": "Garlic powder",
+    "ro": "Usturoi pudră",
+    "subject": "a small clear glass spice jar of ivory garlic powder with a simple wooden lid, one garlic clove beside it"
+  },
+  {
+    "id": "chili_flakes",
+    "source": "sources/individual/chili_flakes.png",
+    "category": "staples",
+    "en": "Chili flakes",
+    "ro": "Fulgi de chili",
+    "subject": "a small terracotta pinch bowl of red chili flakes, one dried chili beside it"
+  },
+  {
+    "id": "bay_leaf",
+    "source": "sources/individual/bay_leaf.png",
+    "category": "staples",
+    "en": "Bay leaves",
+    "ro": "Foi de dafin",
+    "subject": "three olive-green dried bay leaves naturally arranged together"
+  },
+  {
+    "id": "deep_fryer",
+    "source": "sources/individual/deep_fryer.png",
+    "category": "appliances",
+    "en": "Deep fryer",
+    "ro": "Friteuză",
+    "subject": "a compact charcoal countertop electric deep fryer with a stainless steel basket and black basket handle"
+  },
+  {
+    "id": "can_opener",
+    "source": "sources/individual/can_opener.png",
+    "category": "utensils",
+    "en": "Can opener",
+    "ro": "Deschizător de conserve",
+    "subject": "a manual stainless steel can opener with charcoal handles and a clearly visible cutting wheel"
+  },
+  {
+    "id": "food_processor",
+    "source": "sources/individual/food_processor.png",
+    "category": "appliances",
+    "en": "Food processor",
+    "ro": "Robot de bucătărie",
+    "subject": "a compact charcoal food processor with a transparent bowl, chopping blade and clear feed tube"
+  },
+  {
+    "id": "toaster",
+    "source": "sources/individual/toaster.png",
+    "category": "appliances",
+    "en": "Toaster",
+    "ro": "Prăjitor de pâine",
+    "subject": "a compact two-slot charcoal toaster, empty slots, chrome lever"
+  },
+  {
+    "id": "sandwich_maker",
+    "source": "sources/individual/sandwich_maker.png",
+    "category": "appliances",
+    "en": "Sandwich maker",
+    "ro": "Sandwich maker",
+    "subject": "an open compact charcoal electric sandwich toaster with triangular nonstick cooking plates"
+  },
+  {
+    "id": "cake_tin",
+    "source": "sources/individual/cake_tin.png",
+    "category": "cookware",
+    "en": "Cake tin",
+    "ro": "Formă de tort",
+    "subject": "a round charcoal nonstick springform cake tin with a small silver latch"
+  },
+  {
+    "id": "muffin_tin",
+    "source": "sources/individual/muffin_tin.png",
+    "category": "cookware",
+    "en": "Muffin tin",
+    "ro": "Formă de brioșe",
+    "subject": "a charcoal nonstick six-well muffin baking tin, empty wells"
+  },
+  {
+    "id": "parsley",
+    "source": "sources/individual/parsley.png",
+    "category": "produce",
+    "en": "Fresh parsley",
+    "ro": "Pătrunjel proaspăt",
+    "subject": "a compact bunch of fresh flat-leaf parsley, realistic deeply divided vivid green leaves and complete slender stems"
+  },
+  {
+    "id": "dill",
+    "source": "sources/individual/dill.png",
+    "category": "produce",
+    "en": "Fresh dill",
+    "ro": "Mărar proaspăt",
+    "subject": "a compact bunch of fresh dill, fine feathery green fronds and complete slender stems"
+  },
+  {
+    "id": "thyme",
+    "source": "sources/individual/thyme.png",
+    "category": "produce",
+    "en": "Fresh thyme",
+    "ro": "Cimbru proaspăt",
+    "subject": "a compact bundle of fresh thyme sprigs, tiny oval green leaves on complete woody stems, visually distinct from oregano"
+  },
+  {
+    "id": "lovage",
+    "source": "sources/individual/lovage.png",
+    "category": "produce",
+    "en": "Fresh lovage",
+    "ro": "Leuștean proaspăt",
+    "subject": "a compact bunch of fresh lovage with large serrated three-lobed glossy green leaves and complete pale-green stems, botanically distinct from parsley"
+  },
+  {
+    "id": "rice_pile",
+    "source": "sources/individual/rice_pile.png",
+    "category": "staples",
+    "en": "Rice pile",
+    "ro": "Orez fără recipient",
+    "subject": "a neat small mound of uncooked short-grain white rice, individual ivory grains clearly visible"
+  },
+  {
+    "id": "basmati_rice_pile",
+    "source": "sources/individual/basmati_rice_pile.png",
+    "category": "staples",
+    "en": "Basmati rice pile",
+    "ro": "Orez basmati fără recipient",
+    "subject": "a neat small mound of uncooked basmati rice, noticeably long slender ivory grains, distinct from round short-grain rice"
+  },
+  {
+    "id": "salt_pile",
+    "source": "sources/individual/salt_pile.png",
+    "category": "staples",
+    "en": "Sea salt pile",
+    "ro": "Sare fără recipient",
+    "subject": "a neat small mound of coarse white sea salt crystals, naturally faceted irregular crystals, clearly distinguishable from sugar"
+  },
+  {
+    "id": "sugar_pile",
+    "source": "sources/individual/sugar_pile.png",
+    "category": "staples",
+    "en": "Sugar pile",
+    "ro": "Zahăr fără recipient",
+    "subject": "a neat small mound of white granulated sugar, fine evenly sized sparkling translucent crystals, clearly distinguishable from coarse sea salt"
+  },
+  {
+    "id": "caraway_seeds_pile",
+    "source": "sources/individual/caraway_seeds_pile.png",
+    "category": "staples",
+    "en": "Caraway seed pile",
+    "ro": "Chimen fără recipient",
+    "subject": "a neat small mound of whole caraway seeds (Carum carvi), slim curved dark brown ribbed seeds, NOT cumin"
+  },
+  {
+    "id": "white_sesame_pile",
+    "source": "sources/individual/white_sesame_pile.png",
+    "category": "staples",
+    "en": "White sesame pile",
+    "ro": "Susan alb fără recipient",
+    "subject": "a neat small mound of white sesame seeds, small flat ivory oval seeds"
+  },
+  {
+    "id": "black_sesame_pile",
+    "source": "sources/individual/black_sesame_pile.png",
+    "category": "staples",
+    "en": "Black sesame pile",
+    "ro": "Susan negru fără recipient",
+    "subject": "a neat small mound of black sesame seeds, small flat charcoal oval seeds with subtle glossy highlights"
+  },
+  {
+    "id": "quinoa_pile",
+    "source": "sources/individual/quinoa_pile.png",
+    "category": "staples",
+    "en": "Quinoa pile",
+    "ro": "Quinoa fără recipient",
+    "subject": "a neat small mound of uncooked white quinoa, small rounded pale grains with distinct tiny germ rings"
+  },
+  {
+    "id": "couscous_pile",
+    "source": "sources/individual/couscous_pile.png",
+    "category": "staples",
+    "en": "Couscous pile",
+    "ro": "Cușcuș fără recipient",
+    "subject": "a neat small mound of dry fine couscous, tiny pale golden semolina granules"
+  },
+  {
+    "id": "oats_pile",
+    "source": "sources/individual/oats_pile.png",
+    "category": "staples",
+    "en": "Oat pile",
+    "ro": "Ovăz fără recipient",
+    "subject": "a neat small mound of rolled oats, flat irregular creamy-beige oat flakes, recognizable layered texture"
+  },
+  {
+    "id": "flour_pile",
+    "source": "sources/individual/flour_pile.png",
+    "category": "staples",
+    "en": "Flour pile",
+    "ro": "Făină fără recipient",
+    "subject": "a neat small mound of white wheat flour, fine soft powder with a small natural ridge and textured slopes"
+  },
+  {
+    "id": "cumin_pile",
+    "source": "sources/individual/cumin_pile.png",
+    "category": "staples",
+    "en": "Ground cumin pile",
+    "ro": "Chimion măcinat fără recipient",
+    "subject": "a neat small mound of ground cumin powder (Cuminum cyminum), warm tan-beige finely ground spice, NOT whole caraway seeds"
+  },
+  {
+    "id": "paprika_pile",
+    "source": "sources/individual/paprika_pile.png",
+    "category": "staples",
+    "en": "Paprika pile",
+    "ro": "Boia dulce fără recipient",
+    "subject": "a neat small mound of sweet paprika powder, richly natural red fine ground spice"
+  },
+  {
+    "id": "black_pepper_pile",
+    "source": "sources/individual/black_pepper_pile.png",
+    "category": "staples",
+    "en": "Black peppercorn pile",
+    "ro": "Piper negru fără recipient",
+    "subject": "a neat small mound of whole black peppercorns, round wrinkled charcoal-brown spheres"
+  },
+  {
+    "id": "lentils_pile",
+    "source": "sources/individual/lentils_pile.png",
+    "category": "staples",
+    "en": "Green lentil pile",
+    "ro": "Linte verde fără recipient",
+    "subject": "a neat small mound of whole dry green-brown lentils, flat round lens-shaped legumes"
+  },
+  {
+    "id": "chickpeas_pile",
+    "source": "sources/individual/chickpeas_pile.png",
+    "category": "staples",
+    "en": "Chickpea pile",
+    "ro": "Năut fără recipient",
+    "subject": "a neat small mound of dry chickpeas, warm beige irregular round legumes with pointed noses"
+  },
+  {
+    "id": "red_lentils_pile",
+    "source": "sources/individual/red_lentils_pile.png",
+    "category": "staples",
+    "en": "Red lentil pile",
+    "ro": "Linte roșie fără recipient",
+    "subject": "a neat small mound of split dry red lentils, small salmon-orange lens-shaped halves"
+  },
+  {
+    "id": "curry_pile",
+    "source": "sources/individual/curry_pile.png",
+    "category": "staples",
+    "en": "Curry powder pile",
+    "ro": "Curry fără recipient",
+    "subject": "a neat small mound of curry powder, saturated natural golden-yellow finely ground spice"
+  },
+  {
+    "id": "rosemary",
+    "source": "sources/individual/rosemary.png",
+    "category": "produce",
+    "en": "Fresh rosemary",
+    "ro": "Rozmarin proaspăt",
+    "subject": "a compact bunch of fresh rosemary sprigs with narrow needle-like green leaves and full woody stems"
+  },
+  {
+    "id": "mint",
+    "source": "sources/individual/mint.png",
+    "category": "produce",
+    "en": "Fresh mint",
+    "ro": "Mentă proaspătă",
+    "subject": "a compact bunch of fresh mint with textured serrated vivid-green leaves and complete stems"
+  },
+  {
+    "id": "sage",
+    "source": "sources/individual/sage.png",
+    "category": "produce",
+    "en": "Fresh sage",
+    "ro": "Salvie proaspătă",
+    "subject": "a compact bunch of fresh sage, velvety softly textured gray-green elongated leaves"
+  },
+  {
+    "id": "tarragon",
+    "source": "sources/individual/tarragon.png",
+    "category": "produce",
+    "en": "Fresh tarragon",
+    "ro": "Tarhon proaspăt",
+    "subject": "a compact bunch of fresh tarragon with slender smooth lance-shaped green leaves and full stems"
+  },
+  {
+    "id": "chives",
+    "source": "sources/individual/chives.png",
+    "category": "produce",
+    "en": "Fresh chives",
+    "ro": "Cepșoară proaspătă",
+    "subject": "a neat bundle of fresh green chives, thin tubular stems, full length visible"
+  },
+  {
+    "id": "cilantro",
+    "source": "sources/individual/cilantro.png",
+    "category": "produce",
+    "en": "Fresh cilantro",
+    "ro": "Coriandru proaspăt",
+    "subject": "a compact bunch of fresh cilantro with delicate scalloped fan-shaped green leaves and full tender stems, distinct from flat-leaf parsley"
+  },
+  {
+    "id": "arugula",
+    "source": "sources/individual/arugula.png",
+    "category": "produce",
+    "en": "Arugula",
+    "ro": "Rucola",
+    "subject": "a compact bunch of fresh arugula with deeply lobed slender green leaves"
+  },
+  {
+    "id": "kale",
+    "source": "sources/individual/kale.png",
+    "category": "produce",
+    "en": "Curly kale",
+    "ro": "Varză kale",
+    "subject": "three fresh curly kale leaves with frilly deep-green edges and complete thick stems"
+  },
+  {
+    "id": "beetroot",
+    "source": "sources/individual/beetroot.png",
+    "category": "produce",
+    "en": "Beetroot",
+    "ro": "Sfeclă roșie",
+    "subject": "one whole red beetroot with a small leaf stalk and one cut half exposing burgundy concentric rings"
+  },
+  {
+    "id": "radish",
+    "source": "sources/individual/radish.png",
+    "category": "produce",
+    "en": "Radishes",
+    "ro": "Ridichi",
+    "subject": "three small round red radishes with white roots and attached fresh green leaves"
+  },
+  {
+    "id": "asparagus",
+    "source": "sources/individual/asparagus.png",
+    "category": "produce",
+    "en": "Green asparagus",
+    "ro": "Sparanghel",
+    "subject": "a neat bundle of complete fresh green asparagus spears with closed tips, no binding or packaging"
+  },
+  {
+    "id": "artichoke",
+    "source": "sources/individual/artichoke.png",
+    "category": "produce",
+    "en": "Artichoke",
+    "ro": "Anghinare",
+    "subject": "one whole fresh green artichoke with layered pointed scales and a short stem"
+  },
+  {
+    "id": "fennel",
+    "source": "sources/individual/fennel.png",
+    "category": "produce",
+    "en": "Fennel bulb",
+    "ro": "Fenicul",
+    "subject": "one whole fresh fennel bulb, pale white layered base with complete green stalks and fine feathery fronds"
+  },
+  {
+    "id": "okra",
+    "source": "sources/individual/okra.png",
+    "category": "produce",
+    "en": "Okra",
+    "ro": "Bame",
+    "subject": "three whole green okra pods, tapered ridged shapes with intact stems"
+  },
+  {
+    "id": "brussels_sprouts",
+    "source": "sources/individual/brussels_sprouts.png",
+    "category": "produce",
+    "en": "Brussels sprouts",
+    "ro": "Varză de Bruxelles",
+    "subject": "a compact group of five whole fresh Brussels sprouts, detailed tight green leaves"
+  },
+  {
+    "id": "sweetcorn",
+    "source": "sources/individual/sweetcorn.png",
+    "category": "produce",
+    "en": "Sweetcorn",
+    "ro": "Porumb dulce",
+    "subject": "one fresh sweetcorn cob partly peeled to reveal golden kernels, natural green husk, entire cob visible"
+  },
+  {
+    "id": "spring_onion",
+    "source": "sources/individual/spring_onion.png",
+    "category": "produce",
+    "en": "Spring onions",
+    "ro": "Ceapă verde",
+    "subject": "three complete fresh spring onions with white bulb bases, fine roots and long tubular green tops"
+  },
+  {
+    "id": "red_onion",
+    "source": "sources/individual/red_onion.png",
+    "category": "produce",
+    "en": "Red onion",
+    "ro": "Ceapă roșie",
+    "subject": "one whole red onion and a cut half, vivid purple rings and natural papery skin"
+  },
+  {
+    "id": "red_cabbage",
+    "source": "sources/individual/red_cabbage.png",
+    "category": "produce",
+    "en": "Red cabbage",
+    "ro": "Varză roșie",
+    "subject": "one small whole red cabbage with a wedge cut revealing layered purple and ivory leaves"
+  },
+  {
+    "id": "oyster_mushrooms",
+    "source": "sources/individual/oyster_mushrooms.png",
+    "category": "produce",
+    "en": "Oyster mushrooms",
+    "ro": "Ciuperci pleurotus",
+    "subject": "a small cluster of fresh oyster mushrooms with fan-shaped taupe caps and creamy ribbed gills, complete stems"
+  },
+  {
+    "id": "shiitake",
+    "source": "sources/individual/shiitake.png",
+    "category": "produce",
+    "en": "Shiitake mushrooms",
+    "ro": "Ciuperci shiitake",
+    "subject": "three whole fresh shiitake mushrooms with dark brown rounded textured caps and light stems"
+  },
+  {
+    "id": "fresh_chili",
+    "source": "sources/individual/fresh_chili.png",
+    "category": "produce",
+    "en": "Red chili peppers",
+    "ro": "Ardei iute roșu",
+    "subject": "three whole red chili peppers with green stems, sleek curved tapered silhouettes"
+  },
+  {
+    "id": "kiwi",
+    "source": "sources/individual/kiwi.png",
+    "category": "produce",
+    "en": "Kiwi fruit",
+    "ro": "Kiwi",
+    "subject": "one whole fuzzy brown kiwi fruit and a half showing vivid green flesh, white center and black seeds"
+  },
+  {
+    "id": "raspberry",
+    "source": "sources/individual/raspberry.png",
+    "category": "produce",
+    "en": "Raspberries",
+    "ro": "Zmeură",
+    "subject": "a compact group of fresh red raspberries with detailed natural drupelets"
+  },
+  {
+    "id": "blackberry",
+    "source": "sources/individual/blackberry.png",
+    "category": "produce",
+    "en": "Blackberries",
+    "ro": "Mure",
+    "subject": "a compact group of ripe blackberries with deep purple-black glossy natural drupelets"
+  },
+  {
+    "id": "cherries",
+    "source": "sources/individual/cherries.png",
+    "category": "produce",
+    "en": "Cherries",
+    "ro": "Cireșe",
+    "subject": "three ripe red cherries with full slender green stems, one connected pair"
+  },
+  {
+    "id": "plum",
+    "source": "sources/individual/plum.png",
+    "category": "produce",
+    "en": "Plums",
+    "ro": "Prune",
+    "subject": "one whole ripe purple plum and one half showing golden flesh and a single stone"
+  },
+  {
+    "id": "apricot",
+    "source": "sources/individual/apricot.png",
+    "category": "produce",
+    "en": "Apricots",
+    "ro": "Caise",
+    "subject": "one whole golden-orange apricot and one half exposing orange flesh and a single brown stone"
+  },
+  {
+    "id": "fig",
+    "source": "sources/individual/fig.png",
+    "category": "produce",
+    "en": "Figs",
+    "ro": "Smochine",
+    "subject": "one whole purple fig and one cut half exposing rosy densely seeded flesh"
+  },
+  {
+    "id": "pomegranate",
+    "source": "sources/individual/pomegranate.png",
+    "category": "produce",
+    "en": "Pomegranate",
+    "ro": "Rodie",
+    "subject": "one whole red pomegranate and one half exposing densely packed ruby red arils"
+  },
+  {
+    "id": "watermelon",
+    "source": "sources/individual/watermelon.png",
+    "category": "produce",
+    "en": "Watermelon wedge",
+    "ro": "Pepene roșu",
+    "subject": "one generous triangular watermelon wedge with red flesh, black seeds and full green rind"
+  },
+  {
+    "id": "cantaloupe",
+    "source": "sources/individual/cantaloupe.png",
+    "category": "produce",
+    "en": "Cantaloupe wedge",
+    "ro": "Pepene galben",
+    "subject": "one cantaloupe melon wedge with orange flesh, visible pale seeds and full netted rind"
+  },
+  {
+    "id": "grapefruit",
+    "source": "sources/individual/grapefruit.png",
+    "category": "produce",
+    "en": "Pink grapefruit",
+    "ro": "Grepfrut roz",
+    "subject": "one whole yellow grapefruit and one half showing vivid pink segmented flesh"
+  },
+  {
+    "id": "lime",
+    "source": "sources/individual/lime.png",
+    "category": "produce",
+    "en": "Limes",
+    "ro": "Limete",
+    "subject": "one whole fresh green lime and a cut half exposing pale-green segmented flesh"
+  },
+  {
+    "id": "almonds_pile",
+    "source": "sources/individual/almonds_pile.png",
+    "category": "staples",
+    "en": "Almond pile",
+    "ro": "Migdale fără recipient",
+    "subject": "a beautiful small compact mound of whole raw almonds with natural tan ribbed skins, no container"
+  },
+  {
+    "id": "pistachios_pile",
+    "source": "sources/individual/pistachios_pile.png",
+    "category": "staples",
+    "en": "Pistachio pile",
+    "ro": "Fistic fără recipient",
+    "subject": "a beautiful small compact mound of pistachios with partly open pale shells and visible vivid green kernels, no container"
+  },
+  {
+    "id": "peanuts_pile",
+    "source": "sources/individual/peanuts_pile.png",
+    "category": "staples",
+    "en": "Peanut pile",
+    "ro": "Arahide fără recipient",
+    "subject": "a beautiful small compact mound of shelled peanuts with red-brown skins and a few pale kernel halves, no container"
+  },
+  {
+    "id": "pumpkin_seeds_pile",
+    "source": "sources/individual/pumpkin_seeds_pile.png",
+    "category": "staples",
+    "en": "Pumpkin seed pile",
+    "ro": "Semințe de dovleac fără recipient",
+    "subject": "a beautiful small compact mound of shelled dark-green pumpkin seeds, flat oval kernels, no container"
+  },
+  {
+    "id": "sunflower_seeds_pile",
+    "source": "sources/individual/sunflower_seeds_pile.png",
+    "category": "staples",
+    "en": "Sunflower seed pile",
+    "ro": "Semințe de floarea-soarelui fără recipient",
+    "subject": "a beautiful small compact mound of shelled sunflower seed kernels, slender pale ivory seeds, no container"
+  },
+  {
+    "id": "chia_seeds_pile",
+    "source": "sources/individual/chia_seeds_pile.png",
+    "category": "staples",
+    "en": "Chia seed pile",
+    "ro": "Semințe de chia fără recipient",
+    "subject": "a beautiful small compact mound of chia seeds, tiny mottled black gray and ivory oval seeds, no container"
+  },
+  {
+    "id": "flax_seeds_pile",
+    "source": "sources/individual/flax_seeds_pile.png",
+    "category": "staples",
+    "en": "Flax seed pile",
+    "ro": "Semințe de in fără recipient",
+    "subject": "a beautiful small compact mound of glossy brown flax seeds, flat small teardrop-shaped seeds, no container"
+  },
+  {
+    "id": "cocoa_pile",
+    "source": "sources/individual/cocoa_pile.png",
+    "category": "staples",
+    "en": "Cocoa powder pile",
+    "ro": "Cacao fără recipient",
+    "subject": "a beautiful small compact mound of rich dark brown cocoa powder, fine powder with textured slopes, no container"
+  },
+  {
+    "id": "nutmeg",
+    "source": "sources/individual/nutmeg.png",
+    "category": "staples",
+    "en": "Nutmeg",
+    "ro": "Nucșoară",
+    "subject": "one whole nutmeg seed with deeply textured brown shell and one cut half showing marbled interior"
+  },
+  {
+    "id": "star_anise",
+    "source": "sources/individual/star_anise.png",
+    "category": "staples",
+    "en": "Star anise",
+    "ro": "Anason stelat",
+    "subject": "three complete warm brown star anise pods, crisp eight-point star shapes with seeds visible"
+  },
+  {
+    "id": "frying_pan_steel",
+    "source": "sources/individual/frying_pan_steel.png",
+    "category": "cookware",
+    "en": "Stainless steel frying pan",
+    "ro": "Tigaie din inox",
+    "subject": "one complete unbranded stainless steel frying pan with a long brushed-steel handle, reflective silver cooking surface, no food, no lid"
+  },
+  {
+    "id": "pan_lid",
+    "source": "sources/individual/pan_lid.png",
+    "category": "cookware",
+    "en": "Glass pan lid",
+    "ro": "Capac de tigaie",
+    "subject": "one standalone clear glass pan lid with a brushed stainless rim and a small dark graphite knob, entire circular shape visible, no pan underneath"
+  },
+  {
+    "id": "salad_bowl",
+    "source": "sources/individual/salad_bowl.png",
+    "category": "cookware",
+    "en": "Salad bowl",
+    "ro": "Bol de salată",
+    "subject": "one empty large shallow mint ceramic salad bowl with a light ivory interior, entire rim visible, no food"
+  },
+  {
+    "id": "oven_mitts",
+    "source": "sources/individual/oven_mitts.png",
+    "category": "utensils",
+    "en": "Oven mitts",
+    "ro": "Mănuși pentru cuptor",
+    "subject": "one matching pair of textured quilted coral oven mitts, ergonomic thumb shapes, softly tactile cotton"
+  },
+  {
+    "id": "kitchen_thermometer",
+    "source": "sources/individual/kitchen_thermometer.png",
+    "category": "utensils",
+    "en": "Kitchen thermometer",
+    "ro": "Termometru de bucătărie",
+    "subject": "one complete unbranded digital instant-read kitchen thermometer with a full slender stainless probe and mint-and-graphite handle, no text or numeric display"
+  },
+  {
+    "id": "salad_spinner",
+    "source": "sources/individual/salad_spinner.png",
+    "category": "appliances",
+    "en": "Salad spinner",
+    "ro": "Centrifugă pentru salată",
+    "subject": "one complete unbranded salad spinner, transparent outer bowl, mint perforated inner basket, graphite lid with a coral crank, no food"
+  }
 ]

@@ -9,18 +9,20 @@ import { spriteUrl, sprite2xUrl, sprites, spriteWidth, spriteHeight, tileSize } 
 const require = createRequire(import.meta.url);
 const sharp = require(process.env.SHARP_MODULE || 'sharp');
 
-test('optional sprite entry has all 130 immutable logical coordinates', async () => {
+test('optional sprite entry has all 200 immutable logical coordinates', async () => {
   assert.equal(tileSize, 128);
   assert.equal(spriteWidth, 1664);
-  assert.equal(spriteHeight, 1280);
+  assert.equal(spriteHeight, 2048);
   assert.deepEqual(Object.keys(sprites), catalog.map(asset => asset.id));
   assert.ok(Object.isFrozen(sprites));
   assert.deepEqual(sprites.tomato, { x: 0, y: 0, width: 128, height: 128 });
   const cells = new Set();
-  for (const rect of Object.values(sprites)) {
+  for (const [index, rect] of Object.values(sprites).entries()) {
     assert.ok(Object.isFrozen(rect));
     assert.equal(rect.width, tileSize);
     assert.equal(rect.height, tileSize);
+    assert.equal(rect.x, (index % 13) * tileSize);
+    assert.equal(rect.y, Math.floor(index / 13) * tileSize);
     assert.ok(Number.isInteger(rect.x) && Number.isInteger(rect.y));
     assert.ok(rect.x >= 0 && rect.y >= 0);
     assert.ok(rect.x + rect.width <= spriteWidth && rect.y + rect.height <= spriteHeight);
@@ -77,11 +79,27 @@ for (const [url, scale] of [[spriteUrl, 1], [sprite2xUrl, 2]]) {
 test('v0.4 sources and public prompts include 20 additions without private paths', async () => {
   const prompts = JSON.parse(await readFile(new URL('../sources/prompts-0.4.json', import.meta.url), 'utf8'));
   assert.equal(prompts.length, 20);
-  assert.deepEqual(prompts.map(asset => asset.id), catalog.slice(110).map(asset => asset.id));
+  assert.deepEqual(prompts.map(asset => asset.id), catalog.slice(110, 130).map(asset => asset.id));
   assert.doesNotMatch(JSON.stringify(prompts), /C:\\|Users\\|api[_-]?key|token/i);
   assert.ok(prompts.every(asset => asset.transparentBackground && asset.prompt.includes(asset.subject)));
   const preview = await sharp(fileURLToPath(new URL('../docs/social/culinary-assets-130.png', import.meta.url))).metadata();
   assert.equal(preview.width, 1584);
   assert.equal(preview.height, 1728);
+  assert.equal(preview.hasAlpha, false);
+});
+
+test('v0.5 includes 70 new individually generated subjects and provenance', async () => {
+  const prompts = JSON.parse(await readFile(new URL('../sources/prompts-0.5.json', import.meta.url), 'utf8'));
+  assert.equal(prompts.length, 70);
+  assert.deepEqual(prompts.map(asset => asset.id), catalog.slice(130).map(asset => asset.id));
+  assert.ok(prompts.every(asset => asset.transparentBackground && asset.license === 'CC0-1.0' && asset.prompt.includes(asset.subject)));
+  assert.doesNotMatch(JSON.stringify(prompts), /C:\\|Users\\|api[_-]?key|token/i);
+  for (const id of ['thyme', 'lovage', 'rice_pile', 'salt_pile', 'sugar_pile', 'caraway_seeds_pile', 'white_sesame_pile', 'black_sesame_pile']) {
+    assert.ok(sprites[id]);
+    assert.ok(catalog.some(asset => asset.id === id));
+  }
+  const preview = await sharp(fileURLToPath(new URL('../docs/social/culinary-assets-200.png', import.meta.url))).metadata();
+  assert.equal(preview.width, 1584);
+  assert.equal(preview.height, 2736);
   assert.equal(preview.hasAlpha, false);
 });

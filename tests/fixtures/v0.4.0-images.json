@@ -1,0 +1,2212 @@
+[
+  {
+    "id": "tomato",
+    "category": "ingredients",
+    "alt": {
+      "en": "Tomato",
+      "ro": "Roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/tomato.png",
+    "webp": "assets/webp/tomato.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "5c15d3d59bb6b894753350ad7ae1923e037f8e6ebfc939e57a6ac704e4dfdf65",
+      "webp": "b2c5e0a0f8da8153e27ed9e48a9a3381d83403ee45874121adaa4c62ad713bf9"
+    }
+  },
+  {
+    "id": "onion",
+    "category": "ingredients",
+    "alt": {
+      "en": "Onion",
+      "ro": "Ceapă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/onion.png",
+    "webp": "assets/webp/onion.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "8b34d602d028827116f513bfd3624cada3cf941bd9264602a964cb2f29e2cb86",
+      "webp": "dd80acd339b59c73b755ff0d3713a12b8ad8a0fdfab61fcbb01740c205957db4"
+    }
+  },
+  {
+    "id": "garlic",
+    "category": "ingredients",
+    "alt": {
+      "en": "Garlic",
+      "ro": "Usturoi"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/garlic.png",
+    "webp": "assets/webp/garlic.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "37d9a14b62c29562949f77dd17e0d5be28fb707fa3f8e838f851678119ef8463",
+      "webp": "515d61db93b8adcc9286ed03ff7ee1baf8808ef27f3772f08fab418df53c5f25"
+    }
+  },
+  {
+    "id": "eggs",
+    "category": "ingredients",
+    "alt": {
+      "en": "Eggs",
+      "ro": "Ouă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/eggs.png",
+    "webp": "assets/webp/eggs.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "713204b0786d2d16c1d596638fc10d834d48e28d3c78204b6fa875eb8f5dcb6b",
+      "webp": "77f9d03c14ab552b3184580623601a8f53f1e0fe7844f3528d686f45af1b9f5b"
+    }
+  },
+  {
+    "id": "chicken",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw chicken breast",
+      "ro": "Piept de pui crud"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chicken.png",
+    "webp": "assets/webp/chicken.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "efd1b90d4f2045d897180c1a594257f55ba700d2a781af04a4f02de3224fe143",
+      "webp": "340ff5c21c60021d6f6e4480b04c31b02cc4ffa91ea376c6abd448eeca249f51"
+    }
+  },
+  {
+    "id": "cheese",
+    "category": "ingredients",
+    "alt": {
+      "en": "Cheese",
+      "ro": "Brânză"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cheese.png",
+    "webp": "assets/webp/cheese.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "b7d24c2b323bca89e0fde981312f775b563dce082095f8446a7a41da54e25cf6",
+      "webp": "47105d4bb77ebf45bfc508f19f63e76a6635123037e146f376c6e24369c79111"
+    }
+  },
+  {
+    "id": "rice",
+    "category": "ingredients",
+    "alt": {
+      "en": "Rice",
+      "ro": "Orez"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/rice.png",
+    "webp": "assets/webp/rice.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "cf6c4f8497b4b61f5843da3ee4009a7b9d4c2a57e741f809669b48813d7d5258",
+      "webp": "c45a6a4e09904a39b4c6f2c172a0b1af57d90502487b1f821fed35ef2378ec43"
+    }
+  },
+  {
+    "id": "pasta",
+    "category": "ingredients",
+    "alt": {
+      "en": "Penne pasta",
+      "ro": "Paste penne"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pasta.png",
+    "webp": "assets/webp/pasta.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6df857c1e3f996f14e9424a1de1a9049d5d874634f199d28bbd15f0ae3c707c9",
+      "webp": "cced0ba89c4f4c6d8cd874d5f151a0cc24348c5d894c2ed8974e4122e2febc96"
+    }
+  },
+  {
+    "id": "avocado",
+    "category": "ingredients",
+    "alt": {
+      "en": "Avocado",
+      "ro": "Avocado"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/avocado.png",
+    "webp": "assets/webp/avocado.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6e4cfac490b4e281ec93efeccc1642cf661d34e959a90bc7ecd351f881bfe496",
+      "webp": "69adbd5c8028c130bd11c884c9b5591804898daec0e2e95ec24e7afc7622f521"
+    }
+  },
+  {
+    "id": "carrot",
+    "category": "produce",
+    "alt": {
+      "en": "Carrots",
+      "ro": "Morcovi"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/carrot.png",
+    "webp": "assets/webp/carrot.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f72650c25b5b918baacd5defe049839fea31d13e69a88636f4d4ac224e311c07",
+      "webp": "da0d7c7b6b374390cf2be5b5f4f626d3f0c1da6a4bb19183002eca7b8c1b2164"
+    }
+  },
+  {
+    "id": "broccoli",
+    "category": "produce",
+    "alt": {
+      "en": "Broccoli",
+      "ro": "Broccoli"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/broccoli.png",
+    "webp": "assets/webp/broccoli.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "0bdd6137dbc81cf3e332fed99359710635dd99a624de2e3bac7084366d0bcc35",
+      "webp": "f776e3279fa64f6a42d905ba56c4a9fa0f794ae6c8bbcd6687c73f5612858701"
+    }
+  },
+  {
+    "id": "potato",
+    "category": "produce",
+    "alt": {
+      "en": "Potatoes",
+      "ro": "Cartofi"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/potato.png",
+    "webp": "assets/webp/potato.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "df3f536191fee6d1d801960ca596828af8dfa63fe52a7c8b0104b4615bb8f7f7",
+      "webp": "7647fdb0c0c705cd0fb5026785df63e782014baad0f94e00e1ff8a616132e1fd"
+    }
+  },
+  {
+    "id": "bell_pepper",
+    "category": "produce",
+    "alt": {
+      "en": "Red bell pepper",
+      "ro": "Ardei gras roșu"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/bell_pepper.png",
+    "webp": "assets/webp/bell_pepper.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "d5c012616c4e8981f023eeccf6dfcef8e8241794a8f19e0f1ce5d5a940320a2d",
+      "webp": "3494d1349241fa57ff2fa0a81fcc2fe4af9671bf61cfc8c842416cd297004a33"
+    }
+  },
+  {
+    "id": "mushrooms",
+    "category": "produce",
+    "alt": {
+      "en": "Mushrooms",
+      "ro": "Ciuperci"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/mushrooms.png",
+    "webp": "assets/webp/mushrooms.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6a043cea62f84bed2167c770fce1e1b888e02a2cb2926c3ffa1ff09682946299",
+      "webp": "dd3493d2b38fcced35b20ea6340d08eecc21cf190a8b299e81ffd038c2cc9eb6"
+    }
+  },
+  {
+    "id": "spinach",
+    "category": "produce",
+    "alt": {
+      "en": "Spinach",
+      "ro": "Spanac"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/spinach.png",
+    "webp": "assets/webp/spinach.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "dd125a86290c4faae8c78dedbd34abbc4c5697849fb170094bb81a24e23e1f38",
+      "webp": "07001d8b0b8af94df460ab894d75940a0fe9d62a262f9a368124d1b6b8e5aa56"
+    }
+  },
+  {
+    "id": "lemon",
+    "category": "produce",
+    "alt": {
+      "en": "Lemon",
+      "ro": "Lămâie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lemon.png",
+    "webp": "assets/webp/lemon.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "8051ffde99a2275a01a4ba42fc6c627580c2417c660a864f7bd94aa64f9fa18c",
+      "webp": "4ec2b1cb4fad09806bf5503a60da0c556f80a8a5e0c8e90ae247014351230093"
+    }
+  },
+  {
+    "id": "cucumber",
+    "category": "produce",
+    "alt": {
+      "en": "Cucumber",
+      "ro": "Castravete"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cucumber.png",
+    "webp": "assets/webp/cucumber.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "b1310c9249c1a45da5dac5372edbb7b287e5dedbf50ec9fdb5f71e2bd661f8b1",
+      "webp": "1cb00b47b6893518bb43c62c2e3c854314ca63fdd669fb4e407d53890733d238"
+    }
+  },
+  {
+    "id": "olive_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Olive oil bottle",
+      "ro": "Sticlă de ulei de măsline"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/olive_oil.png",
+    "webp": "assets/webp/olive_oil.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "2fcb38af0cf055082e08ca5fe75317e84714eb5ef7ef04dedae57ff934510817",
+      "webp": "09a2688d50e995ed337eccf210a24a167df6846d88ab209cdf1017bddd616adb"
+    }
+  },
+  {
+    "id": "salt",
+    "category": "staples",
+    "alt": {
+      "en": "Salt",
+      "ro": "Sare"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/salt.png",
+    "webp": "assets/webp/salt.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "ce6332bc708b7ce2f322344cee0b669fcba7eeefcdbf5ef7af2b059329449911",
+      "webp": "1f329b28effe2ef216cf50289da5148b8c089fd0562d10f1dc774c9d5c8239af"
+    }
+  },
+  {
+    "id": "black_pepper",
+    "category": "staples",
+    "alt": {
+      "en": "Black peppercorns",
+      "ro": "Boabe de piper negru"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/black_pepper.png",
+    "webp": "assets/webp/black_pepper.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "dcee85454905a19ae502f3f63ccd00b3af443f999362aecf8d6cebb9703f953d",
+      "webp": "1462e218709670c0a749aeb4015ab288e7b9f8df61be05f54103e3744a5b6bf2"
+    }
+  },
+  {
+    "id": "flour",
+    "category": "staples",
+    "alt": {
+      "en": "Flour",
+      "ro": "Făină"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/flour.png",
+    "webp": "assets/webp/flour.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "703bda903fddce04f84ba7177b8b163438aefa7b4bbc8820438ad697aa21fb42",
+      "webp": "afbd0afd4000d4f3b74605feea396a26338c9f01e9acc060e79fa05bde46d892"
+    }
+  },
+  {
+    "id": "butter",
+    "category": "staples",
+    "alt": {
+      "en": "Butter",
+      "ro": "Unt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/butter.png",
+    "webp": "assets/webp/butter.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "eeba35cfdd52e346c3e7f5dcf0ca688d488a40d3f22cfc2faf5f161651d1c64f",
+      "webp": "4f3b11206f06fdece81acdd75277b62940072489e756a89260d0fced800234f6"
+    }
+  },
+  {
+    "id": "sugar",
+    "category": "staples",
+    "alt": {
+      "en": "Sugar cubes",
+      "ro": "Cuburi de zahăr"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sugar.png",
+    "webp": "assets/webp/sugar.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6ec398172e2ea4c5977d5f39c9141fc0fe8bd46de43917f5a3d52c1c92b76437",
+      "webp": "f1c0b390d29ad6c7758282c7d4275434a229f0cc224f239128979287671aaa70"
+    }
+  },
+  {
+    "id": "milk",
+    "category": "staples",
+    "alt": {
+      "en": "Glass of milk",
+      "ro": "Pahar cu lapte"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/milk.png",
+    "webp": "assets/webp/milk.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "ebf918bf3d9f2faa92aa5c49509a9f07244679e2c7c4ac07380cd557585d0f7c",
+      "webp": "c917669e4dca95a601697e63d189d63c1423e2267d02fd4684d1a24c675caeb0"
+    }
+  },
+  {
+    "id": "soy_sauce",
+    "category": "staples",
+    "alt": {
+      "en": "Soy sauce bottle",
+      "ro": "Sticlă de sos de soia"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/soy_sauce.png",
+    "webp": "assets/webp/soy_sauce.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "0904dff84ceaa04e324fc5b256c7ea7a22154fe19600a3f98c0c8393b9389683",
+      "webp": "39936690e4be9e2e952ace4cccc5d061487aae382664d7c6e1ddc7ae324af7ce"
+    }
+  },
+  {
+    "id": "cinnamon",
+    "category": "staples",
+    "alt": {
+      "en": "Cinnamon sticks",
+      "ro": "Batoane de scorțișoară"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cinnamon.png",
+    "webp": "assets/webp/cinnamon.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "b0b13261d75d0e97cbe2301ebbafb6d9de68311e55d1f7a911c3d421dc1790cb",
+      "webp": "1ec7d005d06968a71de7abdf3497cd0542826e30f499680d463187b2b2726260"
+    }
+  },
+  {
+    "id": "basil",
+    "category": "staples",
+    "alt": {
+      "en": "Basil leaves",
+      "ro": "Frunze de busuioc"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/basil.png",
+    "webp": "assets/webp/basil.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "92e342f96bf34aa710e5ed15db8c1359cdfc91e326eb43c67e19398adbfab14c",
+      "webp": "cf568e79f0426bce2f867be5b93ce5e409c1f36113d31fc7013dbbd601f1bf25"
+    }
+  },
+  {
+    "id": "stockpot",
+    "category": "cookware",
+    "alt": {
+      "en": "Stockpot with lid",
+      "ro": "Oală înaltă cu capac"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/stockpot.png",
+    "webp": "assets/webp/stockpot.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "3f37db50233f9cf250fa0361a5cb6a2eebe983e896afc8a579de3a976d3c3f76",
+      "webp": "1b57a903c52cf9316c1f4000060aaed45efd55f0d01749bea30f8fc030964587"
+    }
+  },
+  {
+    "id": "nonstick_pan",
+    "category": "cookware",
+    "alt": {
+      "en": "Nonstick frying pan",
+      "ro": "Tigaie antiaderentă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/nonstick_pan.png",
+    "webp": "assets/webp/nonstick_pan.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "2bae05ddf90052f4796754844cc5092d583b21d0b8e90f89bfb20f8861c8a143",
+      "webp": "992870c9fe77fcd4fc4e7fc03022916dce432c2277301b3749b37cfd6c6fad11"
+    }
+  },
+  {
+    "id": "saucepan",
+    "category": "cookware",
+    "alt": {
+      "en": "Stainless steel saucepan",
+      "ro": "Cratiță din inox"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/saucepan.png",
+    "webp": "assets/webp/saucepan.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6e7315cb74b87b07cdc1052e794df66b283493d433bc1d87dc0a7626024fde6d",
+      "webp": "9c73ba9064e780a0257d2b96ca46d6b59ec0e558d0065eb16a704da7f708e64d"
+    }
+  },
+  {
+    "id": "cast_iron",
+    "category": "cookware",
+    "alt": {
+      "en": "Cast iron skillet",
+      "ro": "Tigaie de fontă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cast_iron.png",
+    "webp": "assets/webp/cast_iron.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f15ea1be71545e66197b91737c77aaa5e928c8a17d7a585cb055c5cde993541a",
+      "webp": "84f23d0c4e72b2f20bf1ef91c4ba7c17041aa806080d10d42fa6cb621d7f678f"
+    }
+  },
+  {
+    "id": "wok",
+    "category": "cookware",
+    "alt": {
+      "en": "Deep wok with lid",
+      "ro": "Tigaie wok adâncă, cu capac"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/wok.png",
+    "webp": "assets/webp/wok.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "4f30e212e9b93285d9ac2ade737f2820bfaaeab66e2b10a82695a707141585bc",
+      "webp": "831dc5505f27e762b88e79ba6c8685a0a7d3388debd8a23f81c94c9a3c6dff72"
+    }
+  },
+  {
+    "id": "dutch_oven",
+    "category": "cookware",
+    "alt": {
+      "en": "Dutch oven",
+      "ro": "Oală de fontă emailată"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/dutch_oven.png",
+    "webp": "assets/webp/dutch_oven.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "56fc362f40f4c615330ecff7585dbbf418a2eba69b162368a3355c93ed50ede6",
+      "webp": "cceb790804df78278d11de9195595e3e066b13ef5f607416046a09e484fd8635"
+    }
+  },
+  {
+    "id": "air_fryer",
+    "category": "appliances",
+    "alt": {
+      "en": "Air fryer",
+      "ro": "Friteuză cu aer cald"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/air_fryer.png",
+    "webp": "assets/webp/air_fryer.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "e631b6fbabf6f3538ad64225ff9bc805503d86a37c3343170bc6f83ccdc5301f",
+      "webp": "92997aaf075faf14d66496f95ab54dce6f42856a18963fe4254c072e22a76463"
+    }
+  },
+  {
+    "id": "blender",
+    "category": "appliances",
+    "alt": {
+      "en": "Blender",
+      "ro": "Blender"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/blender.png",
+    "webp": "assets/webp/blender.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "06601e0d10a574fdc4270bd83115f56097859ffc1ef6def051106680c85d285c",
+      "webp": "e662bebaf97e765d6d8b8cedde69b9f8be7286e5b8d56c058ac6fc63bf921a47"
+    }
+  },
+  {
+    "id": "microwave",
+    "category": "appliances",
+    "alt": {
+      "en": "Microwave",
+      "ro": "Cuptor cu microunde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/microwave.png",
+    "webp": "assets/webp/microwave.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "ad80753aecca2434df4ac5bd7b468b9c4955a23049b4f0d11ad1d8896340ddaf",
+      "webp": "8e4bcb36f1453bd9daf4359efa9e5b76d4a15e16d97be3053e296ca26539bf33"
+    }
+  },
+  {
+    "id": "whisk",
+    "category": "utensils",
+    "alt": {
+      "en": "Whisk",
+      "ro": "Tel"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/whisk.png",
+    "webp": "assets/webp/whisk.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "4bec4256656be4c385dbad46dcaf821da02a3ce0f5c33d587d47eb2d4c570688",
+      "webp": "89834af5cd78404ff101e6f04129001eb87c6e26e0a0e61a8b84d6e7ce9580cc"
+    }
+  },
+  {
+    "id": "grater",
+    "category": "utensils",
+    "alt": {
+      "en": "Box grater",
+      "ro": "Răzătoare"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/grater.png",
+    "webp": "assets/webp/grater.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "287bff4c2df2055fd43517a6f5ed38955c620cd844271a93b2952474319315f1",
+      "webp": "f57da58d71f751735ab10df296dafe8455adbf7d9d6818be93ac4106eaed3bc4"
+    }
+  },
+  {
+    "id": "mixing_bowl",
+    "category": "utensils",
+    "alt": {
+      "en": "Mixing bowl",
+      "ro": "Bol pentru amestecare"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/mixing_bowl.png",
+    "webp": "assets/webp/mixing_bowl.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "8a82181aafd9b60d91ba4604552bdf445834179cf1bc6989de523e045d2d7968",
+      "webp": "caee6d4ae1feda0963a92f82d3203ca4cdf4973c8abfa1f63611107cfca727c5"
+    }
+  },
+  {
+    "id": "cutting_board",
+    "category": "utensils",
+    "alt": {
+      "en": "Wooden cutting board",
+      "ro": "Tocător din lemn"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cutting_board.png",
+    "webp": "assets/webp/cutting_board.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "a41a7fae02d0c4153a571b051f00d767f53f96c120f01f88a032ea1b6715d2d8",
+      "webp": "f8c188f4d964bd2eaeae4d5e27f87af1bae0b0c00197ae260901100b25faee46"
+    }
+  },
+  {
+    "id": "chef_knife",
+    "category": "utensils",
+    "alt": {
+      "en": "Chef's knife",
+      "ro": "Cuțit de bucătar"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chef_knife.png",
+    "webp": "assets/webp/chef_knife.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "5d53188b5d36b06e7985b3bef71b6c45536acf89c491743ae60fc997275800b8",
+      "webp": "3f1249aefd02aa03d6273563ffb7630a30afb5bd488705caf378612db9bb3555"
+    }
+  },
+  {
+    "id": "spatula",
+    "category": "utensils",
+    "alt": {
+      "en": "Spatula",
+      "ro": "Spatulă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/spatula.png",
+    "webp": "assets/webp/spatula.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "bbca5f6f0d527cd72510196097f0eb154fc3b1dd15709a181dcd3cb3b0c92327",
+      "webp": "e9a5341a1af53526eb0a100cf1f076e5ad9be4c646481b6f872186b0fc68c5b3"
+    }
+  },
+  {
+    "id": "ladle",
+    "category": "utensils",
+    "alt": {
+      "en": "Ladle",
+      "ro": "Polonic"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/ladle.png",
+    "webp": "assets/webp/ladle.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f4a5bcec04387c39a69a3f4cfdef2a22c87c9434eabe2b379808202e12454488",
+      "webp": "41715800ffe0c13d87cb9ddc3c088ae45733a540738798a8758e0ad98c086b61"
+    }
+  },
+  {
+    "id": "colander",
+    "category": "utensils",
+    "alt": {
+      "en": "Colander",
+      "ro": "Strecurătoare"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/colander.png",
+    "webp": "assets/webp/colander.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "0d36f0ea231f5ed414b10a6dd429277e215bdee193a85dda8b0d7cb2ae8865f0",
+      "webp": "b7f10fb3523085d4e50d93c306130e05ff298b618816bbc013123fb642151860"
+    }
+  },
+  {
+    "id": "kitchen_scale",
+    "category": "utensils",
+    "alt": {
+      "en": "Digital kitchen scale",
+      "ro": "Cântar digital de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kitchen_scale.png",
+    "webp": "assets/webp/kitchen_scale.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f09acb2fee96c44a11ea55392ee07efa83daa1d7c5e08f4862f422fd380e5db2",
+      "webp": "ffd39ee1de3790ae932a5e4f45827900455d8b423f67268cf23aab26d16b5fb5"
+    }
+  },
+  {
+    "id": "gas_range",
+    "category": "appliances",
+    "alt": {
+      "en": "Gas range with oven",
+      "ro": "Aragaz cu cuptor"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/gas_range.png",
+    "webp": "assets/webp/gas_range.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "705e794e81f78fa867dcdfa06a96f555b4bccc4fef041c5d36c6b8a25fb64599",
+      "webp": "e1f6b1258ff869339b442ff8849bec53b72101a5fa7d1e821235738670720614"
+    }
+  },
+  {
+    "id": "induction_cooktop",
+    "category": "appliances",
+    "alt": {
+      "en": "Portable induction cooktop",
+      "ro": "Plită portabilă cu inducție"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/induction_cooktop.png",
+    "webp": "assets/webp/induction_cooktop.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "88d2bedb2d81310fdb05283d32c148cdfb158129d06a4b83173c7f6f4001124e",
+      "webp": "940a729f84ba465ab444d0094dd58ffe3ebbcc2f19c17cb564012b39da983b93"
+    }
+  },
+  {
+    "id": "countertop_oven",
+    "category": "appliances",
+    "alt": {
+      "en": "Electric countertop oven",
+      "ro": "Cuptor electric de blat"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/countertop_oven.png",
+    "webp": "assets/webp/countertop_oven.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "955feb7f66332872d1d745e54159a900d326bb22cd012f7c7b68c4c9be3de4ad",
+      "webp": "fcb770495d06a422e4639072c526be43b24b82153e191b53145fb4b8e80baf5f"
+    }
+  },
+  {
+    "id": "slow_cooker",
+    "category": "appliances",
+    "alt": {
+      "en": "Slow cooker",
+      "ro": "Aparat de gătit lent"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/slow_cooker.png",
+    "webp": "assets/webp/slow_cooker.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "04d88c9a863ce38143a28f4d86e34323a4d89d308ae3569f331be27839e3df04",
+      "webp": "47fc6e01ca6b4950137cab64d9376198457afd7939c4101acc2538cd4e02fa46"
+    }
+  },
+  {
+    "id": "pressure_cooker",
+    "category": "appliances",
+    "alt": {
+      "en": "Stovetop pressure cooker",
+      "ro": "Oală sub presiune pentru aragaz"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pressure_cooker.png",
+    "webp": "assets/webp/pressure_cooker.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "a4ddf66cd643c72a6b1f1e5acb10ed0bdf4a5f4228774f43863a624d4a2953b5",
+      "webp": "b7bdb77ab93d73c2dcaba2cab0f97442272f027e2a2dc4d58b590cd4c3e01fbf"
+    }
+  },
+  {
+    "id": "contact_grill",
+    "category": "appliances",
+    "alt": {
+      "en": "Electric contact grill",
+      "ro": "Grătar electric de contact"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/contact_grill.png",
+    "webp": "assets/webp/contact_grill.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "5f467b7c4b4e862e8243d3c4c9869d0957539c945b82a2ee680785d0b8f1c011",
+      "webp": "c430b0b4269263bfc0841a07d2d35e3d98ef911692eefbe957953416a4cd9559"
+    }
+  },
+  {
+    "id": "immersion_blender",
+    "category": "appliances",
+    "alt": {
+      "en": "Immersion blender",
+      "ro": "Blender vertical"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/immersion_blender.png",
+    "webp": "assets/webp/immersion_blender.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "743366fb6e2cc3781853ceb131ab1f50b3c272cbe5f1c6804b85e47458044579",
+      "webp": "d0658508666bdee424bcb61dd6ab1d78d9a7e6f412ea00f0191739a15ff988c9"
+    }
+  },
+  {
+    "id": "stand_mixer",
+    "category": "appliances",
+    "alt": {
+      "en": "Stand mixer",
+      "ro": "Mixer cu bol"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/stand_mixer.png",
+    "webp": "assets/webp/stand_mixer.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "e777de9e5b40015f042b00b7b92dc9fa74677007e36f614500e3031827d8f918",
+      "webp": "f1d65ce6e1c6de67ff53f2dea7ab9650178385eb01fd7e4ee2f92654efdb73fa"
+    }
+  },
+  {
+    "id": "electric_kettle",
+    "category": "appliances",
+    "alt": {
+      "en": "Electric kettle",
+      "ro": "Fierbător electric"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/electric_kettle.png",
+    "webp": "assets/webp/electric_kettle.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "21bd344a9357d9eef0257ad2587de863499bb1c2a90557f8edaafa0f22bac502",
+      "webp": "5e9ae9c74bccbe30ee44174d196766828de1bdb865148843a5984f307a3feb73"
+    }
+  },
+  {
+    "id": "salmon",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw salmon fillet",
+      "ro": "File de somon crud"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/salmon.png",
+    "webp": "assets/webp/salmon.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "866b0763998e04fd96f8a96442ae11e6f3dd2b777e8f19353a6e57353bd6cdfc",
+      "webp": "3940a837e3b5114c78bef09ef4e84f49409475e5c1eba028be472a87a5d3bbfa"
+    }
+  },
+  {
+    "id": "beef_steak",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw beef ribeye steak",
+      "ro": "Antricot de vită crud"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/beef_steak.png",
+    "webp": "assets/webp/beef_steak.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f1f165fe5e68bc0a752de0851465e938dd266883161be025fb6f42df90870b5f",
+      "webp": "9302c579568fd330fc8532dce2378509cb9c3cf727eb3e78a6342c05f8e6f04f"
+    }
+  },
+  {
+    "id": "pork_tenderloin",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw pork tenderloin",
+      "ro": "Mușchiuleț de porc crud"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pork_tenderloin.png",
+    "webp": "assets/webp/pork_tenderloin.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "163730c630df5e5f5440af4e0468692fa3b8178c0f822448e325eaf4b5dfae02",
+      "webp": "7110e56476ca18e60a6ce3b9340fcd0dff0f62239ee93a40520a8dc88433e48d"
+    }
+  },
+  {
+    "id": "ground_beef",
+    "category": "ingredients",
+    "alt": {
+      "en": "Raw ground beef",
+      "ro": "Carne de vită tocată crudă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/ground_beef.png",
+    "webp": "assets/webp/ground_beef.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "e8c5420ea0f47d61a255f0983bd12d05c9cc8f212a01a9ca7f7293c6bc8bcffd",
+      "webp": "e6858fc8b1f07ebe63a3c4801f6b2798ce9be77b96a6dc6739cbdbbb0368278b"
+    }
+  },
+  {
+    "id": "shrimp",
+    "category": "ingredients",
+    "alt": {
+      "en": "Peeled raw shrimp",
+      "ro": "Creveți cruzi decorticați"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/shrimp.png",
+    "webp": "assets/webp/shrimp.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "8375fd22e6501a3c5bf177f2dc3c05f22d105225a2c74f5a5eb9928f4b3ef0fc",
+      "webp": "4f973ac8d1593f9227cb074f39bbf9d7db35d1e8dd7ed29a3f43cd8f2b544667"
+    }
+  },
+  {
+    "id": "tofu",
+    "category": "ingredients",
+    "alt": {
+      "en": "Firm tofu",
+      "ro": "Tofu ferm"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/tofu.png",
+    "webp": "assets/webp/tofu.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "58d4edac55edc034c35b1ce7194fb226276964b776b06c830120926a69190e26",
+      "webp": "d93cbc5a97c33591dc0963b8150ba525c596f71d311530903809e0fd3e26eedd"
+    }
+  },
+  {
+    "id": "yogurt",
+    "category": "ingredients",
+    "alt": {
+      "en": "Plain yogurt",
+      "ro": "Iaurt simplu"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/yogurt.png",
+    "webp": "assets/webp/yogurt.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "0c36340c615fbd42ece716961468db2d6c7d0a9d070edec5ee31ba702ce5e232",
+      "webp": "28d95751f1fe154da3d255a8d8b2fa906c80e46e874ff9472f926cf8082c2424"
+    }
+  },
+  {
+    "id": "cream",
+    "category": "ingredients",
+    "alt": {
+      "en": "Cooking cream",
+      "ro": "Smântână pentru gătit"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cream.png",
+    "webp": "assets/webp/cream.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6a35ef645425aa59870915c2638718a70c5d89915f1084d7e6dd394d05fa134c",
+      "webp": "40501949f93eb6783d1ef84ad2622312b5217697d569df3289a5b0d864fdb9aa"
+    }
+  },
+  {
+    "id": "cottage_cheese",
+    "category": "ingredients",
+    "alt": {
+      "en": "Cottage cheese",
+      "ro": "Brânză cottage"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cottage_cheese.png",
+    "webp": "assets/webp/cottage_cheese.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f05f6e428b050b3ffb8c2102f144350c9b127aa8fe00b43da1e0d287c1814dcb",
+      "webp": "d9ff950e544e856693797b4e899ebb79971b8d49b82f1911231ba920981bc2dd"
+    }
+  },
+  {
+    "id": "zucchini",
+    "category": "produce",
+    "alt": {
+      "en": "Zucchini",
+      "ro": "Dovlecel"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/zucchini.png",
+    "webp": "assets/webp/zucchini.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f3c5dc4c04df0bc5abab86de46efe611aafb093c709b5458e7cae53a5b803eb2",
+      "webp": "e3e6691dbede5151cb1cfe0dd64693c702d306b70039ed412c48b3f6888b21f7"
+    }
+  },
+  {
+    "id": "eggplant",
+    "category": "produce",
+    "alt": {
+      "en": "Eggplant",
+      "ro": "Vânătă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/eggplant.png",
+    "webp": "assets/webp/eggplant.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "fee5ba11c6030bacb959935d4117a9bc80a999c834fceac07c51ab2773cf8a53",
+      "webp": "bf768da8dae4d46c6ee638f63df278debd1768e697aaa730f136758ef4835dcc"
+    }
+  },
+  {
+    "id": "lettuce",
+    "category": "produce",
+    "alt": {
+      "en": "Green leaf lettuce",
+      "ro": "Salată verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lettuce.png",
+    "webp": "assets/webp/lettuce.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "768da27056c14a34c9bad3e2d60f978fbe08b84fa366769347fde050a0f93503",
+      "webp": "6c206889cd2b3896a2895b34a8b3dbc8f691efab7e8c9f7ba67a4bd7def33da5"
+    }
+  },
+  {
+    "id": "cabbage",
+    "category": "produce",
+    "alt": {
+      "en": "Green cabbage",
+      "ro": "Varză verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cabbage.png",
+    "webp": "assets/webp/cabbage.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f837e456064f0e58d35cce7f1985ec561649cd320f4f88288eab441a84453d46",
+      "webp": "926baf552f854c7faab1f7d50c18db0c74b696d6d447ecbf0e20c789a867f50b"
+    }
+  },
+  {
+    "id": "cauliflower",
+    "category": "produce",
+    "alt": {
+      "en": "Cauliflower",
+      "ro": "Conopidă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cauliflower.png",
+    "webp": "assets/webp/cauliflower.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "5693a89e3f4211e8ba6a86b1597d507023c17a82368654f8cd2d93304780e87d",
+      "webp": "3bf80391e9378aa49f69a1533a6e3da653d4a7a8c1c2d333e88fd3f48382d296"
+    }
+  },
+  {
+    "id": "peas",
+    "category": "produce",
+    "alt": {
+      "en": "Green peas",
+      "ro": "Mazăre verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/peas.png",
+    "webp": "assets/webp/peas.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "cf51e87d8ee72577cd84745654dbf6c15a79ed7902dc1dee1945e9ebc616932c",
+      "webp": "54cf0a78b7452bc16e546a3f7e76a450198d05dcc7c7e54d737246bccf4ec849"
+    }
+  },
+  {
+    "id": "green_beans",
+    "category": "produce",
+    "alt": {
+      "en": "Green beans",
+      "ro": "Fasole verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/green_beans.png",
+    "webp": "assets/webp/green_beans.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "31081650b88c914c2e6517159c71bf72931767e0d0ca0519f4c9d6efadb1e4c4",
+      "webp": "8fdce0291ac8513d271cbc95e8044156e640dfb80a6541ad81227678d1d6071c"
+    }
+  },
+  {
+    "id": "sweet_potato",
+    "category": "produce",
+    "alt": {
+      "en": "Sweet potato",
+      "ro": "Cartof dulce"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sweet_potato.png",
+    "webp": "assets/webp/sweet_potato.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6acda8bade7ff956d9b7333b8a9dfbad835d69a02e6f88c9c90d26129cda32a4",
+      "webp": "6beda799d6f4cd193076bc5e10c7b88e23969cf1f2248fca83989bf86959297a"
+    }
+  },
+  {
+    "id": "pumpkin",
+    "category": "produce",
+    "alt": {
+      "en": "Pumpkin",
+      "ro": "Dovleac"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pumpkin.png",
+    "webp": "assets/webp/pumpkin.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "e9f03b5a8e8fe099132f38e3f7df827ca31137c6ae92b5750ef328f37b09b3f4",
+      "webp": "cd35c668861874e6a73924568aeaee615e28cc97ea6809a2d38b05702e0e312e"
+    }
+  },
+  {
+    "id": "apple",
+    "category": "produce",
+    "alt": {
+      "en": "Red apple",
+      "ro": "Măr roșu"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/apple.png",
+    "webp": "assets/webp/apple.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f5e1390134fb5d9243f8f17d019e4b5d5f16c47e4479ca41db5b8c93db3d0983",
+      "webp": "9feb370e9ad4b43117a0a7e49d314764aeaa3a3bf858d9aa7fff203596fae6ae"
+    }
+  },
+  {
+    "id": "banana",
+    "category": "produce",
+    "alt": {
+      "en": "Bananas",
+      "ro": "Banane"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/banana.png",
+    "webp": "assets/webp/banana.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "d02da01f786131882df5ea51b7558ada3f1878c4853f421bc36383f777809df6",
+      "webp": "d9be3e455c2be869aa56b6df3beb530cc1de01563173ffb18102fae38155bbde"
+    }
+  },
+  {
+    "id": "orange",
+    "category": "produce",
+    "alt": {
+      "en": "Orange",
+      "ro": "Portocală"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/orange.png",
+    "webp": "assets/webp/orange.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "1cc2f882f5cb05a87615b50bc608098edd893a7982a19d22ef8c5b7ec84c1a08",
+      "webp": "86f761a6f6df558e7c215e0295e809cb4bbd262cd5a09aeaf572ed48414785eb"
+    }
+  },
+  {
+    "id": "strawberry",
+    "category": "produce",
+    "alt": {
+      "en": "Strawberries",
+      "ro": "Căpșuni"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/strawberry.png",
+    "webp": "assets/webp/strawberry.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "a4ec02d66cf4f45fca034102e10dbb4f6f65aaefb373586fdd46892d5bd72fce",
+      "webp": "f0e8e7a9f1ba46df1a0fb9b04f333434842777b2c98fe50b514de4cc1b310c36"
+    }
+  },
+  {
+    "id": "blueberry",
+    "category": "produce",
+    "alt": {
+      "en": "Blueberries",
+      "ro": "Afine"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/blueberry.png",
+    "webp": "assets/webp/blueberry.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "9a52c0d7619faadbd8e4efe951c5f7a9e06049ba541edb2144366a834728797c",
+      "webp": "1c9539252e3dc4bd30eef79f9e771e1c8a702b1aab47ddea8d01dc79e43b52d4"
+    }
+  },
+  {
+    "id": "pear",
+    "category": "produce",
+    "alt": {
+      "en": "Pear",
+      "ro": "Pară"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pear.png",
+    "webp": "assets/webp/pear.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "466349be456ede77e4ed0168d4a09f9f2d531d7666574e852dc0ba1dab1ccd15",
+      "webp": "ddb766cb6a04a0b6c200aa1ffb523e56e36d4312afc723607611fad973d6355e"
+    }
+  },
+  {
+    "id": "grapes",
+    "category": "produce",
+    "alt": {
+      "en": "Red grapes",
+      "ro": "Struguri roșii"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/grapes.png",
+    "webp": "assets/webp/grapes.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "eab0b6744269c11f8fcd7b38b1f6de76b29b8c0aed9c0c54c8c6d27ed7f0e306",
+      "webp": "1f958e5af68faddca1213e3ab32628a294ad4077ba1640fd24cc332c9d6c358e"
+    }
+  },
+  {
+    "id": "mango",
+    "category": "produce",
+    "alt": {
+      "en": "Mango",
+      "ro": "Mango"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/mango.png",
+    "webp": "assets/webp/mango.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "074b04df1966b8ec9bc318fddde622adccc5db4f2dc88915ae85312de6cb1f28",
+      "webp": "714dbed1def2a85fcb097565a36081e02f607293e4f8fe7112ac430c263aaf86"
+    }
+  },
+  {
+    "id": "peach",
+    "category": "produce",
+    "alt": {
+      "en": "Peach",
+      "ro": "Piersică"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/peach.png",
+    "webp": "assets/webp/peach.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "e73f4a7ac5d3ea94d7c6e7673b9d63f3e7f4f8f05be4784aa63d9580c8e6d345",
+      "webp": "1e95bd28740681bc5318ce600401bd8f1b076f061c6702a460b727587d725600"
+    }
+  },
+  {
+    "id": "oats",
+    "category": "staples",
+    "alt": {
+      "en": "Rolled oats",
+      "ro": "Fulgi de ovăz"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/oats.png",
+    "webp": "assets/webp/oats.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "448da4b75dd384027592992d1c37fbcdbc58e8ed41b95f1f7a8328eea2771a8f",
+      "webp": "19f7b867ca7b59026945caada3c4745bc6cd36ddf9859200c727ea4454c75cd4"
+    }
+  },
+  {
+    "id": "lentils",
+    "category": "staples",
+    "alt": {
+      "en": "Red lentils",
+      "ro": "Linte roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lentils.png",
+    "webp": "assets/webp/lentils.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "cc48124d1e0ed45407399bed2c189ea5c9a5354c023beb141476bfcbf47d5763",
+      "webp": "557fc3f6ff77c5c4305d73ea6a81b5c171399396cab6b50f230b456b46952aa3"
+    }
+  },
+  {
+    "id": "chickpeas",
+    "category": "staples",
+    "alt": {
+      "en": "Chickpeas",
+      "ro": "Năut"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chickpeas.png",
+    "webp": "assets/webp/chickpeas.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "9e6ed7c0c76975517e9f7dee27652882e027de97e83f6287fd14760e45588a72",
+      "webp": "61a0b99f6d9e1c830c657d59b30ceb89dc9ddf0819c1af385cc10edd51b9ee58"
+    }
+  },
+  {
+    "id": "kidney_beans",
+    "category": "staples",
+    "alt": {
+      "en": "Red kidney beans",
+      "ro": "Fasole roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kidney_beans.png",
+    "webp": "assets/webp/kidney_beans.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f0e1ec9b3d9c35a2bc7344050cbbdc700fd6af676e2bc78c296fe7374d8d3867",
+      "webp": "2c400998c31f2c8ab2f92078a8ee655205bb511969af09b4d44fa0b1b467ca28"
+    }
+  },
+  {
+    "id": "canned_tomatoes",
+    "category": "staples",
+    "alt": {
+      "en": "Canned chopped tomatoes",
+      "ro": "Roșii tocate la conservă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/canned_tomatoes.png",
+    "webp": "assets/webp/canned_tomatoes.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "9bb067753135eb0099edc0ee031bc400396ba0a0ede9acddc57d3e4d645774e9",
+      "webp": "1c4f665d44fcbc0b7e92d4044f25a6f0898cd34f8b10daa3aac32f3b6397a9b6"
+    }
+  },
+  {
+    "id": "honey",
+    "category": "staples",
+    "alt": {
+      "en": "Honey",
+      "ro": "Miere"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/honey.png",
+    "webp": "assets/webp/honey.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "5b26b4b794d06af7c6835ff8547d2384844f999ca3e253e16ef7e592534cbe28",
+      "webp": "6bf6128a34678c6b2bb943074bdd2e474625da0db5553f667b7f28fd96495420"
+    }
+  },
+  {
+    "id": "cocoa",
+    "category": "staples",
+    "alt": {
+      "en": "Cocoa powder",
+      "ro": "Cacao pudră"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cocoa.png",
+    "webp": "assets/webp/cocoa.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "bb45cacec8758f9a3966e0b431b09527af01cf19da761496ee4e9900ea38c209",
+      "webp": "ab4200dba02e7842796aadbb8126544e0d574208c9edbdb03c1ab8a24d486f6c"
+    }
+  },
+  {
+    "id": "walnuts",
+    "category": "staples",
+    "alt": {
+      "en": "Walnuts",
+      "ro": "Nuci"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/walnuts.png",
+    "webp": "assets/webp/walnuts.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "465bccf207313168c24b61de74fce83e2eda0aae3f22cd8feb23b2d39af0a6f1",
+      "webp": "65ce9647273fbef334cf3e53f5d1d38af1d8ccf380931177f185a6e12bd6d1ac"
+    }
+  },
+  {
+    "id": "paprika",
+    "category": "staples",
+    "alt": {
+      "en": "Sweet paprika powder",
+      "ro": "Boia dulce"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/paprika.png",
+    "webp": "assets/webp/paprika.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "846e2ee83914e3f84e0fbf50f428d9becb8b913e60af40a1e5c591351d401c61",
+      "webp": "eebd9b78c2c30d17cfc8c274a6d7b9c5748e64825db8cbaa5f86a40cb682bbf3"
+    }
+  },
+  {
+    "id": "tongs",
+    "category": "utensils",
+    "alt": {
+      "en": "Kitchen tongs",
+      "ro": "Clește de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/tongs.png",
+    "webp": "assets/webp/tongs.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "79fd415373b2cee17518a547f88f4077d74737b9c7691e48f056194c6de6ec77",
+      "webp": "2319d48b89cccb2a5ab4da239ac5fc5c9bf0d5d867dcfa5510d5332a7b0816dd"
+    }
+  },
+  {
+    "id": "rolling_pin",
+    "category": "utensils",
+    "alt": {
+      "en": "Wooden rolling pin",
+      "ro": "Sucitor din lemn"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/rolling_pin.png",
+    "webp": "assets/webp/rolling_pin.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "98a1735eac07808a605373dcb16265dd7f270864a032e73ca7a8571eab26d0a2",
+      "webp": "6fd380b40697fb01456d5eed35edc3e73e76143fdac22a6dae0bf01e708294b4"
+    }
+  },
+  {
+    "id": "peeler",
+    "category": "utensils",
+    "alt": {
+      "en": "Y-shaped vegetable peeler",
+      "ro": "Curățător de legume"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/peeler.png",
+    "webp": "assets/webp/peeler.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "db1309c64d4c6e88677638e85361dd750feacbddc5eb40f1a2d9c8eaeed9cc90",
+      "webp": "3da87895ed007504a6f5849f387806af1b5a9f076e9f7b7eb7e8d6e7cbedbe96"
+    }
+  },
+  {
+    "id": "kitchen_scissors",
+    "category": "utensils",
+    "alt": {
+      "en": "Kitchen scissors",
+      "ro": "Foarfecă de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kitchen_scissors.png",
+    "webp": "assets/webp/kitchen_scissors.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "d54b26527d22d629842a0b07f72a90d8ebdc112ce2f2b6c46e2edde49617bf73",
+      "webp": "eb79377109f327f872e4dad55c159279d53d8c160d9eba1e68adfbb1d204635d"
+    }
+  },
+  {
+    "id": "measuring_cup",
+    "category": "utensils",
+    "alt": {
+      "en": "Glass measuring cup",
+      "ro": "Cană gradată"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/measuring_cup.png",
+    "webp": "assets/webp/measuring_cup.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "73394e2e37e2d0dc1ae312a51b95c629fca61faa1c8d6a02e6362d5e389e38c7",
+      "webp": "d649cb26c7c20da0bddca849bca3e395c20628d053ce19ce37097adb615401b7"
+    }
+  },
+  {
+    "id": "measuring_spoons",
+    "category": "utensils",
+    "alt": {
+      "en": "Measuring spoons",
+      "ro": "Linguri de măsurare"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/measuring_spoons.png",
+    "webp": "assets/webp/measuring_spoons.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "1708e2832b6d5d43831bc715af3e7958046597560e7814e301715a78151f5bba",
+      "webp": "541970ecad64c510209923ac7424796c0f894f3da01045cd18bcbe48a0cabda6"
+    }
+  },
+  {
+    "id": "mortar_pestle",
+    "category": "utensils",
+    "alt": {
+      "en": "Mortar and pestle",
+      "ro": "Mojar cu pistil"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/mortar_pestle.png",
+    "webp": "assets/webp/mortar_pestle.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "5f949c835e8f1b1bf26ec8f73ace628385092efc77e7f791631e52f40bef3c3b",
+      "webp": "a6fd0c6dec6540e9abb546e1195409d032ac6b698bcab88cd4a96179376b0edd"
+    }
+  },
+  {
+    "id": "corkscrew",
+    "category": "utensils",
+    "alt": {
+      "en": "Waiter's corkscrew",
+      "ro": "Tirbușon de ospătar"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/corkscrew.png",
+    "webp": "assets/webp/corkscrew.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "23a951360b9e509963c2b743c5c34570502e3127e006850993a7c34b14b6ccb3",
+      "webp": "e4eeeb6bed3eac584e5faea4b73bc5e5637b471abaec700449c348562e026f5b"
+    }
+  },
+  {
+    "id": "potato_masher",
+    "category": "utensils",
+    "alt": {
+      "en": "Potato masher",
+      "ro": "Zdrobitor pentru cartofi"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/potato_masher.png",
+    "webp": "assets/webp/potato_masher.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f89550fa51d70e00da588c1a388ce5779ba6d9e901a9ac3a65b225b29d27dbbf",
+      "webp": "17279f2c01646e7a76650ef72f44648af6b9a3dc75fa61e9e8de7ee0b6631a2b"
+    }
+  },
+  {
+    "id": "baking_tray",
+    "category": "cookware",
+    "alt": {
+      "en": "Rimmed baking tray",
+      "ro": "Tavă pentru cuptor"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/baking_tray.png",
+    "webp": "assets/webp/baking_tray.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "25bbf38cf497db9c9cf7c5f93920ead8a995424005f982fd616508dc31daa0f9",
+      "webp": "ff480104947317e93862210055203bd5a8b0fb1ee6dae5082c1f24053c6bd46f"
+    }
+  },
+  {
+    "id": "ginger",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh ginger",
+      "ro": "Ghimbir proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/ginger.png",
+    "webp": "assets/webp/ginger.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "87f0c8a87a03e0db636153df8f8ec92a3785e6a1cf5011185fb1f0ae02cbb079",
+      "webp": "aa9b287fdda805fe548a1a91cfc8c87ed399af5664c36472d017a8d42d90bb18"
+    }
+  },
+  {
+    "id": "leek",
+    "category": "produce",
+    "alt": {
+      "en": "Leek",
+      "ro": "Praz"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/leek.png",
+    "webp": "assets/webp/leek.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "258fd6acc0cdcacb53f9ca61fcba6e0bd8266d3d472110565109a58c1938b76b",
+      "webp": "7a9991bd7ef0aba45ad8e894b4455761c0cf62c9c69ef70caa74ee7adc673606"
+    }
+  },
+  {
+    "id": "celery",
+    "category": "produce",
+    "alt": {
+      "en": "Celery stalks",
+      "ro": "Țelină apio"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/celery.png",
+    "webp": "assets/webp/celery.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "28f861f76b5bc8df64cef34d551713715b8e5579e0110ab9e838e3d31c9c6645",
+      "webp": "4d875019aee1a64908f82378d5a02dbf003b74b37ac311e8d60dfccf9985f062"
+    }
+  },
+  {
+    "id": "pineapple",
+    "category": "produce",
+    "alt": {
+      "en": "Pineapple",
+      "ro": "Ananas"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pineapple.png",
+    "webp": "assets/webp/pineapple.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "94b7fdd00cf257a1319699b7c42b47022d58fe1f7523ec8752068672bc2b894d",
+      "webp": "9283b410f1e2c1989b277a033a8fdaceb5ce617be83aa862d3b0b2a5aef52946"
+    }
+  },
+  {
+    "id": "quinoa",
+    "category": "staples",
+    "alt": {
+      "en": "White quinoa",
+      "ro": "Quinoa albă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/quinoa.png",
+    "webp": "assets/webp/quinoa.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "47c0d132d7b11614505bc392aa0b75a9d4d42e206e19b39a17f66c3ff97ae21e",
+      "webp": "2628fd4809ffad9b7dfb52ae2c027244228813d209801eeaa1b67de4f515c429"
+    }
+  },
+  {
+    "id": "couscous",
+    "category": "staples",
+    "alt": {
+      "en": "Fine couscous",
+      "ro": "Cușcuș fin"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/couscous.png",
+    "webp": "assets/webp/couscous.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "10f17545c5b8d00078b1f75535543add5e6d6a5f9ece6d4f08f7f0e3de789fc7",
+      "webp": "65b150091015a4c0f7d7c80b210047a0abfebd9c2b4b6711cd34c79699339ef8"
+    }
+  },
+  {
+    "id": "bread",
+    "category": "ingredients",
+    "alt": {
+      "en": "Rustic bread",
+      "ro": "Pâine rustică"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/bread.png",
+    "webp": "assets/webp/bread.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "c8838a0f62482a8a00087813ea8d791f72d502781f9f34476a68e0b739d44d3a",
+      "webp": "94460e23bb7ae118037384d4591f3456e321fc49bd35c98efbe88dc6910c7e0a"
+    }
+  },
+  {
+    "id": "baking_dish",
+    "category": "cookware",
+    "alt": {
+      "en": "Ceramic baking dish",
+      "ro": "Vas ceramic pentru cuptor"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/baking_dish.png",
+    "webp": "assets/webp/baking_dish.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "7a3745c012ccca758c5cba3a932f466a162ffbb08fc322797a350c714d03f223",
+      "webp": "b8285fefb8e8e462c73c380d95a6538f659594344677c1a9e4dce9faebbcd27f"
+    }
+  },
+  {
+    "id": "fine_sieve",
+    "category": "utensils",
+    "alt": {
+      "en": "Fine-mesh sieve",
+      "ro": "Sită fină"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/fine_sieve.png",
+    "webp": "assets/webp/fine_sieve.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "a86ec2e4219bbf068b3c2b2c8c01276b17201d84fc33dd494efadc96a9502445",
+      "webp": "814009a8136a8ead16e43e17357ec7bd8c5dbe09f83532b63a3b7c2b27f8c5b7"
+    }
+  },
+  {
+    "id": "rice_cooker",
+    "category": "appliances",
+    "alt": {
+      "en": "Electric rice cooker",
+      "ro": "Aparat de gătit orez"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/rice_cooker.png",
+    "webp": "assets/webp/rice_cooker.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "44a1a39977e703e29be036eff0e9a30e91134038e22946568e7e61732c206497",
+      "webp": "ecc8e109215f5d24dc3702433722b76d5a6b8fd257efad7bffba8e51e20b8303"
+    }
+  },
+  {
+    "id": "vegetable_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Vegetable oil",
+      "ro": "Ulei vegetal"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/vegetable_oil.png",
+    "webp": "assets/webp/vegetable_oil.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "128b4d94053de5baee8edc288432b01cb04917ea4cff4de0ffbd35b413eefb45",
+      "webp": "86de501ed0f8f6893518f4e7c241ea4154f7ccf9bf1b7bb864dfae13137d50f9"
+    }
+  },
+  {
+    "id": "sesame_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Sesame oil",
+      "ro": "Ulei de susan"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sesame_oil.png",
+    "webp": "assets/webp/sesame_oil.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "59911d6f386fe6fd9c7f0f717ee75eb39333f73385dfe0d3345ce990da2869aa",
+      "webp": "32428878e2ed65cad60d82ba81bd2c290729862767475d4d4242b4a63de8e752"
+    }
+  },
+  {
+    "id": "palm_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Palm oil",
+      "ro": "Ulei de palmier"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/palm_oil.png",
+    "webp": "assets/webp/palm_oil.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "8c5ae3406db230cfa9cf1ac0bc7dfee7c049829a6815656bff1a69d8b68e94c3",
+      "webp": "2353ab6f9ed08512940a55351b3cdea8fed1b58f6986782af745e61ac858fc66"
+    }
+  },
+  {
+    "id": "coconut_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Coconut oil",
+      "ro": "Ulei de cocos"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/coconut_oil.png",
+    "webp": "assets/webp/coconut_oil.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "4051dcf421a844a78681ce37af9fdcd27d017288cfb29a030cbcf86c615e16c0",
+      "webp": "02df89f4b6dc5e6d1bf0c6c220380b88458f1ac4c5552a9c6afa5c90eb90fc78"
+    }
+  },
+  {
+    "id": "vinegar",
+    "category": "staples",
+    "alt": {
+      "en": "Vinegar",
+      "ro": "Oțet"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/vinegar.png",
+    "webp": "assets/webp/vinegar.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "7dad897e8e625ccdaf2bfcf995cfb511addd85fe1f6be8ad73667a3f10b45e51",
+      "webp": "34f1fae7d6cd2430331c9709941f95a21336868a6449c9c649501178c3199660"
+    }
+  },
+  {
+    "id": "oregano",
+    "category": "staples",
+    "alt": {
+      "en": "Dried oregano",
+      "ro": "Oregano uscat"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/oregano.png",
+    "webp": "assets/webp/oregano.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "43d1a6827d79d0f842696b90a0bec92d02fe4f011a2908cc986bfd85c82400e5",
+      "webp": "32fed4195721c8468e8b15cafa0c6e39b4f4cb9dfac62c4ff3b58ecb7aa7b761"
+    }
+  },
+  {
+    "id": "curry",
+    "category": "staples",
+    "alt": {
+      "en": "Curry powder",
+      "ro": "Curry pudră"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/curry.png",
+    "webp": "assets/webp/curry.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "2f19764d66f5882bdf88772a57ab6b73b852ae61a202cbadbcfb9cea7345f040",
+      "webp": "0c59171b9fd41e89fb5a0c3923063792d8c0e70c44887054caeac240cabf32b6"
+    }
+  },
+  {
+    "id": "cumin",
+    "category": "staples",
+    "alt": {
+      "en": "Ground cumin",
+      "ro": "Chimion măcinat"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cumin.png",
+    "webp": "assets/webp/cumin.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "c911f9150bb0a536d39f26f57ec27f13d0cd66a36b14ee7e512c9d2f2dde15c2",
+      "webp": "2c5bd6c2be76380d1426a136d7f43fd1ca51dfc12922b264d98f33dac952cbb7"
+    }
+  },
+  {
+    "id": "garlic_powder",
+    "category": "staples",
+    "alt": {
+      "en": "Garlic powder",
+      "ro": "Usturoi pudră"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/garlic_powder.png",
+    "webp": "assets/webp/garlic_powder.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "5c55f41c4bd621a01c93ae0679df80fc44fd52dd3ec4f50511222bb8f28328be",
+      "webp": "7dca0452e73e28c6566e0df9d5c8107aa2a03cf105261c1169acc98f8f2b4784"
+    }
+  },
+  {
+    "id": "chili_flakes",
+    "category": "staples",
+    "alt": {
+      "en": "Chili flakes",
+      "ro": "Fulgi de chili"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chili_flakes.png",
+    "webp": "assets/webp/chili_flakes.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "1d5164973e347608237fe5c8cc7c5265349157f857f0f6e071a7930c8a2602ca",
+      "webp": "eceacf6cd9372bf34911dbbbfff00e6789b930a9476db73a878536f8e81c7153"
+    }
+  },
+  {
+    "id": "bay_leaf",
+    "category": "staples",
+    "alt": {
+      "en": "Bay leaves",
+      "ro": "Foi de dafin"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/bay_leaf.png",
+    "webp": "assets/webp/bay_leaf.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "095147e08105fe8eeba7a58877c5cc0b240aa8ea9fce5383bd22ed3dc8421751",
+      "webp": "8f0b52af3f7a06e85b6736a5d30ff8035a6081413b704183c5be726da272f4f4"
+    }
+  },
+  {
+    "id": "deep_fryer",
+    "category": "appliances",
+    "alt": {
+      "en": "Deep fryer",
+      "ro": "Friteuză"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/deep_fryer.png",
+    "webp": "assets/webp/deep_fryer.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "aaec78db38a62f188b010cf056af4c9095ee698645b5bbca8b89ffde39c399db",
+      "webp": "fb2ed13f93e56cf5f676d2a7e2a07c685996c713d797b0415a4be8526ee85163"
+    }
+  },
+  {
+    "id": "can_opener",
+    "category": "utensils",
+    "alt": {
+      "en": "Can opener",
+      "ro": "Deschizător de conserve"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/can_opener.png",
+    "webp": "assets/webp/can_opener.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "3fe2ce5d62bc0bebfa032c828cadd1e8974d7be9113b6de44696481e73d58117",
+      "webp": "e2811d2cfbf8509bcc16214a1ff7bbc68f207645406fd4def5700f296f7431d3"
+    }
+  },
+  {
+    "id": "food_processor",
+    "category": "appliances",
+    "alt": {
+      "en": "Food processor",
+      "ro": "Robot de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/food_processor.png",
+    "webp": "assets/webp/food_processor.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "9e83b071b6db6695cb7b512fda8e907f145b9433a97aba8565fd36eab2cde28c",
+      "webp": "c451ef121c98ebd40113d0b6ed4c4c1644900d3a3e39edcd15b24e083cbea59e"
+    }
+  },
+  {
+    "id": "toaster",
+    "category": "appliances",
+    "alt": {
+      "en": "Toaster",
+      "ro": "Prăjitor de pâine"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/toaster.png",
+    "webp": "assets/webp/toaster.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "106fa679a60ad77a958ca1f1bf4229414699887c1348561805118250ee35b88f",
+      "webp": "add247bfc44f622474a2a5d464105f6eb572be4ddb04b757d05ddc280fe873f5"
+    }
+  },
+  {
+    "id": "sandwich_maker",
+    "category": "appliances",
+    "alt": {
+      "en": "Sandwich maker",
+      "ro": "Sandwich maker"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sandwich_maker.png",
+    "webp": "assets/webp/sandwich_maker.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "431b0beb66bf99f9066650bfa2dc0f1243106cd907b2aa3bff98e3cb671a8887",
+      "webp": "e87b776e19c206362ae72277df1a12f2a0ef8399058bc5714fb363240727843c"
+    }
+  },
+  {
+    "id": "cake_tin",
+    "category": "cookware",
+    "alt": {
+      "en": "Cake tin",
+      "ro": "Formă de tort"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cake_tin.png",
+    "webp": "assets/webp/cake_tin.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "c13855d4136d8267259f936016a181f6386e516ed7aa1a1c3b1969ce4f9e3be0",
+      "webp": "c6a0bab9671f255591ee9e9f0cb2982c427c29decbab96523e7ae927a853b3f7"
+    }
+  },
+  {
+    "id": "muffin_tin",
+    "category": "cookware",
+    "alt": {
+      "en": "Muffin tin",
+      "ro": "Formă de brioșe"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/muffin_tin.png",
+    "webp": "assets/webp/muffin_tin.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6e971ec7fba2b425016f7cad93654cc2620da36de9c5d443eb2cf8538bf4a132",
+      "webp": "b611bff3ed17f923425fb7b1e48fe0e26213310837b373aa7edaf829851130f3"
+    }
+  },
+  {
+    "id": "parsley",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh parsley",
+      "ro": "Pătrunjel proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/parsley.png",
+    "webp": "assets/webp/parsley.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "f2027af9bfbe61d7413d6ea2ccc9d23f34dfd35dd5d6945d1b5632b4d3ecbccd",
+      "webp": "63eedfc7d8d35bb8cd12d24be7751ff21f01b542a5f9d0a76e6b15c73001b902"
+    }
+  },
+  {
+    "id": "dill",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh dill",
+      "ro": "Mărar proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/dill.png",
+    "webp": "assets/webp/dill.webp",
+    "license": "CC0-1.0",
+    "hashes": {
+      "png": "6e92afb8dd711720539f9bc60702b274220ad831c7dcdef602da3a1b1f8afd51",
+      "webp": "677e07b60289dc2790f6b9c85ad21967d02d37ecc83dc1dc23ff83b096e617e3"
+    }
+  }
+]

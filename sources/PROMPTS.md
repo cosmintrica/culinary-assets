@@ -154,3 +154,20 @@ New subjects: vegetable, sesame, palm and coconut oils; vinegar; oregano,
 curry, ground cumin, garlic powder, chili flakes, bay leaves; a deep fryer,
 can opener, food processor, toaster, sandwich maker, cake tin, muffin tin;
 fresh parsley and dill.
+
+## Version 0.5.0: Seventy Individual Additions
+
+One built-in image-generation call per subject, using existing herbs, rice and
+cookware as style references. Exact prompts and subjects are in
+[prompts-0.5.json](prompts-0.5.json), without private paths or account data.
+Original high-resolution transparent PNGs are retained in `individual/`.
+
+Fresh herbs include thyme, lovage, rosemary, mint, sage, tarragon, chives and
+cilantro. The extension also adds more produce, fruit, nuts, seeds and tools.
+Rice, salt, sugar, caraway, white/black sesame and other bowl-free mounds use
+new IDs ending in `_pile`; existing images are not overwritten. Caraway and
+cumin remain distinct subjects.
+
+Sharp performs only mechanical export processing and atlas composition. Every
+512px individual export has 32px transparent outer padding. Optional sprites
+use the same logical 128px tiles and retain all existing tile coordinates.

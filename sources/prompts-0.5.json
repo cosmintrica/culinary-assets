@@ -1,0 +1,562 @@
+[
+  {
+    "id": "thyme",
+    "subject": "a compact bundle of fresh thyme sprigs, tiny oval green leaves on complete woody stems, visually distinct from oregano",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bundle of fresh thyme sprigs, tiny oval green leaves on complete woody stems, visually distinct from oregano",
+    "transparentBackground": true,
+    "source": "sources/individual/thyme.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lovage",
+    "subject": "a compact bunch of fresh lovage with large serrated three-lobed glossy green leaves and complete pale-green stems, botanically distinct from parsley",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bunch of fresh lovage with large serrated three-lobed glossy green leaves and complete pale-green stems, botanically distinct from parsley",
+    "transparentBackground": true,
+    "source": "sources/individual/lovage.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "rice_pile",
+    "subject": "a neat small mound of uncooked short-grain white rice, individual ivory grains clearly visible",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of uncooked short-grain white rice, individual ivory grains clearly visible",
+    "transparentBackground": true,
+    "source": "sources/individual/rice_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "basmati_rice_pile",
+    "subject": "a neat small mound of uncooked basmati rice, noticeably long slender ivory grains, distinct from round short-grain rice",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of uncooked basmati rice, noticeably long slender ivory grains, distinct from round short-grain rice",
+    "transparentBackground": true,
+    "source": "sources/individual/basmati_rice_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "salt_pile",
+    "subject": "a neat small mound of coarse white sea salt crystals, naturally faceted irregular crystals, clearly distinguishable from sugar",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of coarse white sea salt crystals, naturally faceted irregular crystals, clearly distinguishable from sugar",
+    "transparentBackground": true,
+    "source": "sources/individual/salt_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sugar_pile",
+    "subject": "a neat small mound of white granulated sugar, fine evenly sized sparkling translucent crystals, clearly distinguishable from coarse sea salt",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of white granulated sugar, fine evenly sized sparkling translucent crystals, clearly distinguishable from coarse sea salt",
+    "transparentBackground": true,
+    "source": "sources/individual/sugar_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "caraway_seeds_pile",
+    "subject": "a neat small mound of whole caraway seeds (Carum carvi), slim curved dark brown ribbed seeds, NOT cumin",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of whole caraway seeds (Carum carvi), slim curved dark brown ribbed seeds, NOT cumin",
+    "transparentBackground": true,
+    "source": "sources/individual/caraway_seeds_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "white_sesame_pile",
+    "subject": "a neat small mound of white sesame seeds, small flat ivory oval seeds",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of white sesame seeds, small flat ivory oval seeds",
+    "transparentBackground": true,
+    "source": "sources/individual/white_sesame_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "black_sesame_pile",
+    "subject": "a neat small mound of black sesame seeds, small flat charcoal oval seeds with subtle glossy highlights",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of black sesame seeds, small flat charcoal oval seeds with subtle glossy highlights",
+    "transparentBackground": true,
+    "source": "sources/individual/black_sesame_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "quinoa_pile",
+    "subject": "a neat small mound of uncooked white quinoa, small rounded pale grains with distinct tiny germ rings",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of uncooked white quinoa, small rounded pale grains with distinct tiny germ rings",
+    "transparentBackground": true,
+    "source": "sources/individual/quinoa_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "couscous_pile",
+    "subject": "a neat small mound of dry fine couscous, tiny pale golden semolina granules",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of dry fine couscous, tiny pale golden semolina granules",
+    "transparentBackground": true,
+    "source": "sources/individual/couscous_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oats_pile",
+    "subject": "a neat small mound of rolled oats, flat irregular creamy-beige oat flakes, recognizable layered texture",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of rolled oats, flat irregular creamy-beige oat flakes, recognizable layered texture",
+    "transparentBackground": true,
+    "source": "sources/individual/oats_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "flour_pile",
+    "subject": "a neat small mound of white wheat flour, fine soft powder with a small natural ridge and textured slopes",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of white wheat flour, fine soft powder with a small natural ridge and textured slopes",
+    "transparentBackground": true,
+    "source": "sources/individual/flour_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cumin_pile",
+    "subject": "a neat small mound of ground cumin powder (Cuminum cyminum), warm tan-beige finely ground spice, NOT whole caraway seeds",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of ground cumin powder (Cuminum cyminum), warm tan-beige finely ground spice, NOT whole caraway seeds",
+    "transparentBackground": true,
+    "source": "sources/individual/cumin_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "paprika_pile",
+    "subject": "a neat small mound of sweet paprika powder, richly natural red fine ground spice",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of sweet paprika powder, richly natural red fine ground spice",
+    "transparentBackground": true,
+    "source": "sources/individual/paprika_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "black_pepper_pile",
+    "subject": "a neat small mound of whole black peppercorns, round wrinkled charcoal-brown spheres",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of whole black peppercorns, round wrinkled charcoal-brown spheres",
+    "transparentBackground": true,
+    "source": "sources/individual/black_pepper_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lentils_pile",
+    "subject": "a neat small mound of whole dry green-brown lentils, flat round lens-shaped legumes",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of whole dry green-brown lentils, flat round lens-shaped legumes",
+    "transparentBackground": true,
+    "source": "sources/individual/lentils_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chickpeas_pile",
+    "subject": "a neat small mound of dry chickpeas, warm beige irregular round legumes with pointed noses",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of dry chickpeas, warm beige irregular round legumes with pointed noses",
+    "transparentBackground": true,
+    "source": "sources/individual/chickpeas_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "red_lentils_pile",
+    "subject": "a neat small mound of split dry red lentils, small salmon-orange lens-shaped halves",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of split dry red lentils, small salmon-orange lens-shaped halves",
+    "transparentBackground": true,
+    "source": "sources/individual/red_lentils_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "curry_pile",
+    "subject": "a neat small mound of curry powder, saturated natural golden-yellow finely ground spice",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat small mound of curry powder, saturated natural golden-yellow finely ground spice",
+    "transparentBackground": true,
+    "source": "sources/individual/curry_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "rosemary",
+    "subject": "a compact bunch of fresh rosemary sprigs with narrow needle-like green leaves and full woody stems",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bunch of fresh rosemary sprigs with narrow needle-like green leaves and full woody stems",
+    "transparentBackground": true,
+    "source": "sources/individual/rosemary.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "mint",
+    "subject": "a compact bunch of fresh mint with textured serrated vivid-green leaves and complete stems",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bunch of fresh mint with textured serrated vivid-green leaves and complete stems",
+    "transparentBackground": true,
+    "source": "sources/individual/mint.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sage",
+    "subject": "a compact bunch of fresh sage, velvety softly textured gray-green elongated leaves",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bunch of fresh sage, velvety softly textured gray-green elongated leaves",
+    "transparentBackground": true,
+    "source": "sources/individual/sage.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "tarragon",
+    "subject": "a compact bunch of fresh tarragon with slender smooth lance-shaped green leaves and full stems",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bunch of fresh tarragon with slender smooth lance-shaped green leaves and full stems",
+    "transparentBackground": true,
+    "source": "sources/individual/tarragon.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chives",
+    "subject": "a neat bundle of fresh green chives, thin tubular stems, full length visible",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat bundle of fresh green chives, thin tubular stems, full length visible",
+    "transparentBackground": true,
+    "source": "sources/individual/chives.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cilantro",
+    "subject": "a compact bunch of fresh cilantro with delicate scalloped fan-shaped green leaves and full tender stems, distinct from flat-leaf parsley",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bunch of fresh cilantro with delicate scalloped fan-shaped green leaves and full tender stems, distinct from flat-leaf parsley",
+    "transparentBackground": true,
+    "source": "sources/individual/cilantro.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "arugula",
+    "subject": "a compact bunch of fresh arugula with deeply lobed slender green leaves",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact bunch of fresh arugula with deeply lobed slender green leaves",
+    "transparentBackground": true,
+    "source": "sources/individual/arugula.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kale",
+    "subject": "three fresh curly kale leaves with frilly deep-green edges and complete thick stems",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three fresh curly kale leaves with frilly deep-green edges and complete thick stems",
+    "transparentBackground": true,
+    "source": "sources/individual/kale.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "beetroot",
+    "subject": "one whole red beetroot with a small leaf stalk and one cut half exposing burgundy concentric rings",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole red beetroot with a small leaf stalk and one cut half exposing burgundy concentric rings",
+    "transparentBackground": true,
+    "source": "sources/individual/beetroot.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "radish",
+    "subject": "three small round red radishes with white roots and attached fresh green leaves",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three small round red radishes with white roots and attached fresh green leaves",
+    "transparentBackground": true,
+    "source": "sources/individual/radish.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "asparagus",
+    "subject": "a neat bundle of complete fresh green asparagus spears with closed tips, no binding or packaging",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a neat bundle of complete fresh green asparagus spears with closed tips, no binding or packaging",
+    "transparentBackground": true,
+    "source": "sources/individual/asparagus.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "artichoke",
+    "subject": "one whole fresh green artichoke with layered pointed scales and a short stem",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole fresh green artichoke with layered pointed scales and a short stem",
+    "transparentBackground": true,
+    "source": "sources/individual/artichoke.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "fennel",
+    "subject": "one whole fresh fennel bulb, pale white layered base with complete green stalks and fine feathery fronds",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole fresh fennel bulb, pale white layered base with complete green stalks and fine feathery fronds",
+    "transparentBackground": true,
+    "source": "sources/individual/fennel.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "okra",
+    "subject": "three whole green okra pods, tapered ridged shapes with intact stems",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three whole green okra pods, tapered ridged shapes with intact stems",
+    "transparentBackground": true,
+    "source": "sources/individual/okra.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "brussels_sprouts",
+    "subject": "a compact group of five whole fresh Brussels sprouts, detailed tight green leaves",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact group of five whole fresh Brussels sprouts, detailed tight green leaves",
+    "transparentBackground": true,
+    "source": "sources/individual/brussels_sprouts.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sweetcorn",
+    "subject": "one fresh sweetcorn cob partly peeled to reveal golden kernels, natural green husk, entire cob visible",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one fresh sweetcorn cob partly peeled to reveal golden kernels, natural green husk, entire cob visible",
+    "transparentBackground": true,
+    "source": "sources/individual/sweetcorn.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "spring_onion",
+    "subject": "three complete fresh spring onions with white bulb bases, fine roots and long tubular green tops",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three complete fresh spring onions with white bulb bases, fine roots and long tubular green tops",
+    "transparentBackground": true,
+    "source": "sources/individual/spring_onion.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "red_onion",
+    "subject": "one whole red onion and a cut half, vivid purple rings and natural papery skin",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole red onion and a cut half, vivid purple rings and natural papery skin",
+    "transparentBackground": true,
+    "source": "sources/individual/red_onion.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "red_cabbage",
+    "subject": "one small whole red cabbage with a wedge cut revealing layered purple and ivory leaves",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one small whole red cabbage with a wedge cut revealing layered purple and ivory leaves",
+    "transparentBackground": true,
+    "source": "sources/individual/red_cabbage.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oyster_mushrooms",
+    "subject": "a small cluster of fresh oyster mushrooms with fan-shaped taupe caps and creamy ribbed gills, complete stems",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a small cluster of fresh oyster mushrooms with fan-shaped taupe caps and creamy ribbed gills, complete stems",
+    "transparentBackground": true,
+    "source": "sources/individual/oyster_mushrooms.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "shiitake",
+    "subject": "three whole fresh shiitake mushrooms with dark brown rounded textured caps and light stems",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three whole fresh shiitake mushrooms with dark brown rounded textured caps and light stems",
+    "transparentBackground": true,
+    "source": "sources/individual/shiitake.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "fresh_chili",
+    "subject": "three whole red chili peppers with green stems, sleek curved tapered silhouettes",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three whole red chili peppers with green stems, sleek curved tapered silhouettes",
+    "transparentBackground": true,
+    "source": "sources/individual/fresh_chili.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kiwi",
+    "subject": "one whole fuzzy brown kiwi fruit and a half showing vivid green flesh, white center and black seeds",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole fuzzy brown kiwi fruit and a half showing vivid green flesh, white center and black seeds",
+    "transparentBackground": true,
+    "source": "sources/individual/kiwi.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "raspberry",
+    "subject": "a compact group of fresh red raspberries with detailed natural drupelets",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact group of fresh red raspberries with detailed natural drupelets",
+    "transparentBackground": true,
+    "source": "sources/individual/raspberry.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "blackberry",
+    "subject": "a compact group of ripe blackberries with deep purple-black glossy natural drupelets",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a compact group of ripe blackberries with deep purple-black glossy natural drupelets",
+    "transparentBackground": true,
+    "source": "sources/individual/blackberry.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cherries",
+    "subject": "three ripe red cherries with full slender green stems, one connected pair",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three ripe red cherries with full slender green stems, one connected pair",
+    "transparentBackground": true,
+    "source": "sources/individual/cherries.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "plum",
+    "subject": "one whole ripe purple plum and one half showing golden flesh and a single stone",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole ripe purple plum and one half showing golden flesh and a single stone",
+    "transparentBackground": true,
+    "source": "sources/individual/plum.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "apricot",
+    "subject": "one whole golden-orange apricot and one half exposing orange flesh and a single brown stone",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole golden-orange apricot and one half exposing orange flesh and a single brown stone",
+    "transparentBackground": true,
+    "source": "sources/individual/apricot.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "fig",
+    "subject": "one whole purple fig and one cut half exposing rosy densely seeded flesh",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole purple fig and one cut half exposing rosy densely seeded flesh",
+    "transparentBackground": true,
+    "source": "sources/individual/fig.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pomegranate",
+    "subject": "one whole red pomegranate and one half exposing densely packed ruby red arils",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole red pomegranate and one half exposing densely packed ruby red arils",
+    "transparentBackground": true,
+    "source": "sources/individual/pomegranate.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "watermelon",
+    "subject": "one generous triangular watermelon wedge with red flesh, black seeds and full green rind",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one generous triangular watermelon wedge with red flesh, black seeds and full green rind",
+    "transparentBackground": true,
+    "source": "sources/individual/watermelon.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cantaloupe",
+    "subject": "one cantaloupe melon wedge with orange flesh, visible pale seeds and full netted rind",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one cantaloupe melon wedge with orange flesh, visible pale seeds and full netted rind",
+    "transparentBackground": true,
+    "source": "sources/individual/cantaloupe.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "grapefruit",
+    "subject": "one whole yellow grapefruit and one half showing vivid pink segmented flesh",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole yellow grapefruit and one half showing vivid pink segmented flesh",
+    "transparentBackground": true,
+    "source": "sources/individual/grapefruit.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lime",
+    "subject": "one whole fresh green lime and a cut half exposing pale-green segmented flesh",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole fresh green lime and a cut half exposing pale-green segmented flesh",
+    "transparentBackground": true,
+    "source": "sources/individual/lime.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "almonds_pile",
+    "subject": "a beautiful small compact mound of whole raw almonds with natural tan ribbed skins, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of whole raw almonds with natural tan ribbed skins, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/almonds_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pistachios_pile",
+    "subject": "a beautiful small compact mound of pistachios with partly open pale shells and visible vivid green kernels, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of pistachios with partly open pale shells and visible vivid green kernels, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/pistachios_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "peanuts_pile",
+    "subject": "a beautiful small compact mound of shelled peanuts with red-brown skins and a few pale kernel halves, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of shelled peanuts with red-brown skins and a few pale kernel halves, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/peanuts_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pumpkin_seeds_pile",
+    "subject": "a beautiful small compact mound of shelled dark-green pumpkin seeds, flat oval kernels, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of shelled dark-green pumpkin seeds, flat oval kernels, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/pumpkin_seeds_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sunflower_seeds_pile",
+    "subject": "a beautiful small compact mound of shelled sunflower seed kernels, slender pale ivory seeds, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of shelled sunflower seed kernels, slender pale ivory seeds, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/sunflower_seeds_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chia_seeds_pile",
+    "subject": "a beautiful small compact mound of chia seeds, tiny mottled black gray and ivory oval seeds, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of chia seeds, tiny mottled black gray and ivory oval seeds, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/chia_seeds_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "flax_seeds_pile",
+    "subject": "a beautiful small compact mound of glossy brown flax seeds, flat small teardrop-shaped seeds, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of glossy brown flax seeds, flat small teardrop-shaped seeds, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/flax_seeds_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cocoa_pile",
+    "subject": "a beautiful small compact mound of rich dark brown cocoa powder, fine powder with textured slopes, no container",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: a beautiful small compact mound of rich dark brown cocoa powder, fine powder with textured slopes, no container",
+    "transparentBackground": true,
+    "source": "sources/individual/cocoa_pile.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "nutmeg",
+    "subject": "one whole nutmeg seed with deeply textured brown shell and one cut half showing marbled interior",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one whole nutmeg seed with deeply textured brown shell and one cut half showing marbled interior",
+    "transparentBackground": true,
+    "source": "sources/individual/nutmeg.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "star_anise",
+    "subject": "three complete warm brown star anise pods, crisp eight-point star shapes with seeds visible",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: three complete warm brown star anise pods, crisp eight-point star shapes with seeds visible",
+    "transparentBackground": true,
+    "source": "sources/individual/star_anise.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "frying_pan_steel",
+    "subject": "one complete unbranded stainless steel frying pan with a long brushed-steel handle, reflective silver cooking surface, no food, no lid",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one complete unbranded stainless steel frying pan with a long brushed-steel handle, reflective silver cooking surface, no food, no lid",
+    "transparentBackground": true,
+    "source": "sources/individual/frying_pan_steel.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pan_lid",
+    "subject": "one standalone clear glass pan lid with a brushed stainless rim and a small dark graphite knob, entire circular shape visible, no pan underneath",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one standalone clear glass pan lid with a brushed stainless rim and a small dark graphite knob, entire circular shape visible, no pan underneath",
+    "transparentBackground": true,
+    "source": "sources/individual/pan_lid.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "salad_bowl",
+    "subject": "one empty large shallow mint ceramic salad bowl with a light ivory interior, entire rim visible, no food",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one empty large shallow mint ceramic salad bowl with a light ivory interior, entire rim visible, no food",
+    "transparentBackground": true,
+    "source": "sources/individual/salad_bowl.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oven_mitts",
+    "subject": "one matching pair of textured quilted coral oven mitts, ergonomic thumb shapes, softly tactile cotton",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one matching pair of textured quilted coral oven mitts, ergonomic thumb shapes, softly tactile cotton",
+    "transparentBackground": true,
+    "source": "sources/individual/oven_mitts.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kitchen_thermometer",
+    "subject": "one complete unbranded digital instant-read kitchen thermometer with a full slender stainless probe and mint-and-graphite handle, no text or numeric display",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one complete unbranded digital instant-read kitchen thermometer with a full slender stainless probe and mint-and-graphite handle, no text or numeric display",
+    "transparentBackground": true,
+    "source": "sources/individual/kitchen_thermometer.png",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "salad_spinner",
+    "subject": "one complete unbranded salad spinner, transparent outer bowl, mint perforated inner basket, graphite lid with a coral crank, no food",
+    "prompt": "Use case: stylized-concept. Asset type: one individual culinary illustration, square 1:1 canvas with genuine transparent RGBA background. Reference image is for existing culinary-assets VISUAL STYLE ONLY, not an edit target; generate a new distinct subject. Match realistic slightly handcrafted 3D food illustration, tactile natural texture, soft studio light from upper left, gentle vivid natural colors. Elevated front three-quarter view. Center the entire subject with generous 12% transparent margin, keep a clear silhouette readable at 64px. No text, labels, brand, watermarks, scene, backdrop, surface, pedestal, decorative objects, or cast shadow outside the subject. For a mound: absolutely NO bowl, cup, jar, scoop, spoon, plate, packaging or container; ONLY a beautiful compact mound of the ingredient itself, whole and fully visible. Subject: one complete unbranded salad spinner, transparent outer bowl, mint perforated inner basket, graphite lid with a coral crank, no food",
+    "transparentBackground": true,
+    "source": "sources/individual/salad_spinner.png",
+    "license": "CC0-1.0"
+  }
+]

@@ -1688,5 +1688,915 @@ window.CulinaryCatalog = [
     "png": "assets/png/dill.png",
     "webp": "assets/webp/dill.webp",
     "license": "CC0-1.0"
+  },
+  {
+    "id": "thyme",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh thyme",
+      "ro": "Cimbru proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/thyme.png",
+    "webp": "assets/webp/thyme.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lovage",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh lovage",
+      "ro": "Leuștean proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lovage.png",
+    "webp": "assets/webp/lovage.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "rice_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Rice pile",
+      "ro": "Orez fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/rice_pile.png",
+    "webp": "assets/webp/rice_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "basmati_rice_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Basmati rice pile",
+      "ro": "Orez basmati fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/basmati_rice_pile.png",
+    "webp": "assets/webp/basmati_rice_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "salt_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Sea salt pile",
+      "ro": "Sare fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/salt_pile.png",
+    "webp": "assets/webp/salt_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sugar_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Sugar pile",
+      "ro": "Zahăr fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sugar_pile.png",
+    "webp": "assets/webp/sugar_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "caraway_seeds_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Caraway seed pile",
+      "ro": "Chimen fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/caraway_seeds_pile.png",
+    "webp": "assets/webp/caraway_seeds_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "white_sesame_pile",
+    "category": "staples",
+    "alt": {
+      "en": "White sesame pile",
+      "ro": "Susan alb fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/white_sesame_pile.png",
+    "webp": "assets/webp/white_sesame_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "black_sesame_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Black sesame pile",
+      "ro": "Susan negru fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/black_sesame_pile.png",
+    "webp": "assets/webp/black_sesame_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "quinoa_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Quinoa pile",
+      "ro": "Quinoa fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/quinoa_pile.png",
+    "webp": "assets/webp/quinoa_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "couscous_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Couscous pile",
+      "ro": "Cușcuș fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/couscous_pile.png",
+    "webp": "assets/webp/couscous_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oats_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Oat pile",
+      "ro": "Ovăz fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/oats_pile.png",
+    "webp": "assets/webp/oats_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "flour_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Flour pile",
+      "ro": "Făină fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/flour_pile.png",
+    "webp": "assets/webp/flour_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cumin_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Ground cumin pile",
+      "ro": "Chimion măcinat fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cumin_pile.png",
+    "webp": "assets/webp/cumin_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "paprika_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Paprika pile",
+      "ro": "Boia dulce fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/paprika_pile.png",
+    "webp": "assets/webp/paprika_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "black_pepper_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Black peppercorn pile",
+      "ro": "Piper negru fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/black_pepper_pile.png",
+    "webp": "assets/webp/black_pepper_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lentils_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Green lentil pile",
+      "ro": "Linte verde fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lentils_pile.png",
+    "webp": "assets/webp/lentils_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chickpeas_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Chickpea pile",
+      "ro": "Năut fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chickpeas_pile.png",
+    "webp": "assets/webp/chickpeas_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "red_lentils_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Red lentil pile",
+      "ro": "Linte roșie fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/red_lentils_pile.png",
+    "webp": "assets/webp/red_lentils_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "curry_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Curry powder pile",
+      "ro": "Curry fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/curry_pile.png",
+    "webp": "assets/webp/curry_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "rosemary",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh rosemary",
+      "ro": "Rozmarin proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/rosemary.png",
+    "webp": "assets/webp/rosemary.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "mint",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh mint",
+      "ro": "Mentă proaspătă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/mint.png",
+    "webp": "assets/webp/mint.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sage",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh sage",
+      "ro": "Salvie proaspătă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sage.png",
+    "webp": "assets/webp/sage.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "tarragon",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh tarragon",
+      "ro": "Tarhon proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/tarragon.png",
+    "webp": "assets/webp/tarragon.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chives",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh chives",
+      "ro": "Cepșoară proaspătă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chives.png",
+    "webp": "assets/webp/chives.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cilantro",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh cilantro",
+      "ro": "Coriandru proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cilantro.png",
+    "webp": "assets/webp/cilantro.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "arugula",
+    "category": "produce",
+    "alt": {
+      "en": "Arugula",
+      "ro": "Rucola"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/arugula.png",
+    "webp": "assets/webp/arugula.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kale",
+    "category": "produce",
+    "alt": {
+      "en": "Curly kale",
+      "ro": "Varză kale"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kale.png",
+    "webp": "assets/webp/kale.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "beetroot",
+    "category": "produce",
+    "alt": {
+      "en": "Beetroot",
+      "ro": "Sfeclă roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/beetroot.png",
+    "webp": "assets/webp/beetroot.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "radish",
+    "category": "produce",
+    "alt": {
+      "en": "Radishes",
+      "ro": "Ridichi"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/radish.png",
+    "webp": "assets/webp/radish.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "asparagus",
+    "category": "produce",
+    "alt": {
+      "en": "Green asparagus",
+      "ro": "Sparanghel"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/asparagus.png",
+    "webp": "assets/webp/asparagus.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "artichoke",
+    "category": "produce",
+    "alt": {
+      "en": "Artichoke",
+      "ro": "Anghinare"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/artichoke.png",
+    "webp": "assets/webp/artichoke.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "fennel",
+    "category": "produce",
+    "alt": {
+      "en": "Fennel bulb",
+      "ro": "Fenicul"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/fennel.png",
+    "webp": "assets/webp/fennel.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "okra",
+    "category": "produce",
+    "alt": {
+      "en": "Okra",
+      "ro": "Bame"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/okra.png",
+    "webp": "assets/webp/okra.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "brussels_sprouts",
+    "category": "produce",
+    "alt": {
+      "en": "Brussels sprouts",
+      "ro": "Varză de Bruxelles"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/brussels_sprouts.png",
+    "webp": "assets/webp/brussels_sprouts.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sweetcorn",
+    "category": "produce",
+    "alt": {
+      "en": "Sweetcorn",
+      "ro": "Porumb dulce"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sweetcorn.png",
+    "webp": "assets/webp/sweetcorn.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "spring_onion",
+    "category": "produce",
+    "alt": {
+      "en": "Spring onions",
+      "ro": "Ceapă verde"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/spring_onion.png",
+    "webp": "assets/webp/spring_onion.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "red_onion",
+    "category": "produce",
+    "alt": {
+      "en": "Red onion",
+      "ro": "Ceapă roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/red_onion.png",
+    "webp": "assets/webp/red_onion.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "red_cabbage",
+    "category": "produce",
+    "alt": {
+      "en": "Red cabbage",
+      "ro": "Varză roșie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/red_cabbage.png",
+    "webp": "assets/webp/red_cabbage.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oyster_mushrooms",
+    "category": "produce",
+    "alt": {
+      "en": "Oyster mushrooms",
+      "ro": "Ciuperci pleurotus"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/oyster_mushrooms.png",
+    "webp": "assets/webp/oyster_mushrooms.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "shiitake",
+    "category": "produce",
+    "alt": {
+      "en": "Shiitake mushrooms",
+      "ro": "Ciuperci shiitake"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/shiitake.png",
+    "webp": "assets/webp/shiitake.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "fresh_chili",
+    "category": "produce",
+    "alt": {
+      "en": "Red chili peppers",
+      "ro": "Ardei iute roșu"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/fresh_chili.png",
+    "webp": "assets/webp/fresh_chili.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kiwi",
+    "category": "produce",
+    "alt": {
+      "en": "Kiwi fruit",
+      "ro": "Kiwi"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kiwi.png",
+    "webp": "assets/webp/kiwi.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "raspberry",
+    "category": "produce",
+    "alt": {
+      "en": "Raspberries",
+      "ro": "Zmeură"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/raspberry.png",
+    "webp": "assets/webp/raspberry.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "blackberry",
+    "category": "produce",
+    "alt": {
+      "en": "Blackberries",
+      "ro": "Mure"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/blackberry.png",
+    "webp": "assets/webp/blackberry.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cherries",
+    "category": "produce",
+    "alt": {
+      "en": "Cherries",
+      "ro": "Cireșe"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cherries.png",
+    "webp": "assets/webp/cherries.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "plum",
+    "category": "produce",
+    "alt": {
+      "en": "Plums",
+      "ro": "Prune"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/plum.png",
+    "webp": "assets/webp/plum.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "apricot",
+    "category": "produce",
+    "alt": {
+      "en": "Apricots",
+      "ro": "Caise"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/apricot.png",
+    "webp": "assets/webp/apricot.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "fig",
+    "category": "produce",
+    "alt": {
+      "en": "Figs",
+      "ro": "Smochine"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/fig.png",
+    "webp": "assets/webp/fig.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pomegranate",
+    "category": "produce",
+    "alt": {
+      "en": "Pomegranate",
+      "ro": "Rodie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pomegranate.png",
+    "webp": "assets/webp/pomegranate.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "watermelon",
+    "category": "produce",
+    "alt": {
+      "en": "Watermelon wedge",
+      "ro": "Pepene roșu"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/watermelon.png",
+    "webp": "assets/webp/watermelon.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cantaloupe",
+    "category": "produce",
+    "alt": {
+      "en": "Cantaloupe wedge",
+      "ro": "Pepene galben"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cantaloupe.png",
+    "webp": "assets/webp/cantaloupe.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "grapefruit",
+    "category": "produce",
+    "alt": {
+      "en": "Pink grapefruit",
+      "ro": "Grepfrut roz"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/grapefruit.png",
+    "webp": "assets/webp/grapefruit.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "lime",
+    "category": "produce",
+    "alt": {
+      "en": "Limes",
+      "ro": "Limete"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/lime.png",
+    "webp": "assets/webp/lime.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "almonds_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Almond pile",
+      "ro": "Migdale fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/almonds_pile.png",
+    "webp": "assets/webp/almonds_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pistachios_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Pistachio pile",
+      "ro": "Fistic fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pistachios_pile.png",
+    "webp": "assets/webp/pistachios_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "peanuts_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Peanut pile",
+      "ro": "Arahide fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/peanuts_pile.png",
+    "webp": "assets/webp/peanuts_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pumpkin_seeds_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Pumpkin seed pile",
+      "ro": "Semințe de dovleac fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pumpkin_seeds_pile.png",
+    "webp": "assets/webp/pumpkin_seeds_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sunflower_seeds_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Sunflower seed pile",
+      "ro": "Semințe de floarea-soarelui fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sunflower_seeds_pile.png",
+    "webp": "assets/webp/sunflower_seeds_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chia_seeds_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Chia seed pile",
+      "ro": "Semințe de chia fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chia_seeds_pile.png",
+    "webp": "assets/webp/chia_seeds_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "flax_seeds_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Flax seed pile",
+      "ro": "Semințe de in fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/flax_seeds_pile.png",
+    "webp": "assets/webp/flax_seeds_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cocoa_pile",
+    "category": "staples",
+    "alt": {
+      "en": "Cocoa powder pile",
+      "ro": "Cacao fără recipient"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cocoa_pile.png",
+    "webp": "assets/webp/cocoa_pile.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "nutmeg",
+    "category": "staples",
+    "alt": {
+      "en": "Nutmeg",
+      "ro": "Nucșoară"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/nutmeg.png",
+    "webp": "assets/webp/nutmeg.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "star_anise",
+    "category": "staples",
+    "alt": {
+      "en": "Star anise",
+      "ro": "Anason stelat"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/star_anise.png",
+    "webp": "assets/webp/star_anise.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "frying_pan_steel",
+    "category": "cookware",
+    "alt": {
+      "en": "Stainless steel frying pan",
+      "ro": "Tigaie din inox"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/frying_pan_steel.png",
+    "webp": "assets/webp/frying_pan_steel.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pan_lid",
+    "category": "cookware",
+    "alt": {
+      "en": "Glass pan lid",
+      "ro": "Capac de tigaie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pan_lid.png",
+    "webp": "assets/webp/pan_lid.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "salad_bowl",
+    "category": "cookware",
+    "alt": {
+      "en": "Salad bowl",
+      "ro": "Bol de salată"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/salad_bowl.png",
+    "webp": "assets/webp/salad_bowl.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oven_mitts",
+    "category": "utensils",
+    "alt": {
+      "en": "Oven mitts",
+      "ro": "Mănuși pentru cuptor"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/oven_mitts.png",
+    "webp": "assets/webp/oven_mitts.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "kitchen_thermometer",
+    "category": "utensils",
+    "alt": {
+      "en": "Kitchen thermometer",
+      "ro": "Termometru de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/kitchen_thermometer.png",
+    "webp": "assets/webp/kitchen_thermometer.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "salad_spinner",
+    "category": "appliances",
+    "alt": {
+      "en": "Salad spinner",
+      "ro": "Centrifugă pentru salată"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/salad_spinner.png",
+    "webp": "assets/webp/salad_spinner.webp",
+    "license": "CC0-1.0"
   }
 ];

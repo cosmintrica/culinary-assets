@@ -5,6 +5,7 @@ import { createRequire } from 'node:module';
 import vm from 'node:vm';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { assets, catalog, getAsset } from '../dist/index.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -12,13 +13,13 @@ const require = createRequire(import.meta.url);
 const sharp = require(process.env.SHARP_MODULE || 'sharp');
 const pkg = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'));
 
-test('130 stable, unique, bilingual metadata entries in all six categories', () => {
-  assert.equal(catalog.length, 130);
-  assert.equal(new Set(catalog.map(a => a.id)).size, 130);
+test('200 stable, unique, bilingual metadata entries in all six categories', () => {
+  assert.equal(catalog.length, 200);
+  assert.equal(new Set(catalog.map(a => a.id)).size, 200);
   assert.equal(new Set(catalog.map(a => a.category)).size, 6);
   assert.deepEqual(Object.fromEntries(['ingredients', 'produce', 'staples', 'cookware', 'utensils', 'appliances']
     .map(category => [category, catalog.filter(a => a.category === category).length])),
-  { ingredients: 19, produce: 32, staples: 32, cookware: 10, utensils: 20, appliances: 17 });
+  { ingredients: 19, produce: 68, staples: 60, cookware: 13, utensils: 22, appliances: 18 });
   for (const asset of catalog) {
     assert.match(asset.id, /^[a-z][a-z0-9_]*$/);
     assert.ok(asset.alt.en.length > 1 && asset.alt.ro.length > 1);
@@ -68,10 +69,10 @@ test('native entry uses static PNG requires and has the same catalog', async () 
     loaded.push(name);
     return loaded.length;
   } });
-  assert.equal(loaded.length, 130);
-  assert.equal(new Set(loaded).size, 130);
+  assert.equal(loaded.length, 200);
+  assert.equal(new Set(loaded).size, 200);
   assert.deepEqual(Object.keys(module.exports.nativeAssets).sort(), catalog.map(a => a.id).sort());
-  assert.equal(module.exports.catalog.length, 130);
+  assert.equal(module.exports.catalog.length, 200);
   assert.ok(Object.isFrozen(module.exports.nativeAssets));
 });
 
@@ -87,7 +88,7 @@ test('license split is explicit; no runtime deps or installation scripts', async
   assert.match(await readFile(path.join(root, 'NOTICE.md'), 'utf8'), /generated with the built-in OpenAI/);
   for (const format of ['png', 'webp']) {
     const files = await readdir(path.join(root, 'assets', format));
-    assert.equal(files.length, 130);
+    assert.equal(files.length, 200);
     assert.ok(files.every(name => !/logo|wordmark|symbol|scrappy|fridgechef|key|secret/i.test(name)));
   }
 });
@@ -121,7 +122,7 @@ test('both public pages include the verified creator links', async () => {
     }
   }
   const readme = await readFile(path.join(root, 'README.md'), 'utf8');
-  assert.ok(readme.indexOf('https://cosmintrica.github.io/culinary-assets/') < readme.indexOf('130 transparent culinary'));
+  assert.ok(readme.indexOf('https://cosmintrica.github.io/culinary-assets/') < readme.indexOf('200 transparent culinary'));
 });
 
 test('public pages do not include unrelated application branding or packaging internals', async () => {
@@ -131,12 +132,12 @@ test('public pages do not include unrelated application branding or packaging in
   }
 });
 
-test('76 individual sources supplement, not replace, the original 54 atlas subjects', async () => {
+test('146 individual sources supplement, not replace, the original 54 atlas subjects', async () => {
   const sprites = JSON.parse(await readFile(path.join(root, 'sources/sprites.json'), 'utf8'));
   assert.deepEqual(sprites.map(s => s.id), catalog.map(a => a.id));
   assert.ok(sprites.slice(0, 54).every(s => typeof s.atlas === 'string' && s.source === undefined));
   const additions = sprites.slice(54);
-  assert.equal(additions.length, 76);
+  assert.equal(additions.length, 146);
   assert.deepEqual((await readdir(path.join(root, 'sources/individual'))).sort(), additions.map(s => `${s.id}.png`).sort());
   for (const sprite of additions) {
     assert.equal(sprite.source, `sources/individual/${sprite.id}.png`);
@@ -148,16 +149,31 @@ test('76 individual sources supplement, not replace, the original 54 atlas subje
   }
 });
 
-test('guide and README describe the 130-subject release consistently', async () => {
+test('guide and README describe the 200-subject release consistently', async () => {
   for (const file of ['README.md', 'index.html', 'guide.html']) {
     const content = await readFile(path.join(root, file), 'utf8');
-    assert.match(content, /130 (transparent culinary |illustrations|separate PNGs)/);
-    assert.doesNotMatch(content, /(?:54|100|110) (illustrations|separate PNGs|static sources|PNGs|metadata entries)/);
+    assert.match(content, /200 (transparent culinary |illustrations|separate PNGs)/);
+    assert.doesNotMatch(content, /(?:54|100|110|130) (illustrations|separate PNGs|static sources|PNGs|metadata entries)/);
+    assert.doesNotMatch(content, /76 (additions|individual source)|260 individual images/);
   }
   for (const file of ['README.md', 'guide.html']) {
     const content = await readFile(path.join(root, file), 'utf8');
-    assert.match(content, /@0\.4\.0/);
-    assert.match(content, /tags\/v0\.4\.0\.zip/);
+    assert.match(content, /@0\.5\.0/);
+    assert.match(content, /tags\/v0\.5\.0\.zip/);
+  }
+  assert.match(await readFile(path.join(root, 'NOTICE.md'), 'utf8'), /200 generic kitchen/);
+  assert.match(await readFile(path.join(root, 'sources/PROMPTS.md'), 'utf8'), /prompts-0\.5\.json/);
+});
+
+test('all 130 v0.4.0 individual images and metadata remain byte-for-byte compatible', async () => {
+  const baseline = JSON.parse(await readFile(path.join(root, 'tests/fixtures/v0.4.0-images.json'), 'utf8'));
+  assert.equal(baseline.length, 130);
+  assert.deepEqual(catalog.slice(0, 130), baseline.map(({ hashes, ...metadata }) => metadata));
+  for (const asset of baseline) {
+    for (const format of ['png', 'webp']) {
+      const bytes = await readFile(path.join(root, asset[format]));
+      assert.equal(createHash('sha256').update(bytes).digest('hex'), asset.hashes[format], `Changed public image: ${asset.id}.${format}`);
+    }
   }
 });
 

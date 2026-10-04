@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.5.0 - 2026-10-04
+
+- Expanded from 130 to 200 subjects with 70 individually generated illustrations.
+- Added fresh herbs, more fruit and vegetables, nuts, seeds and six kitchen tools.
+- Added bowl-free ingredient mounds under new IDs; the 130 previous images and
+  metadata remain unchanged, verified against a SHA-256 compatibility baseline.
+- Regenerated optional 1x/2x WebP sprites for 200 subjects while preserving the
+  existing logical tile coordinates and individual import paths.
+- Updated bilingual metadata, gallery, previews, guide and typed web/native exports.
+- Added provenance and packed-installation checks for the new subjects.
+
 ## 0.4.0 - 2026-10-04
 
 - Expanded from 110 to 130 subjects with 20 individually generated illustrations.

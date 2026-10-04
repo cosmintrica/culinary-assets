@@ -1,0 +1,162 @@
+[
+  {
+    "id": "vegetable_oil",
+    "subject": "a round clear glass bottle of pale golden sunflower cooking oil, green cap, two sunflower seeds at its base",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a round clear glass bottle of pale golden sunflower cooking oil, green cap, two sunflower seeds at its base",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "sesame_oil",
+    "subject": "a slim clear glass cruet of amber sesame oil, dark brown cap, a tiny spoonful of sesame seeds beside it",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a slim clear glass cruet of amber sesame oil, dark brown cap, a tiny spoonful of sesame seeds beside it",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "palm_oil",
+    "subject": "a short clear glass jar of rich orange-red palm cooking oil, simple green lid",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a short clear glass jar of rich orange-red palm cooking oil, simple green lid",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "coconut_oil",
+    "subject": "an open short clear glass jar of white solid coconut oil with a coconut half beside it",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: an open short clear glass jar of white solid coconut oil with a coconut half beside it",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "vinegar",
+    "subject": "a clear glass vinegar bottle of pale amber vinegar, simple red cap",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a clear glass vinegar bottle of pale amber vinegar, simple red cap",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "oregano",
+    "subject": "a small terracotta pinch bowl filled with dried oregano leaves with one oregano sprig beside it",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a small terracotta pinch bowl filled with dried oregano leaves with one oregano sprig beside it",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "curry",
+    "subject": "a small terracotta pinch bowl of golden yellow curry powder with a tiny wooden scoop",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a small terracotta pinch bowl of golden yellow curry powder with a tiny wooden scoop",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "cumin",
+    "subject": "a small terracotta pinch bowl filled with brown cumin seeds, a few seeds beside it",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a small terracotta pinch bowl filled with brown cumin seeds, a few seeds beside it",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "garlic_powder",
+    "subject": "a small clear glass spice jar of ivory garlic powder with a simple wooden lid, one garlic clove beside it",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a small clear glass spice jar of ivory garlic powder with a simple wooden lid, one garlic clove beside it",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "chili_flakes",
+    "subject": "a small terracotta pinch bowl of red chili flakes, one dried chili beside it",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a small terracotta pinch bowl of red chili flakes, one dried chili beside it",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "bay_leaf",
+    "subject": "three olive-green dried bay leaves naturally arranged together",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied olive-oil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: three olive-green dried bay leaves naturally arranged together",
+    "reference": "assets/culinary/olive_oil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "deep_fryer",
+    "subject": "a compact charcoal countertop electric deep fryer with a stainless steel basket and black basket handle",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied nonstick-pan image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a compact charcoal countertop electric deep fryer with a stainless steel basket and black basket handle",
+    "reference": "assets/culinary/nonstick_pan.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "can_opener",
+    "subject": "a manual stainless steel can opener with charcoal handles and a clearly visible cutting wheel",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied nonstick-pan image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a manual stainless steel can opener with charcoal handles and a clearly visible cutting wheel",
+    "reference": "assets/culinary/nonstick_pan.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "food_processor",
+    "subject": "a compact charcoal food processor with a transparent bowl, chopping blade and clear feed tube",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied nonstick-pan image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a compact charcoal food processor with a transparent bowl, chopping blade and clear feed tube",
+    "reference": "assets/culinary/nonstick_pan.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "toaster",
+    "subject": "a compact two-slot charcoal toaster, empty slots, chrome lever",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied nonstick-pan image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a compact two-slot charcoal toaster, empty slots, chrome lever",
+    "reference": "assets/culinary/nonstick_pan.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "sandwich_maker",
+    "subject": "an open compact charcoal electric sandwich toaster with triangular nonstick cooking plates",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied nonstick-pan image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: an open compact charcoal electric sandwich toaster with triangular nonstick cooking plates",
+    "reference": "assets/culinary/nonstick_pan.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "cake_tin",
+    "subject": "a round charcoal nonstick springform cake tin with a small silver latch",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied nonstick-pan image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a round charcoal nonstick springform cake tin with a small silver latch",
+    "reference": "assets/culinary/nonstick_pan.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "muffin_tin",
+    "subject": "a charcoal nonstick six-well muffin baking tin, empty wells",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied nonstick-pan image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a charcoal nonstick six-well muffin baking tin, empty wells",
+    "reference": "assets/culinary/nonstick_pan.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "parsley",
+    "subject": "a compact bunch of fresh flat-leaf parsley, realistic deeply divided vivid green leaves and complete slender stems",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied basil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a compact bunch of fresh flat-leaf parsley, realistic deeply divided vivid green leaves and complete slender stems",
+    "reference": "assets/culinary/basil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  },
+  {
+    "id": "dill",
+    "subject": "a compact bunch of fresh dill, fine feathery green fronds and complete slender stems",
+    "prompt": "Use case: stylized-concept. Asset type: individual culinary-assets library icon, square 1:1, isolated true transparent RGBA background. Style reference: supplied basil image, for visual style only, not an edit target. Match its slightly handcrafted realistic 3D product illustration, tactile materials, realistic proportions, soft studio lighting from upper left, subtle self-shadow, gentle saturated natural colors. One clearly recognizable subject centered, fully visible with 12% transparent margin, slightly elevated front three-quarter view. No text, no brand, no labels, no watermark, no scene, no background, no pedestal, no frame, no contact shadow extending beyond object. Keep crisp readable silhouette at 64px. Subject: a compact bunch of fresh dill, fine feathery green fronds and complete slender stems",
+    "reference": "assets/culinary/basil.webp",
+    "generationMode": "built-in image_gen",
+    "transparentBackground": true
+  }
+]

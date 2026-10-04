@@ -140,3 +140,17 @@ fits each complete subject into a 512px canvas with 32px outer padding.
 | `baking_dish` | Ceramic baking dish | Vas ceramic pentru cuptor |
 | `fine_sieve` | Fine-mesh sieve | Sită fină |
 | `rice_cooker` | Electric rice cooker | Aparat de gătit orez |
+
+## Version 0.4.0: Twenty Individual Additions
+
+One built-in image-generation call per subject, true transparent background,
+matching the existing oil, pan and herb illustrations. Exact prompts are in
+[prompts-0.4.json](prompts-0.4.json); no local source paths or account data are included.
+Source PNGs are retained in `individual/`. All subjects keep separate 512px
+PNG/WebP exports. Optional 1x/2x sprites are deterministic composites, not
+AI-generated multi-object sheets.
+
+New subjects: vegetable, sesame, palm and coconut oils; vinegar; oregano,
+curry, ground cumin, garlic powder, chili flakes, bay leaves; a deep fryer,
+can opener, food processor, toaster, sandwich maker, cake tin, muffin tin;
+fresh parsley and dill.

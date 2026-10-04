@@ -19,9 +19,11 @@ const run = (args, cwd = root) => {
   return output;
 };
 const [dry] = JSON.parse(run(['pack', '--dry-run', '--json', '--ignore-scripts']));
-const allowed = /^(assets\/(png|webp)\/[a-z0-9_]+\.(png|webp)|dist\/(index\.js|index\.d\.ts|native\.cjs|native\.d\.ts)|catalog\.json|package\.json|README\.md|NOTICE\.md|SECURITY\.md|LICENSE|LICENSE-ASSETS|LICENSE-CODE|LICENSES\/CC0-1\.0\.txt)$/;
+const catalog = JSON.parse(await readFile(path.join(root, 'catalog.json'), 'utf8'));
+const allowed = /^(assets\/(png|webp)\/[a-z0-9_]+\.(png|webp)|assets\/sprite\/(culinary(?:@2x)?\.webp|atlas\.json)|dist\/(index\.js|index\.d\.ts|native\.cjs|native\.d\.ts|sprite\.js|sprite\.d\.ts)|catalog\.json|package\.json|README\.md|NOTICE\.md|SECURITY\.md|LICENSE|LICENSE-ASSETS|LICENSE-CODE|LICENSES\/CC0-1\.0\.txt)$/;
 for (const file of dry.files) assert.match(file.path, allowed, `Unexpected package file: ${file.path}`);
-assert.equal(dry.files.filter(file => /^assets\//.test(file.path)).length, 220);
+assert.equal(dry.files.filter(file => /^assets\/(png|webp)\//.test(file.path)).length, catalog.length * 2);
+assert.equal(dry.files.filter(file => /^assets\/sprite\//.test(file.path)).length, 3);
 assert.ok(dry.files.some(file => file.path === 'LICENSES/CC0-1.0.txt'));
 const consumer = path.join(checks, 'consumer');
 await mkdir(consumer, { recursive: true });
@@ -31,14 +33,22 @@ run(['install', `../${packed.filename}`, '--ignore-scripts', '--no-audit', '--no
 const require = createRequire(path.join(consumer, 'package.json'));
 const entry = require.resolve('@cosmintrica/culinary-assets');
 const mod = await import(pathToFileURL(entry).href);
-assert.equal(mod.catalog.length, 110);
+assert.equal(mod.catalog.length, catalog.length);
 assert.equal(mod.getAsset('tomato').id, 'tomato');
 assert.equal(mod.getAsset('corkscrew').id, 'corkscrew');
 assert.equal(mod.getAsset('rice_cooker').id, 'rice_cooker');
 assert.ok(require.resolve('@cosmintrica/culinary-assets/png/tomato.png').endsWith('tomato.png'));
 assert.ok(require.resolve('@cosmintrica/culinary-assets/webp/tomato.webp').endsWith('tomato.webp'));
 assert.ok(require.resolve('@cosmintrica/culinary-assets/native').endsWith('native.cjs'));
-assert.equal(JSON.parse(await readFile(require.resolve('@cosmintrica/culinary-assets/catalog.json'), 'utf8')).length, 110);
+assert.equal(JSON.parse(await readFile(require.resolve('@cosmintrica/culinary-assets/catalog.json'), 'utf8')).length, catalog.length);
+const sprite = await import(pathToFileURL(require.resolve('@cosmintrica/culinary-assets/sprite')).href);
+assert.equal(Object.keys(sprite.sprites).length, catalog.length);
+assert.deepEqual(sprite.sprites.tomato, { x: 0, y: 0, width: 128, height: 128 });
+assert.ok(Object.isFrozen(sprite.sprites.dill));
+assert.equal(sprite.spriteUrl, pathToFileURL(require.resolve('@cosmintrica/culinary-assets/sprite/culinary.webp')).href);
+assert.equal(sprite.sprite2xUrl, pathToFileURL(require.resolve('@cosmintrica/culinary-assets/sprite/culinary@2x.webp')).href);
+const manifest = JSON.parse(await readFile(require.resolve('@cosmintrica/culinary-assets/sprite/atlas.json'), 'utf8'));
+assert.deepEqual(manifest.sprites, sprite.sprites);
 for (const asset of mod.catalog) {
   for (const format of ['png', 'webp']) {
     const installed = await readFile(require.resolve(`@cosmintrica/culinary-assets/${format}/${asset.id}.${format}`));
@@ -47,4 +57,10 @@ for (const asset of mod.catalog) {
       createHash('sha256').update(original).digest('hex'), `Installed image differs: ${asset.id}.${format}`);
   }
 }
-console.log(`Verified real packed installation: ${dry.files.length} files, ${dry.size} bytes compressed, 220 images, no secrets/logos/build scripts.`);
+for (const name of ['culinary.webp', 'culinary@2x.webp', 'atlas.json']) {
+  const installed = await readFile(require.resolve(`@cosmintrica/culinary-assets/sprite/${name}`));
+  const original = await readFile(path.join(root, 'assets/sprite', name));
+  assert.equal(createHash('sha256').update(installed).digest('hex'),
+    createHash('sha256').update(original).digest('hex'), `Installed sprite differs: ${name}`);
+}
+console.log(`Verified real packed installation: ${dry.files.length} files, ${dry.size} bytes compressed, ${catalog.length * 2} individual images and 2 atlases, no secrets/logos/build scripts.`);

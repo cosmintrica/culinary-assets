@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.0 - 2026-10-04
+
+- Expanded from 110 to 130 subjects with 20 individually generated illustrations.
+- Preserved existing IDs and paths; 260 individual transparent PNG/WebP files.
+- Added an optional `/sprite` entry with frozen typed coordinates, a 128px-tile
+  WebP atlas, a 2x atlas and a JSON coordinate manifest.
+- Kept sprite imports separate from the default and native entries.
+- Updated the bilingual catalog, gallery, installation guide and previews.
+- Added coordinate, transparency, packed-installation and sprite consistency tests.
+- No runtime dependencies, install scripts or new publication credentials.
+
 ## 0.3.0 - 2026-10-04
 
 - Expanded from 100 to 110 subjects with ginger, leek, celery, pineapple, quinoa,

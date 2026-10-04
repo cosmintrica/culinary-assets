@@ -1,7 +1,7 @@
 {
   "name": "@cosmintrica/culinary-assets",
-  "version": "0.3.0",
-  "description": "110 transparent culinary illustrations: ingredients, fruit, cookware, utensils and appliances. CC0 artwork, MIT code.",
+  "version": "0.4.0",
+  "description": "130 transparent culinary illustrations: individual PNG/WebP and optional WebP sprites. CC0 artwork, MIT code.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -14,6 +14,12 @@
       "types": "./dist/native.d.ts",
       "default": "./dist/native.cjs"
     },
+    "./sprite": {
+      "types": "./dist/sprite.d.ts",
+      "default": "./dist/sprite.js"
+    },
+    "./sprite/*.webp": "./assets/sprite/*.webp",
+    "./sprite/atlas.json": "./assets/sprite/atlas.json",
     "./catalog.json": "./catalog.json",
     "./png/*.png": "./assets/png/*.png",
     "./webp/*.webp": "./assets/webp/*.webp",

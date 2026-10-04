@@ -110,6 +110,26 @@ const nativeAssets = Object.freeze({
   "bread": require('../assets/png/bread.png'),
   "baking_dish": require('../assets/png/baking_dish.png'),
   "fine_sieve": require('../assets/png/fine_sieve.png'),
-  "rice_cooker": require('../assets/png/rice_cooker.png')
+  "rice_cooker": require('../assets/png/rice_cooker.png'),
+  "vegetable_oil": require('../assets/png/vegetable_oil.png'),
+  "sesame_oil": require('../assets/png/sesame_oil.png'),
+  "palm_oil": require('../assets/png/palm_oil.png'),
+  "coconut_oil": require('../assets/png/coconut_oil.png'),
+  "vinegar": require('../assets/png/vinegar.png'),
+  "oregano": require('../assets/png/oregano.png'),
+  "curry": require('../assets/png/curry.png'),
+  "cumin": require('../assets/png/cumin.png'),
+  "garlic_powder": require('../assets/png/garlic_powder.png'),
+  "chili_flakes": require('../assets/png/chili_flakes.png'),
+  "bay_leaf": require('../assets/png/bay_leaf.png'),
+  "deep_fryer": require('../assets/png/deep_fryer.png'),
+  "can_opener": require('../assets/png/can_opener.png'),
+  "food_processor": require('../assets/png/food_processor.png'),
+  "toaster": require('../assets/png/toaster.png'),
+  "sandwich_maker": require('../assets/png/sandwich_maker.png'),
+  "cake_tin": require('../assets/png/cake_tin.png'),
+  "muffin_tin": require('../assets/png/muffin_tin.png'),
+  "parsley": require('../assets/png/parsley.png'),
+  "dill": require('../assets/png/dill.png')
 });
 module.exports = { catalog, nativeAssets };

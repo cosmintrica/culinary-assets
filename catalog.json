@@ -1428,5 +1428,265 @@
     "png": "assets/png/rice_cooker.png",
     "webp": "assets/webp/rice_cooker.webp",
     "license": "CC0-1.0"
+  },
+  {
+    "id": "vegetable_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Vegetable oil",
+      "ro": "Ulei vegetal"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/vegetable_oil.png",
+    "webp": "assets/webp/vegetable_oil.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sesame_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Sesame oil",
+      "ro": "Ulei de susan"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sesame_oil.png",
+    "webp": "assets/webp/sesame_oil.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "palm_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Palm oil",
+      "ro": "Ulei de palmier"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/palm_oil.png",
+    "webp": "assets/webp/palm_oil.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "coconut_oil",
+    "category": "staples",
+    "alt": {
+      "en": "Coconut oil",
+      "ro": "Ulei de cocos"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/coconut_oil.png",
+    "webp": "assets/webp/coconut_oil.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "vinegar",
+    "category": "staples",
+    "alt": {
+      "en": "Vinegar",
+      "ro": "Oțet"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/vinegar.png",
+    "webp": "assets/webp/vinegar.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "oregano",
+    "category": "staples",
+    "alt": {
+      "en": "Dried oregano",
+      "ro": "Oregano uscat"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/oregano.png",
+    "webp": "assets/webp/oregano.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "curry",
+    "category": "staples",
+    "alt": {
+      "en": "Curry powder",
+      "ro": "Curry pudră"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/curry.png",
+    "webp": "assets/webp/curry.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cumin",
+    "category": "staples",
+    "alt": {
+      "en": "Ground cumin",
+      "ro": "Chimion măcinat"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cumin.png",
+    "webp": "assets/webp/cumin.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "garlic_powder",
+    "category": "staples",
+    "alt": {
+      "en": "Garlic powder",
+      "ro": "Usturoi pudră"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/garlic_powder.png",
+    "webp": "assets/webp/garlic_powder.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "chili_flakes",
+    "category": "staples",
+    "alt": {
+      "en": "Chili flakes",
+      "ro": "Fulgi de chili"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/chili_flakes.png",
+    "webp": "assets/webp/chili_flakes.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "bay_leaf",
+    "category": "staples",
+    "alt": {
+      "en": "Bay leaves",
+      "ro": "Foi de dafin"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/bay_leaf.png",
+    "webp": "assets/webp/bay_leaf.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "deep_fryer",
+    "category": "appliances",
+    "alt": {
+      "en": "Deep fryer",
+      "ro": "Friteuză"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/deep_fryer.png",
+    "webp": "assets/webp/deep_fryer.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "can_opener",
+    "category": "utensils",
+    "alt": {
+      "en": "Can opener",
+      "ro": "Deschizător de conserve"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/can_opener.png",
+    "webp": "assets/webp/can_opener.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "food_processor",
+    "category": "appliances",
+    "alt": {
+      "en": "Food processor",
+      "ro": "Robot de bucătărie"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/food_processor.png",
+    "webp": "assets/webp/food_processor.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "toaster",
+    "category": "appliances",
+    "alt": {
+      "en": "Toaster",
+      "ro": "Prăjitor de pâine"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/toaster.png",
+    "webp": "assets/webp/toaster.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "sandwich_maker",
+    "category": "appliances",
+    "alt": {
+      "en": "Sandwich maker",
+      "ro": "Sandwich maker"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/sandwich_maker.png",
+    "webp": "assets/webp/sandwich_maker.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "cake_tin",
+    "category": "cookware",
+    "alt": {
+      "en": "Cake tin",
+      "ro": "Formă de tort"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/cake_tin.png",
+    "webp": "assets/webp/cake_tin.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "muffin_tin",
+    "category": "cookware",
+    "alt": {
+      "en": "Muffin tin",
+      "ro": "Formă de brioșe"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/muffin_tin.png",
+    "webp": "assets/webp/muffin_tin.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "parsley",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh parsley",
+      "ro": "Pătrunjel proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/parsley.png",
+    "webp": "assets/webp/parsley.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "dill",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh dill",
+      "ro": "Mărar proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/dill.png",
+    "webp": "assets/webp/dill.webp",
+    "license": "CC0-1.0"
   }
 ]

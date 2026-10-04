@@ -124,6 +124,13 @@ test('both public pages include the verified creator links', async () => {
   assert.ok(readme.indexOf('https://cosmintrica.github.io/culinary-assets/') < readme.indexOf('110 transparent culinary'));
 });
 
+test('public pages do not include unrelated application branding or packaging internals', async () => {
+  for (const file of ['index.html', 'guide.html']) {
+    const html = await readFile(path.join(root, file), 'utf8');
+    assert.doesNotMatch(html, /Scrappy Chef|installation lifecycle scripts|runtime dependencies/i);
+  }
+});
+
 test('56 individual sources supplement, not replace, the original 54 atlas subjects', async () => {
   const sprites = JSON.parse(await readFile(path.join(root, 'sources/sprites.json'), 'utf8'));
   assert.deepEqual(sprites.map(s => s.id), catalog.map(a => a.id));

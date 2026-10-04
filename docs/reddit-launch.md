@@ -4,33 +4,31 @@ Prepared on 2026-10-04. No post has been published by Codex.
 
 ## Release Gate
 
-Use the 100-asset announcement only after version 0.2.0 is published to npm and
-the public catalog shows 100 subjects. Both conditions were verified on
-2026-10-04: npm lists 0.2.0 as latest, and the public gallery contains 100 subjects.
-Fresh npm and pnpm installations each passed all 200 image SHA-256 comparisons
-against the release files, and web/native package exports resolved successfully.
-The earlier 0.1.0 release contains 54 subjects.
+Use the 110-asset announcement only after version 0.3.0 is published to npm and
+the public catalog shows 110 subjects. This release is being prepared; do not
+announce it as available until fresh registry installations are verified.
+The earlier 0.1.0 release contains 54 subjects; 0.2.0 contains 100.
 
 ## Image
 
-Attach `docs/social/culinary-assets-100.png`, a white-background contact sheet
-of the 100 actual exported assets, not a newly generated mockup. The transparent
+Attach `docs/social/culinary-assets-110.png`, a white-background contact sheet
+of the 110 actual exported assets, not a newly generated mockup. The transparent
 PNG/WebP downloads remain separate. The illustration subjects were AI-generated;
 the contact sheet is a mechanical arrangement of the real library files.
 
 ## Suggested Title
 
-Culinary Assets - my first npm package, featuring 100 free kitchen illustrations (yes, I shipped a potato)
+Culinary Assets - my first npm package (yes, I shipped a potato)
 
 ## Post Body
 
 I started making images for a recipe app and somehow ended up publishing my first npm package.
 
-It's called Culinary Assets: 100 kitchen and ingredient illustrations, from vegetables and fruit to cookware, appliances and utensils. Apparently my first contribution to npm was a potato.
+It's called Culinary Assets: 110 kitchen and ingredient illustrations, from vegetables and fruit to cookware, appliances and utensils. Apparently my first contribution to npm was a potato.
 
 The artwork is AI-generated, then reviewed and exported as individual transparent 512px PNGs and WebPs. I'm not claiming these are hand-drawn illustrations.
 
-- 100 subjects, 200 separate image files
+- 110 subjects, 220 separate image files
 - CC0 artwork and metadata; MIT code
 - Individual imports, web metadata and a React Native entry
 - English/Romanian labels
@@ -81,6 +79,6 @@ that a submission will be approved.
 
 ## Short Showcase Comment
 
-I published my first npm package: Culinary Assets, a free collection of 100 AI-generated kitchen/ingredient illustrations, reviewed and exported as transparent PNG/WebP files. CC0 art, MIT code, with individual imports and a static-require React Native entry. I'd appreciate feedback on the packaging or useful missing subjects.
+I published my first npm package: Culinary Assets, a free collection of 110 AI-generated kitchen/ingredient illustrations, reviewed and exported as transparent PNG/WebP files. CC0 art, MIT code, with individual imports and a static-require React Native entry. I'd appreciate feedback on the packaging or useful missing subjects.
 
 https://cosmintrica.github.io/culinary-assets/

@@ -119,3 +119,24 @@ Use case: product-mockup. Asset type: ONE individual transparent culinary icon f
 | `corkscrew` | Waiter's corkscrew | Tirbușon de ospătar |
 | `potato_masher` | Potato masher | Zdrobitor pentru cartofi |
 | `baking_tray` | Rimmed baking tray | Tavă pentru cuptor |
+
+## Version 0.3.0: Ten Individual Additions
+
+Generated with one built-in tool call per subject and
+`transparent_background: true`. Exact prompts are retained in
+[prompts-0.3.json](prompts-0.3.json). No existing source was replaced. Nine new
+sources are 1254 x 1254; celery is 1334 x 1179. The alpha-preserving exporter
+fits each complete subject into a 512px canvas with 32px outer padding.
+
+| ID | English | Romanian |
+| --- | --- | --- |
+| `ginger` | Fresh ginger | Ghimbir proaspăt |
+| `leek` | Leek | Praz |
+| `celery` | Celery stalks | Țelină apio |
+| `pineapple` | Pineapple | Ananas |
+| `quinoa` | White quinoa | Quinoa albă |
+| `couscous` | Fine couscous | Cușcuș fin |
+| `bread` | Rustic bread | Pâine rustică |
+| `baking_dish` | Ceramic baking dish | Vas ceramic pentru cuptor |
+| `fine_sieve` | Fine-mesh sieve | Sită fină |
+| `rice_cooker` | Electric rice cooker | Aparat de gătit orez |

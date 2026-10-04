@@ -19,9 +19,9 @@ const run = (args, cwd = root) => {
   return output;
 };
 const [dry] = JSON.parse(run(['pack', '--dry-run', '--json', '--ignore-scripts']));
-const allowed = /^(assets\/(png|webp)\/[a-z0-9_]+\.(png|webp)|dist\/(index\.js|index\.d\.ts|native\.cjs|native\.d\.ts)|catalog\.json|package\.json|README\.md|NOTICE\.md|LICENSE|LICENSE-ASSETS|LICENSE-CODE|LICENSES\/CC0-1\.0\.txt)$/;
+const allowed = /^(assets\/(png|webp)\/[a-z0-9_]+\.(png|webp)|dist\/(index\.js|index\.d\.ts|native\.cjs|native\.d\.ts)|catalog\.json|package\.json|README\.md|NOTICE\.md|SECURITY\.md|LICENSE|LICENSE-ASSETS|LICENSE-CODE|LICENSES\/CC0-1\.0\.txt)$/;
 for (const file of dry.files) assert.match(file.path, allowed, `Unexpected package file: ${file.path}`);
-assert.equal(dry.files.filter(file => /^assets\//.test(file.path)).length, 200);
+assert.equal(dry.files.filter(file => /^assets\//.test(file.path)).length, 220);
 assert.ok(dry.files.some(file => file.path === 'LICENSES/CC0-1.0.txt'));
 const consumer = path.join(checks, 'consumer');
 await mkdir(consumer, { recursive: true });
@@ -31,13 +31,14 @@ run(['install', `../${packed.filename}`, '--ignore-scripts', '--no-audit', '--no
 const require = createRequire(path.join(consumer, 'package.json'));
 const entry = require.resolve('@cosmintrica/culinary-assets');
 const mod = await import(pathToFileURL(entry).href);
-assert.equal(mod.catalog.length, 100);
+assert.equal(mod.catalog.length, 110);
 assert.equal(mod.getAsset('tomato').id, 'tomato');
 assert.equal(mod.getAsset('corkscrew').id, 'corkscrew');
+assert.equal(mod.getAsset('rice_cooker').id, 'rice_cooker');
 assert.ok(require.resolve('@cosmintrica/culinary-assets/png/tomato.png').endsWith('tomato.png'));
 assert.ok(require.resolve('@cosmintrica/culinary-assets/webp/tomato.webp').endsWith('tomato.webp'));
 assert.ok(require.resolve('@cosmintrica/culinary-assets/native').endsWith('native.cjs'));
-assert.equal(JSON.parse(await readFile(require.resolve('@cosmintrica/culinary-assets/catalog.json'), 'utf8')).length, 100);
+assert.equal(JSON.parse(await readFile(require.resolve('@cosmintrica/culinary-assets/catalog.json'), 'utf8')).length, 110);
 for (const asset of mod.catalog) {
   for (const format of ['png', 'webp']) {
     const installed = await readFile(require.resolve(`@cosmintrica/culinary-assets/${format}/${asset.id}.${format}`));
@@ -46,4 +47,4 @@ for (const asset of mod.catalog) {
       createHash('sha256').update(original).digest('hex'), `Installed image differs: ${asset.id}.${format}`);
   }
 }
-console.log(`Verified real packed installation: ${dry.files.length} files, ${dry.size} bytes compressed, 200 images, no secrets/logos/build scripts.`);
+console.log(`Verified real packed installation: ${dry.files.length} files, ${dry.size} bytes compressed, 220 images, no secrets/logos/build scripts.`);

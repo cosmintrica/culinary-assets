@@ -1298,5 +1298,135 @@ window.CulinaryCatalog = [
     "png": "assets/png/baking_tray.png",
     "webp": "assets/webp/baking_tray.webp",
     "license": "CC0-1.0"
+  },
+  {
+    "id": "ginger",
+    "category": "produce",
+    "alt": {
+      "en": "Fresh ginger",
+      "ro": "Ghimbir proaspăt"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/ginger.png",
+    "webp": "assets/webp/ginger.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "leek",
+    "category": "produce",
+    "alt": {
+      "en": "Leek",
+      "ro": "Praz"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/leek.png",
+    "webp": "assets/webp/leek.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "celery",
+    "category": "produce",
+    "alt": {
+      "en": "Celery stalks",
+      "ro": "Țelină apio"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/celery.png",
+    "webp": "assets/webp/celery.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pineapple",
+    "category": "produce",
+    "alt": {
+      "en": "Pineapple",
+      "ro": "Ananas"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/pineapple.png",
+    "webp": "assets/webp/pineapple.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "quinoa",
+    "category": "staples",
+    "alt": {
+      "en": "White quinoa",
+      "ro": "Quinoa albă"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/quinoa.png",
+    "webp": "assets/webp/quinoa.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "couscous",
+    "category": "staples",
+    "alt": {
+      "en": "Fine couscous",
+      "ro": "Cușcuș fin"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/couscous.png",
+    "webp": "assets/webp/couscous.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "bread",
+    "category": "ingredients",
+    "alt": {
+      "en": "Rustic bread",
+      "ro": "Pâine rustică"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/bread.png",
+    "webp": "assets/webp/bread.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "baking_dish",
+    "category": "cookware",
+    "alt": {
+      "en": "Ceramic baking dish",
+      "ro": "Vas ceramic pentru cuptor"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/baking_dish.png",
+    "webp": "assets/webp/baking_dish.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "fine_sieve",
+    "category": "utensils",
+    "alt": {
+      "en": "Fine-mesh sieve",
+      "ro": "Sită fină"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/fine_sieve.png",
+    "webp": "assets/webp/fine_sieve.webp",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "rice_cooker",
+    "category": "appliances",
+    "alt": {
+      "en": "Electric rice cooker",
+      "ro": "Aparat de gătit orez"
+    },
+    "width": 512,
+    "height": 512,
+    "png": "assets/png/rice_cooker.png",
+    "webp": "assets/webp/rice_cooker.webp",
+    "license": "CC0-1.0"
   }
 ];

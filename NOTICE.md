@@ -1,6 +1,6 @@
 # Provenance and Scope
 
-The collection contains 100 generic kitchen and ingredient illustrations,
+The collection contains 110 generic kitchen and ingredient illustrations,
 generated with the built-in OpenAI image-generation tool and reviewed by the
 project contributors. The images are not hand-drawn, vector files, photographs
 of actual branded products, or cooking/safety instructions.
@@ -9,7 +9,10 @@ The shared visual direction uses coral and mint accents, realistic food,
 brushed steel and light wood, with soft upper-left lighting. Source atlases,
 generation prompts and deterministic export code are retained in the repository.
 The original 54 subjects come from atlases; 46 additions in version 0.2.0 were
-generated individually as 1254 x 1254 transparent PNGs. Source files are not
+generated individually as 1254 x 1254 transparent PNGs. Version 0.3.0 adds ten
+more individual transparent sources, with at least 1179 pixels on the shorter
+edge; the celery source is 1334 x 1179 and is preserved without cropping.
+Source files are not
 included in the npm package; they are available in the GitHub repository.
 PNG and WebP exports preserve transparency and use a 512 x 512 pixel canvas.
 Some exports are upscaled from the source atlas cells; 512 pixels is the canvas

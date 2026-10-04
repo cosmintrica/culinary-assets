@@ -59,7 +59,7 @@ const nativeEntries = catalog.map(a => `  ${JSON.stringify(a.id)}: require('../$
 await writeFile(path.join(root, 'dist/native.cjs'), `// Generated static requires for Metro; do not edit.\nconst catalog = Object.freeze(require('../catalog.json').map(a => Object.freeze({ ...a, alt: Object.freeze(a.alt) })));\nconst nativeAssets = Object.freeze({\n${nativeEntries}\n});\nmodule.exports = { catalog, nativeAssets };\n`);
 for (const category of [...categories, 'collection']) {
   const items = category === 'collection' ? catalog : catalog.filter(a => a.category === category);
-  const columns = category === 'collection' ? 10 : 3;
+  const columns = category === 'collection' ? 11 : 3;
   const tileSize = category === 'collection' ? 144 : 240;
   const layers = [];
   for (const [index, asset] of items.entries()) {
@@ -72,7 +72,7 @@ for (const category of [...categories, 'collection']) {
     .toFile(path.join(root, 'docs/previews', `${category}.webp`));
   if (category === 'collection') {
     await sharp(preview).flatten({ background: '#ffffff' }).png({ compressionLevel: 9 })
-      .toFile(path.join(root, 'docs/social', 'culinary-assets-100.png'));
+      .toFile(path.join(root, 'docs/social', `culinary-assets-${catalog.length}.png`));
   }
 }
 console.log(`Built ${catalog.length} assets, PNG + WebP, web + native exports, 7 preview sheets.`);

@@ -100,6 +100,16 @@ const nativeAssets = Object.freeze({
   "mortar_pestle": require('../assets/png/mortar_pestle.png'),
   "corkscrew": require('../assets/png/corkscrew.png'),
   "potato_masher": require('../assets/png/potato_masher.png'),
-  "baking_tray": require('../assets/png/baking_tray.png')
+  "baking_tray": require('../assets/png/baking_tray.png'),
+  "ginger": require('../assets/png/ginger.png'),
+  "leek": require('../assets/png/leek.png'),
+  "celery": require('../assets/png/celery.png'),
+  "pineapple": require('../assets/png/pineapple.png'),
+  "quinoa": require('../assets/png/quinoa.png'),
+  "couscous": require('../assets/png/couscous.png'),
+  "bread": require('../assets/png/bread.png'),
+  "baking_dish": require('../assets/png/baking_dish.png'),
+  "fine_sieve": require('../assets/png/fine_sieve.png'),
+  "rice_cooker": require('../assets/png/rice_cooker.png')
 });
 module.exports = { catalog, nativeAssets };

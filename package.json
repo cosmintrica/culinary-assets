@@ -1,7 +1,7 @@
 {
   "name": "@cosmintrica/culinary-assets",
-  "version": "0.2.0",
-  "description": "100 transparent culinary illustrations: ingredients, fruit, cookware, utensils and appliances. CC0 artwork, MIT code.",
+  "version": "0.3.0",
+  "description": "110 transparent culinary illustrations: ingredients, fruit, cookware, utensils and appliances. CC0 artwork, MIT code.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -27,7 +27,8 @@
     "LICENSE-ASSETS",
     "LICENSE-CODE",
     "LICENSES",
-    "NOTICE.md"
+    "NOTICE.md",
+    "SECURITY.md"
   ],
   "sideEffects": false,
   "license": "(CC0-1.0 AND MIT)",

@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.0 - 2026-10-04
+
+- Expanded from 100 to 110 subjects with ginger, leek, celery, pineapple, quinoa,
+  couscous, bread, a ceramic baking dish, a fine-mesh sieve and a rice cooker.
+- 220 transparent 512px PNG/WebP files with bilingual metadata and typed exports.
+- Preserved the original 100 assets, their IDs, paths and the earlier launch image.
+- Added individual source PNGs, generation prompts and a new collection preview.
+- Hardened CI with verified full-SHA action pins, nonpersistent checkout
+  credentials, a dependency-audit gate and regression tests for these controls.
+- Added reviewed-update Dependabot configuration and a security reporting policy.
+- No automatic publishing permissions or new account credentials were added.
+
 ## 0.2.0 - 2026-10-04
 
 - Expanded from 54 to 100 subjects: 46 individually generated illustrations,

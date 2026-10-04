@@ -12,13 +12,13 @@ const require = createRequire(import.meta.url);
 const sharp = require(process.env.SHARP_MODULE || 'sharp');
 const pkg = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'));
 
-test('100 stable, unique, bilingual metadata entries in all six categories', () => {
-  assert.equal(catalog.length, 100);
-  assert.equal(new Set(catalog.map(a => a.id)).size, 100);
+test('110 stable, unique, bilingual metadata entries in all six categories', () => {
+  assert.equal(catalog.length, 110);
+  assert.equal(new Set(catalog.map(a => a.id)).size, 110);
   assert.equal(new Set(catalog.map(a => a.category)).size, 6);
   assert.deepEqual(Object.fromEntries(['ingredients', 'produce', 'staples', 'cookware', 'utensils', 'appliances']
     .map(category => [category, catalog.filter(a => a.category === category).length])),
-  { ingredients: 18, produce: 26, staples: 19, cookware: 7, utensils: 18, appliances: 12 });
+  { ingredients: 19, produce: 30, staples: 21, cookware: 8, utensils: 19, appliances: 13 });
   for (const asset of catalog) {
     assert.match(asset.id, /^[a-z][a-z0-9_]*$/);
     assert.ok(asset.alt.en.length > 1 && asset.alt.ro.length > 1);
@@ -68,17 +68,18 @@ test('native entry uses static PNG requires and has the same catalog', async () 
     loaded.push(name);
     return loaded.length;
   } });
-  assert.equal(loaded.length, 100);
-  assert.equal(new Set(loaded).size, 100);
+  assert.equal(loaded.length, 110);
+  assert.equal(new Set(loaded).size, 110);
   assert.deepEqual(Object.keys(module.exports.nativeAssets).sort(), catalog.map(a => a.id).sort());
-  assert.equal(module.exports.catalog.length, 100);
+  assert.equal(module.exports.catalog.length, 110);
   assert.ok(Object.isFrozen(module.exports.nativeAssets));
 });
 
 test('license split is explicit; no runtime deps or installation scripts', async () => {
   assert.equal(pkg.license, '(CC0-1.0 AND MIT)');
   assert.equal(Object.keys(pkg.dependencies || {}).length, 0);
-  for (const lifecycle of ['preinstall', 'install', 'postinstall', 'prepare', 'prepublish', 'prepack']) {
+  for (const lifecycle of ['preinstall', 'install', 'postinstall', 'preprepare', 'prepare', 'postprepare',
+    'prepublish', 'prepublishOnly', 'prepack', 'postpack', 'publish', 'postpublish']) {
     assert.equal(pkg.scripts[lifecycle], undefined);
   }
   assert.match(await readFile(path.join(root, 'LICENSES/CC0-1.0.txt'), 'utf8'), /Public License Fallback/);
@@ -86,7 +87,7 @@ test('license split is explicit; no runtime deps or installation scripts', async
   assert.match(await readFile(path.join(root, 'NOTICE.md'), 'utf8'), /generated with the built-in OpenAI/);
   for (const format of ['png', 'webp']) {
     const files = await readdir(path.join(root, 'assets', format));
-    assert.equal(files.length, 100);
+    assert.equal(files.length, 110);
     assert.ok(files.every(name => !/logo|wordmark|symbol|scrappy|fridgechef|key|secret/i.test(name)));
   }
 });
@@ -120,47 +121,76 @@ test('both public pages include the verified creator links', async () => {
     }
   }
   const readme = await readFile(path.join(root, 'README.md'), 'utf8');
-  assert.ok(readme.indexOf('https://cosmintrica.github.io/culinary-assets/') < readme.indexOf('100 transparent culinary'));
+  assert.ok(readme.indexOf('https://cosmintrica.github.io/culinary-assets/') < readme.indexOf('110 transparent culinary'));
 });
 
-test('46 individual sources supplement, not replace, the original 54 atlas subjects', async () => {
+test('56 individual sources supplement, not replace, the original 54 atlas subjects', async () => {
   const sprites = JSON.parse(await readFile(path.join(root, 'sources/sprites.json'), 'utf8'));
   assert.deepEqual(sprites.map(s => s.id), catalog.map(a => a.id));
   assert.ok(sprites.slice(0, 54).every(s => typeof s.atlas === 'string' && s.source === undefined));
   const additions = sprites.slice(54);
-  assert.equal(additions.length, 46);
+  assert.equal(additions.length, 56);
   assert.deepEqual((await readdir(path.join(root, 'sources/individual'))).sort(), additions.map(s => `${s.id}.png`).sort());
   for (const sprite of additions) {
     assert.equal(sprite.source, `sources/individual/${sprite.id}.png`);
     assert.ok(sprite.subject.length > 10);
     const meta = await sharp(path.join(root, sprite.source)).metadata();
     assert.equal(meta.format, 'png');
-    assert.equal(meta.width, 1254);
-    assert.equal(meta.height, 1254);
+    assert.ok(meta.width >= 1024 && meta.height >= 1024, `Source resolution too small: ${sprite.id}`);
     assert.equal(meta.hasAlpha, true);
   }
 });
 
-test('guide and README describe the 100-subject release consistently', async () => {
+test('guide and README describe the 110-subject release consistently', async () => {
   for (const file of ['README.md', 'index.html', 'guide.html']) {
     const content = await readFile(path.join(root, file), 'utf8');
-    assert.match(content, /100 (transparent culinary |illustrations|separate PNGs)/);
-    assert.doesNotMatch(content, /54 (illustrations|separate PNGs|static sources|PNGs|metadata entries)/);
+    assert.match(content, /110 (transparent culinary |illustrations|separate PNGs)/);
+    assert.doesNotMatch(content, /(?:54|100) (illustrations|separate PNGs|static sources|PNGs|metadata entries)/);
   }
   for (const file of ['README.md', 'guide.html']) {
     const content = await readFile(path.join(root, file), 'utf8');
-    assert.match(content, /@0\.2\.0/);
-    assert.match(content, /tags\/v0\.2\.0\.zip/);
+    assert.match(content, /@0\.3\.0/);
+    assert.match(content, /tags\/v0\.3\.0\.zip/);
   }
 });
 
-test('Reddit launch image is an opaque 100-subject contact sheet, not an asset export', async () => {
-  const meta = await sharp(path.join(root, 'docs/social/culinary-assets-100.png')).metadata();
+test('Reddit launch image is an opaque 110-subject contact sheet, not an asset export', async () => {
+  const meta = await sharp(path.join(root, 'docs/social/culinary-assets-110.png')).metadata();
   assert.equal(meta.format, 'png');
-  assert.equal(meta.width, 1440);
+  assert.equal(meta.width, 1584);
   assert.equal(meta.height, 1440);
   assert.equal(meta.hasAlpha, false);
   const launch = await readFile(path.join(root, 'docs/reddit-launch.md'), 'utf8');
   assert.match(launch, /AI-generated/);
-  assert.match(launch, /only after version 0\.2\.0 is published/);
+  assert.match(launch, /only after version 0\.3\.0 is published/);
+});
+
+test('the ten new subjects resolve through the public web and native types', async () => {
+  const ids = ['ginger', 'leek', 'celery', 'pineapple', 'quinoa', 'couscous', 'bread',
+    'baking_dish', 'fine_sieve', 'rice_cooker'];
+  assert.deepEqual(catalog.slice(100).map(asset => asset.id), ids);
+  for (const file of ['dist/index.d.ts', 'dist/native.d.ts']) {
+    const types = await readFile(path.join(root, file), 'utf8');
+    for (const id of ids) assert.ok(types.includes(JSON.stringify(id)), `${file} missing ${id}`);
+  }
+  const lock = JSON.parse(await readFile(path.join(root, 'package-lock.json'), 'utf8'));
+  assert.equal(lock.version, pkg.version);
+  assert.equal(lock.packages[''].version, pkg.version);
+});
+
+test('CI actions are SHA-pinned and have no publishing or persistent Git credentials', async () => {
+  const workflow = await readFile(path.join(root, '.github/workflows/verify.yml'), 'utf8');
+  const actions = [...workflow.matchAll(/uses:\s*([^\s#]+)/g)].map(match => match[1]);
+  assert.equal(actions.length, 2);
+  for (const action of actions) assert.match(action, /^actions\/[a-z-]+@[a-f0-9]{40}$/);
+  assert.match(workflow, /permissions:\s*\n\s+contents: read/);
+  assert.match(workflow, /persist-credentials: false/);
+  assert.match(workflow, /npm ci --ignore-scripts/);
+  assert.match(workflow, /npm audit --audit-level=moderate/);
+  assert.doesNotMatch(workflow, /pull_request_target|secrets\.|id-token:|:\s*write\b|npm publish/);
+  const updates = await readFile(path.join(root, '.github/dependabot.yml'), 'utf8');
+  assert.match(updates, /package-ecosystem: github-actions/);
+  assert.match(updates, /package-ecosystem: npm/);
+  assert.equal((updates.match(/interval: weekly/g) || []).length, 2);
+  assert.ok(pkg.files.includes('SECURITY.md'));
 });
